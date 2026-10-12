@@ -1,0 +1,74 @@
+\begin{figure}[htb]
+\centering
+\caption{Linha do tempo e evolução histórica dos modelos de linguagem}
+\label{fig:raiaan_timeline_tikz}
+\begin{tikzpicture}[
+    node distance=0.26cm, % Espaçamento menor para caber na página A4
+    box/.style={
+        draw=black!60,
+        fill=gray!3,
+        rectangle,
+        rounded corners=3pt,
+        text width=14cm,
+        align=left,
+        font=\scriptsize, % Fonte ajustada para o layout vertical expandido
+        inner sep=5pt,
+        thick
+    },
+    arrow/.style={
+        ->,
+        >=stealth,
+        thick,
+        draw=black!60
+    }
+]
+
+% Fluxo de Cards Empilhados (1940s até 2026)
+\node[box] (b1) {\textbf{1940s | Redes Neurais Artificiais (ANNs):} Warren McCulloch e Walter Pitts introduzem o conceito inicial de neurônios artificiais e redes neurais.};
+
+\node[box, below=of b1] (b2) {\textbf{Anos 1950--1960 | Primeiros Modelos de Linguagem:} Surgimento das primeiras abordagens baseadas em regras linguísticas estruturadas e lógica.};
+
+\node[box, below=of b2] (b3) {\textbf{Anos 1980--1990 | Modelos Estatísticos (SLMs):} Introdução de modelos probabilísticos baseados em frequências de palavras e suposição de Markov ($n$-grams).};
+
+\node[box, below=of b3] (b4) {\textbf{Meados de 2000 | Word Embeddings:} Representações distribuídas de palavras em espaços vetoriais contínuos (como Word2Vec e GloVe).};
+
+\node[box, below=of b4] (b5) {\textbf{2010 | Modelos Neurais (NLMs):} Redes Neurais Recorrentes aplicadas à linguagem (RNNLM) para capturar sequências e dependências temporais.};
+
+\node[box, below=of b5] (b6) {\textbf{2015 | Tradução Neural (GNMT):} Google desenvolve a rede profunda para tradução automática, superando métodos tradicionais baseados em estatística.};
+
+\node[box, below=of b6] (b7) {\textbf{2017 | Arquitetura Transformer:} Vaswani et al. introduzem mecanismos de auto-atenção, eliminando a recorrência e otimizando o processamento.};
+
+\node[box, below=of b7] (b8) {\textbf{2018 | BERT e GPT-1:} BERT (codificador bidirecional) e GPT-1 (decodificador autorregressivo) consolidam o paradigma de pré-treino e ajuste fino.};
+
+\node[box, below=of b8] (b9) {\textbf{2019 | GPT-2 e Megatron-LM:} Demonstração de escalabilidade de parâmetros em larga escala e frameworks de treinamento paralelo.};
+
+\node[box, below=of b9] (b10) {\textbf{2020 | GPT-3:} Modelo massivo de 175 bilhões de parâmetros, introduzindo capacidade geral de aprendizado em contexto (\textit{in-context learning}).};
+
+\node[box, below=of b10] (b11) {\textbf{2023 | GPT-4:} Expansão para modelos multimodais proprietários, processando entradas de texto e imagem com alta fidelidade semântica.};
+
+\node[box, below=of b11] (b12) {\textbf{2024 | Multimodalidade Nativa e Eficiência (GPT-4o, LLaMA 3, Qwen 2.5):} Consolidação de assistentes multimodais integrados e modelos abertos de tamanho intermediário altamente capazes.};
+
+\node[box, below=of b12] (b13) {\textbf{2025 | Escalonamento em Tempo de Teste (GPT-o1, DeepSeek-R1):} Surgimento de modelos focados em raciocínio via cadeias de pensamento longas (\textit{long CoT}), otimizando o processamento em tempo de inferência.};
+
+\node[box, below=of b13] (b14) {\textbf{2026 | Sistemas de Agentes e Modelos de Fronteira (DeepSeek-V3, Gemini 2.0):} Modelos de altíssima escala e custo-benefício, atuando como o núcleo cognitivo de sistemas autônomos e multiagentes complexos.};
+
+% Conectores Verticais
+\draw[arrow] (b1) -- (b2);
+\draw[arrow] (b2) -- (b3);
+\draw[arrow] (b3) -- (b4);
+\draw[arrow] (b4) -- (b5);
+\draw[arrow] (b5) -- (b6);
+\draw[arrow] (b6) -- (b7);
+\draw[arrow] (b7) -- (b8);
+\draw[arrow] (b8) -- (b9);
+\draw[arrow] (b9) -- (b10);
+\draw[arrow] (b10) -- (b11);
+\draw[arrow] (b11) -- (b12);
+\draw[arrow] (b12) -- (b13);
+\draw[arrow] (b13) -- (b14);
+
+\end{tikzpicture}
+
+\vspace{0.1cm}
+{\footnotesize Fonte -- Baseado em \citeonline{raiaan2024} e \citeonline{zhao2026survey}}
+\end{figure}

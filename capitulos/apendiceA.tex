@@ -1,0 +1,226 @@
+
+\chapter{Protocolo da revisão do estado da arte}
+\label{ap:protocolo}
+
+\section{Tema da revisão}
+
+A revisão tem como tema a relação entre monitoramento da qualidade
+da água, sistemas de apoio à decisão, dados de sensores e modelos
+de linguagem de grande porte (\textit{Large Language Models} -- LLMs).
+O objetivo geral é identificar e analisar estudos científicos que
+abordem esses temas de forma relacionada, buscando compreender as
+abordagens utilizadas para analisar e interpretar dados e produzir
+informações relevantes para o apoio à tomada de decisão no contexto
+do monitoramento da qualidade da água.
+
+A revisão também busca identificar as principais aplicações,
+abordagens metodológicas, limitações e oportunidades de pesquisa
+relacionadas à utilização de modelos de linguagem nesse contexto.
+
+\section{Tipo de revisão}
+
+Esta pesquisa utiliza uma revisão da literatura com buscas estruturadas
+em bases de dados científicas, critérios de seleção de estudos e
+procedimentos de extração e síntese das informações.
+
+A classificação metodológica definitiva do tipo de revisão deverá
+ser fundamentada em referências especializadas sobre revisões da
+literatura. O protocolo documenta o tema investigado, as questões
+de pesquisa, as fontes consultadas, a estratégia de busca e os
+procedimentos de seleção e análise dos estudos.
+
+O processo de condução será documentado no Apêndice B, permitindo
+distinguir as decisões metodológicas da revisão dos resultados
+efetivamente obtidos durante as buscas e a seleção das publicações.
+
+\section{Questões de pesquisa}
+
+\subsection{QP1 -- Aplicações de LLMs no monitoramento da qualidade da água}
+
+\textbf{Motivação/justificativa:}
+compreender como os modelos de linguagem de grande porte têm sido
+utilizados em estudos relacionados ao monitoramento da qualidade
+da água.
+
+\textbf{Objetivo:}
+identificar as aplicações, tarefas e objetivos descritos nos estudos
+que relacionam LLMs e monitoramento da qualidade da água.
+
+\textbf{Estratégia para resposta:}
+classificar os estudos conforme o domínio de aplicação, a finalidade
+da solução proposta e o papel desempenhado pelos modelos de linguagem.
+
+\subsection{QP2 -- Utilização de dados de sensores}
+
+\textbf{Motivação/justificativa:}
+compreender como os dados provenientes de sensores são empregados
+nas soluções investigadas e como são processados para gerar
+informações relevantes.
+
+\textbf{Objetivo:}
+identificar os tipos de dados, os parâmetros monitorados e as formas
+de processamento, análise e interpretação utilizadas.
+
+\textbf{Estratégia para resposta:}
+extrair informações sobre as fontes de dados, os parâmetros
+monitorados, os métodos de análise e os resultados produzidos
+pelas soluções descritas nos estudos.
+
+\subsection{QP3 -- Mecanismos de apoio à decisão}
+
+\textbf{Motivação/justificativa:}
+investigar como as soluções identificadas transformam dados em
+informações que possam contribuir para a tomada de decisão.
+
+\textbf{Objetivo:}
+caracterizar os mecanismos de apoio à decisão presentes nos estudos,
+considerando a geração de alertas, recomendações, explicações
+e outras informações destinadas aos usuários.
+
+\textbf{Estratégia para resposta:}
+identificar as saídas produzidas pelas soluções, sua finalidade,
+a forma de apresentação das informações e a participação do usuário
+no processo decisório, quando esses aspectos forem descritos.
+
+\subsection{QP4 -- Limitações e oportunidades de pesquisa}
+
+\textbf{Motivação/justificativa:}
+identificar desafios e limitações ainda presentes nas abordagens
+investigadas, bem como oportunidades para novas pesquisas.
+
+\textbf{Objetivo:}
+sintetizar as limitações técnicas e metodológicas relatadas nos
+estudos e identificar lacunas relevantes para o tema da pesquisa.
+
+\textbf{Estratégia para resposta:}
+extrair e comparar as limitações, os métodos de avaliação, as ameaças
+à validade e as recomendações para trabalhos futuros apresentadas
+pelos autores.
+
+\section{Bases de dados usadas}
+
+Foram consultadas cinco bases de dados científicas:
+
+\begin{itemize}
+    \item Scopus;
+    \item Web of Science;
+    \item ScienceDirect;
+    \item IEEE Xplore;
+    \item ACM Digital Library.
+\end{itemize}
+
+As bases foram selecionadas para recuperar publicações relacionadas
+ao tema da revisão em diferentes áreas, incluindo computação,
+engenharia e pesquisas sobre monitoramento e análise de dados.
+
+\section{String de busca}
+
+A estratégia de busca foi definida a partir de quatro expressões
+relacionadas ao tema investigado: monitoramento da qualidade da água,
+apoio à decisão, dados de sensores e modelos de linguagem de grande
+porte. As expressões foram combinadas pelo operador booleano
+\textit{AND}, de modo a buscar estudos que relacionassem os quatro
+conceitos.
+
+A string utilizada na maior parte das plataformas foi:
+
+\begin{verbatim}
+"water quality monitoring" AND "decision support"
+AND "sensor data" AND "large language models"
+\end{verbatim}
+
+As buscas foram realizadas no período de 4 de agosto de 2026
+a 11 de outubro de 2026. Não foi utilizado o termo de exclusão
+\textit{medical} na estratégia de busca.
+
+A data exata de execução de cada consulta não foi preservada no
+registro disponível para esta versão do trabalho. Por esse motivo,
+documenta-se o período geral conhecido, sem atribuir datas
+específicas a cada base de dados.
+
+Embora a string principal tenha sido utilizada na maior parte
+das plataformas, eventuais adaptações de sintaxe ou de campos
+de busca devem ser consideradas conforme os recursos de cada
+mecanismo. A documentação disponível nesta versão não permite
+reconstruir integralmente todas as particularidades de cada consulta.
+
+\section{Estratégia de seleção de estudos primários}
+
+A seleção dos estudos considera a relação das publicações com o
+tema e com as questões de pesquisa. O processo de seleção compreende
+a identificação dos registros, a verificação de duplicatas, a análise
+de títulos e resumos e a avaliação do texto completo dos estudos
+potencialmente relevantes.
+
+As decisões de inclusão e exclusão devem ser registradas durante
+a condução da revisão, de modo que seja possível documentar os
+motivos de exclusão e a quantidade de estudos que avançou em
+cada etapa.
+
+\subsection{Critérios de inclusão}
+
+\begin{itemize}
+    \item Estudos relacionados ao monitoramento da qualidade da água;
+    \item Estudos que abordem dados de sensores em contexto pertinente
+    às questões de pesquisa;
+    \item Estudos que investiguem LLMs, análise de dados ou mecanismos
+    de apoio à decisão relacionados ao escopo da revisão;
+    \item Publicações científicas com informações suficientes para
+    avaliar sua pertinência ao tema e às questões de pesquisa.
+\end{itemize}
+
+\subsection{Critérios de exclusão}
+
+\begin{itemize}
+    \item Registros duplicados entre as bases consultadas;
+    \item Estudos sem relação direta com o tema ou com as questões
+    de pesquisa;
+    \item Estudos que mencionem os termos pesquisados, mas não
+    apresentem conteúdo pertinente ao escopo da revisão;
+    \item Publicações sem informações suficientes para avaliar
+    sua contribuição para as questões de pesquisa;
+    \item Publicações cujo texto completo não possa ser obtido,
+    caso essa condição seja confirmada como critério de exclusão
+    durante a aplicação do protocolo.
+\end{itemize}
+
+Os critérios deverão ser aplicados de maneira consistente ao longo
+do processo de seleção. A quantidade de registros excluídos e os
+motivos correspondentes serão documentados no Apêndice B.
+
+\section{Critérios de qualidade}
+
+A aplicação de uma avaliação formal da qualidade metodológica dos
+estudos não foi especificada nesta versão do protocolo. Caso seja
+adotada, deverão ser documentados os critérios utilizados, a forma
+de avaliação e sua influência na seleção e na interpretação dos
+resultados.
+
+\section{Estratégia para extração de dados e síntese de resultados}
+
+Para cada estudo selecionado, serão extraídas, quando disponíveis,
+as seguintes informações:
+
+\begin{itemize}
+    \item título, autores, ano e veículo de publicação;
+    \item objetivo e domínio de aplicação;
+    \item problema investigado e contexto de utilização;
+    \item tipos e fontes dos dados utilizados;
+    \item parâmetros de sensores e características dos dados,
+    quando aplicável;
+    \item métodos de processamento, análise e interpretação;
+    \item papel desempenhado pelos LLMs;
+    \item mecanismos de apoio à decisão;
+    \item métodos de avaliação e principais resultados;
+    \item limitações relatadas e oportunidades de pesquisa.
+\end{itemize}
+
+As informações extraídas serão organizadas em uma planilha para
+facilitar a comparação entre os estudos. A síntese dos resultados
+combinará análise descritiva das publicações e análise qualitativa
+do conteúdo, considerando as questões de pesquisa.
+
+A análise buscará identificar tendências, categorias de aplicação,
+abordagens recorrentes, limitações e lacunas de pesquisa relacionadas
+ao uso de LLMs, dados de sensores e sistemas de apoio à decisão
+no monitoramento da qualidade da água.

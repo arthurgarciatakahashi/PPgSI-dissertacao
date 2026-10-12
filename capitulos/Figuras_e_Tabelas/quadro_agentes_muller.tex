@@ -1,0 +1,79 @@
+\begin{quadro}[htb]
+\centering
+\caption{Paradigmas de agentes segundo Müller (1999) e sua aplicação no sistema proposto}
+\label{qua:muller_agentes}
+\small
+\begin{tabular}{|p{2.8cm}|p{2.8cm}|p{5.2cm}|p{4.2cm}|}
+\hline
+\textbf{Categoria} & 
+\textbf{Classificação} & 
+\textbf{Descrição Teórica} & 
+\textbf{Aplicação no \newline Monitoramento Hídrico} \\ \hline
+
+Arquitetura de \newline Controle & 
+Reativa & 
+Decisões baseadas em estímulos diretos, 
+sem modelo interno do mundo. & 
+Leitura em tempo real e processamento 
+imediato de alertas básicos. \\ \cline{2-4}
+
+& 
+Deliberativa & 
+Raciocínio lógico, planejamento e representações 
+internas complexas. & 
+Agente de IA interpretando as anomalias 
+e formulando diagnósticos. \\ \cline{2-4}
+
+& 
+Híbrida & 
+Combinação de camadas reativas (tempo real) 
+e deliberativas (metas). & 
+Arquitetura central proposta para o monitoramento 
+de alta frequência. \\ \cline{2-4}
+
+& 
+De Interação & 
+Foco na coordenação, cooperação e comunicação 
+entre agentes. & 
+Orquestração do Sistema Multiagente (SMA) 
+para monitoramento hídrico. \\ \hline
+
+Taxonomia: \newline Estado Material & 
+Hardware & 
+Agentes com presença física, interagindo 
+via sensores físicos. & 
+Sondas multiparamétricas instaladas 
+\textit{in situ} nos rios. \\ \cline{2-4}
+
+& 
+Software & 
+Agentes virtuais operando em ambientes 
+computacionais ou digitais. & 
+Agentes cognitivos baseados em LLMs 
+e modelos de IA. \\ \hline
+
+Taxonomia: \newline Modo de Interação & 
+Autônomo & 
+Foco na relação direta e independente entre o 
+próprio agente e seu ambiente. & 
+Sonda hídrica coletando e transmitindo dados 
+de forma isolada por telemetria. \\ \cline{2-4}
+
+& 
+Multiagente & 
+Presença de outros agentes no ambiente, com 
+cooperação e compartilhamento de informações. & 
+Nós e sondas cooperando para analisar a 
+qualidade da água ao longo de toda a bacia. \\ \cline{2-4}
+
+& 
+Assistente & 
+Projetados para interagir diretamente com 
+humanos e agir em seu benefício. & 
+Interface em linguagem natural (LLM) gerando 
+relatórios claros para o gestor. \\ \hline
+\end{tabular}
+
+\vspace{0.1cm}
+{\footnotesize Fonte – Adaptado de \citeonline{muller1999}}
+\end{quadro}

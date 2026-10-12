@@ -1,0 +1,305 @@
+\chapter{Fundamentação teórica}
+\label{cap:fundamentacao}
+
+\section{Inteligência Artificial}
+A inteligência Artificial não pode simplesmente ser definida por uma única frente, ela é dividida por \citeonline{russell2021artificial} em quatro abordagens baseadas em duas dimensões conceituais que são Humano versus Racional e Pensamento versus Comportamento.
+A partir dessas dimensões, devivam-se as quatro aborgadens: Agir como humanos (Teste de Turing), Pensar como humanos (Modelagem Cognitiva),
+Pensar racionalmente (Leis de Lógica) e Agir racionalmente (Agentes Racionais). Esta último veio a se tornar o modelo padrão e mais bem-sucedido do que podemos chamar de IA moderna por focar em agir de forma racional com base em conhecimento \cite[p. 22]{russell2021artificial}.
+
+Uma evolução importante do aprendizado de máquina ocorreu com o
+desenvolvimento das técnicas de aprendizado profundo (\textit{deep learning}).
+Essas técnicas utilizam modelos compostos por múltiplas camadas de
+processamento capazes de aprender representações dos dados em diferentes níveis de abstração. Dessa forma, características relevantes para a realização de uma determinada tarefa podem ser aprendidas diretamente a partir dos dados, reduzindo a necessidade de definir manualmente todas as características que serão utilizadas pelo modelo \cite{lecun2015deep}.
+
+O aprendizado profundo apresentou avanços significativos em diferentes
+domínios, incluindo reconhecimento de fala, reconhecimento e detecção de
+objetos, processamento de imagens, vídeo e áudio, além de aplicações em
+descoberta de fármacos e genômica. Estes avanços estão associados, entre outros
+fatores, à capacidade das redes neurais profundas de aprender representações
+hierárquicas a partir de grandes conjuntos de dados
+\cite{lecun2015deep}.
+
+\section{Agentes inteligentes}
+\label{sec:agentes-inteligentes}
+
+Para \citeonline{russell2021artificial} agente é qualquer entidade que percebe seu ambiente por meio de sensores e age sobre ele por meio de atuadores.
+
+O conceito de agente inteligente constitui uma das abordagens utilizadas na Inteligência Artificial para representar sistemas capazes de interagir com um ambiente e realizar ações orientadas a objetivos previamente estabelecidos. Nesse contexto, um agente pode ser compreendido como uma entidade que recebe informações sobre o ambiente, processa essas
+informações e seleciona ações a serem tomadas de acordo com os objetivos \cite{muller1999}.
+A arquitetura de um agente define a organização de seus componentes,
+capacidades e mecanismos de processamento, bem como a forma como esses
+elementos atuam conjuntamente para produzir seu comportamento. Müller
+\cite{muller1999} organiza as principais abordagens para arquiteturas de
+agentes em categorias que incluem arquiteturas reativas, deliberativas e
+voltadas à interação, além de discutir arquiteturas híbridas que combinam
+características dessas diferentes abordagens. Essa perspectiva permite
+compreender os agentes não apenas a partir de suas capacidades individuais,
+mas também considerando a forma como percebem o ambiente, tomam decisões e
+interagem com outras entidades.
+
+As arquiteturas reativas são caracterizadas por uma relação mais direta
+entre as informações obtidas do ambiente e as ações realizadas pelo agente.
+Nesse tipo de abordagem, o comportamento pode ser produzido a partir da
+percepção das condições atuais do ambiente, sem depender necessariamente de
+uma representação interna complexa ou de processos extensivos de
+planejamento. Essa característica torna as arquiteturas reativas adequadas
+para situações nas quais é necessário responder rapidamente a mudanças no
+ambiente. Entretanto, abordagens puramente reativas apresentam limitações
+quando o problema exige comportamentos mais complexos, planejamento ou
+coordenação de objetivos de maior prazo \cite{muller1999}.
+
+As arquiteturas deliberativas, por outro lado, consideram a existência de
+representações internas do ambiente e de mecanismos de raciocínio e
+planejamento. Nesse contexto, o agente pode avaliar diferentes possibilidades
+de ação antes de selecionar um comportamento. Entre as abordagens
+deliberativas destacam-se as arquiteturas baseadas em crenças, desejos e
+intenções (\textit{Beliefs, Desires and Intentions} -- BDI), nas quais o
+processo de decisão considera o estado interno do agente, seus objetivos e
+as intenções que orientam suas ações. Dessa forma, a tomada de decisão pode
+envolver processos de deliberação e planejamento antes da execução das ações
+\cite{muller1999}.
+
+Além das arquiteturas reativas e deliberativas, agentes podem ser projetados
+para interagir com outros agentes. Nessa perspectiva, o ambiente do agente
+inclui não apenas elementos externos, mas também outras entidades capazes de
+realizar ações. A interação pode ser utilizada para coordenar comportamentos,
+compartilhar informações, resolver conflitos e alcançar objetivos de forma
+colaborativa. Essa abordagem constitui uma base para os sistemas
+multiagentes, nos quais diferentes agentes podem atuar de maneira coordenada
+na resolução de problemas \cite{muller1999}.
+
+Uma alternativa às abordagens puramente reativas ou deliberativas consiste
+nas arquiteturas híbridas, que combinam diferentes mecanismos de
+processamento. Essa combinação permite associar a capacidade de resposta
+rápida das abordagens reativas a mecanismos de representação, planejamento e
+deliberação. As arquiteturas híbridas são particularmente relevantes para
+aplicações mais complexas, nas quais diferentes níveis de processamento
+precisam atuar conjuntamente para produzir o comportamento do agente
+\cite{muller1999}.
+
+Além das características arquiteturais, os agentes podem ser classificados
+considerando sua relação com o ambiente e seu modo de interação. Müller
+\cite{muller1999} apresenta uma classificação que considera, entre outros
+aspectos, o estado material do agente e seu modo primário de interação.
+Quanto ao estado material, distinguem-se agentes de hardware, que possuem
+presença física e interagem com ambientes físicos por meio de sensores e
+atuadores, e agentes de software, que interagem com ambientes computacionais
+reais ou virtuais. Quanto ao modo de interação, são considerados agentes
+autônomos, sistemas multiagentes e agentes assistentes
+\cite{muller1999}.
+
+Os agentes autônomos concentram-se na relação entre o próprio agente e seu ambiente, enquanto os sistemas multiagentes consideram explicitamente a presença de outros agentes como parte do ambiente. Nesse último caso, os agentes podem compartilhar informações, coordenar ações e atuar de forma colaborativa para alcançar determinados objetivos. Já os agentes assistentes são caracterizados principalmente pela interação com seres humanos, atuando em seu benefício ou em seu nome \cite{muller1999}. Essa classificação é relevante para sistemas computacionais nos quais diferentes componentes precisam atuar de forma coordenada em ambientes dinâmicos.
+
+A fim de ilustrar a relação prática dos fundamentos teóricos de agentes descritos por \citeonline{muller1999}, apresenta-se um
+mapeamento conceitual em forma de tabela resumida. Como pode ser observado no Quadro~\ref{qua:muller_agentes}, os diferentes
+paradigmas arquiteturais e taxonômicos são relacionados inclusive para ilustrar de forma mais didádica foi adicionado na última coluna, a título de exemplo, um cenário hipotético de monitoramento e supervisão hídrica de alta frequência.
+
+\input{capitulos/Figuras_e_Tabelas/quadro_agentes_muller}
+
+A evolução recente dos modelos computacionais baseados em linguagem amplia
+essa concepção tradicional de agentes. Cheng et al. \cite{cheng2026}
+observam que o conceito de agente inteligente possui uma longa trajetória na
+Inteligência Artificial e que os avanços recentes dos Grandes Modelos de
+Linguagem (\textit{Large Language Models} -- LLMs) possibilitaram a
+construção de agentes capazes de incorporar mecanismos de raciocínio,
+planejamento e utilização de ferramentas. Nessa perspectiva, os LLMs podem
+atuar como componentes centrais de agentes que interpretam informações,
+planejam ações e interagem com diferentes recursos e ambientes
+\cite{cheng2026}.
+
+De acordo com Cheng et al. \cite{cheng2026}, arquiteturas baseadas em LLMs
+podem incorporar diferentes mecanismos para ampliar as capacidades dos
+agentes, incluindo planejamento, memória, reflexão e utilização de
+ferramentas. Esses mecanismos permitem que o agente realize tarefas que
+envolvem múltiplas etapas, utilizando informações obtidas durante sua
+interação com o ambiente para orientar ações posteriores. Os autores também
+discutem sistemas multiagentes baseados em LLMs, nos quais diferentes agentes
+podem assumir papéis distintos, comunicar-se e coordenar suas ações para a
+resolução de problemas.
+
+Dessa forma, os agentes inteligentes podem ser entendidos como sistemas cuja
+característica fundamental não está apenas na execução isolada de uma tarefa,
+mas na capacidade de perceber informações, processá-las, selecionar ações e
+interagir com o ambiente de acordo com objetivos estabelecidos. A evolução
+das arquiteturas reativas, deliberativas e híbridas para abordagens que
+incorporam modelos de linguagem, memória, planejamento e utilização de
+ferramentas estabelece uma ponte entre os fundamentos tradicionais dos
+agentes inteligentes e as arquiteturas contemporâneas baseadas em LLMs
+\cite{muller1999,cheng2026}. Esses aspectos fornecem a base conceitual para
+a discussão dos Grandes Modelos de Linguagem e, posteriormente, das
+arquiteturas que combinam agentes e LLMs.
+
+\section{Large Language Models}
+\label{sec:llm}
+
+Os (\textit{Large Language Models} -- LLMs), ou Grandes Modelos de Linguagem, representam uma evolução dos modelos de processamento de linguagem natural (PLN) baseada no pré-treinamento auto-supervisionado em grandes volumes de dados textuais. Esses modelos são capazes de aprender representações linguísticas e padrões de relacionamento entre palavras, sentenças e documentos, permitindo sua aplicação em diferentes tarefas de compreensão e geração de linguagem natural. A evolução dos modelos de linguagem está diretamente relacionada ao aumento da escala dos modelos, dos conjuntos de dados utilizados no treinamento e dos recursos computacionais disponíveis \cite{zhao2026survey}.
+
+De acordo com \citeonline{raiaan2024}, a evolução histórica dos modelos de linguagem pode ser organizada em quatro grandes fases: os modelos estatísticos clássicos ($n$-grams), os modelos de linguagem neurais (NLMs), os modelos de linguagem pré-treinados (PLMs, como o BERT) e, finalmente, os LLMs de larga escala, que se diferenciam pelo aumento expressivo no número de parâmetros e dados de treinamento. Como o detalhamento dessas fases históricas não constitui o foco desta dissertação, não serão aprofundadas suas características e diferenças, sendo apresentada a seguir uma discussão concentrada nos aspectos dos LLMs relevantes para o desenvolvimento deste trabalho.
+
+Um marco importante arquitetural que viabilizou o desenvolvimento dos LLMs contemporâneos foi a introdução da arquitetura \textit{Transformer} por \citeonline{vaswani2017attention}. Diferentemente das redes neurais recorrentes e convolucionais tradicionalmente empregadas para o processamento de sequências, o \textit{Transformer} utiliza mecanismos de atenção para estabelecer relações entre diferentes elementos de uma sequência \cite{vaswani2017attention}. Essa característica permite maior paralelização durante o treinamento e possibilita o processamento eficiente de grandes volumes de dados, tornando-se a base arquitetural de grande parte dos modelos de linguagem modernos. 
+
+Para \citeonline{zhao2026survey}, essa característica do \textit{Transformer} permitiu o escalonamento bem-sucedido dos modelos para dezenas ou centenas de bilhões de parâmetros, consolidando a arquitetura causal baseada apenas em decodificadores (\textit{decoder-only}) como o padrão de desenvolvimento da área.
+
+Com o propósito de organizar a diversidade desses modelos, \citeonline{wang2025history} propõe uma taxonomia baseada na arquitetura \textit{Transformer} em três tipos: (i) os modelos baseados apenas em codificadores (\textit{encoder-only}, como o BERT), cujo foco reside nacompreensão, interpretação e classificação de dados textuais;(ii) os modelos de codificador-decodificador (\textit{encoder-decoder}, como o T5), que combinam a capacidade de análise profunda do contexto com a flexibilidade de geração; e (iii) os modelos baseados apenas em decodificadores(\textit{decoder-only}, como a família GPT-3), que são altamente otimizados para a geração de textofluido e exibem excelente desempenho em cenários de aprendizado com poucos exemplos \cite{wang2025history}.
+
+Como consequência do escalonamento, os LLMs passaram a desenvovler capacidades que ultrapassam tarefas específicas de processamento de linguatem. Por exemplo, \ {brown2020language} com o modelo GPT-3 demonstrou que modelos de grande escala são capazes de executar diferentes tarefas a partir de instruções ou poucos exemplos fornecidos no contexto, fenomeno conhecido como (\textit{in-context learning}), executando novas tarefas a partir de poucas instruções ou exemplos fornecidos diretamente no \textit{prompt}, sem a necessidade de atualização de pesos ou gradientes. Essa capacidade contribuiu para a consolidação dos LLMs como modelos de propósito geral para tarefas de linguagem \cite{brown2020language}.
+
+De acordo com \citeonline{zhao2026survey}, o ciclo de vida de desenvolvimento de um LLM moderno em quatro dimensões principais: etapas distintas de treinamento: (i) o pré-treinamento, no qual o modelo adquire conhecimento geral de mundo e habilidades linguísticas por meio da predição do próximo token; (ii) o pós-treinamento, que inclui o ajuste fino supervisionado (\textit{SFT}) e o aprendizado por reforço baseado em retroalimentação humana (\textit{RLHF}); (iii) a utilização, que são as estratégias eficazes de implantação e aplicações práticas; e (iv) avaliação, que é a mensuração completa das capacidades e dos riscos. Essa perspectiva evidencia que o desempenho de um modelo não depende exclusivamente de sua arquitetura ou quantidade de parâmetros, mas também das estratégias utilizadas para treiná-lo, adaptá-lo, integrá-lo a outras fontes de informação e avaliar seus resultados \cite{zhao2026survey}.
+
+O desenvolvimento dos LLMs pode ser compreendido a partir de diferentes etapas de treinamento e adaptação. Inicialmente, o modelo é submetido a um processo de pré-treinamento sobre grandes coleções de dados, no qual aprende padrões estatísticos e representações relacionadas à linguagem. Posteriormente, técnicas de pós-treinamento podem ser utilizadas para adaptar o comportamento do modelo às necessidades de determinadas tarefas ou para melhorar sua capacidade de seguir instruções. Entre essas técnicas encontra-se o treinamento com supervisão e o aprendizado por reforço a partir de feedback humano, utilizado, por exemplo, no desenvolvimento do InstructGPT \cite{ouyang2022training}.
+
+Apesar de suas capacidades, os LLMs puramente paramétricos apresentam limitações consideráveis. O conhecimento armazenado em seus parâmetros é condicionado pelos dados utilizados durante o treinamento, o que pode dificultar o acesso a informações recentes, específicas ou restritas a determinados domínios. Além disso, os modelos podem produzir informações incorretas ou não fundamentadas, fenômeno frequentemente denominado \textit{hallucination}. Essas limitações tornam relevante a utilização de mecanismos externos de consulta capazes de fornecer informações contextualizadas ao modelo, abrindo espaço para abordagens de geração recuperada e arquiteturas baseadas em agentes \cite{zhao2026survey}.
+
+A evolução histórica do processamento de linguagem natural (PLN) e o desenvolvimento dos grandes modelos de linguagem podem ser organizados de maneira cronológica. Conforme ilustrado na Figura~\ref{fig:raiaan_timeline_tikz}, esse percurso estende-se desde as primeiras conceitualizações de redes neurais na década de 1940 até a consolidação das arquiteturas de raciocínio profundo e escalonamento em tempo de teste na segunda metade da década de
+2020 \cite{raiaan2024, zhao2026survey}.
+
+\input{capitulos/Figuras_e_Tabelas/timeline_raiaan}
+
+\subsection{Retrieval-Augmented Generation}
+\label{subsec:rag}
+
+Uma das abordagens utilizadas para reduzir as limitações relacionadas ao conhecimento paramétrico dos LLMs é o \textit{Retrieval-Augmented Generation} (RAG). A abordagem combina um modelo de linguagem com mecanismos externos de recuperação de informação, permitindo que o modelo utilize documentos ou outras fontes de conhecimento durante a geração da resposta \cite{lewis2020rag}.
+
+Em uma arquitetura RAG, o processo pode ser dividido, de forma geral, em três etapas. Na primeira etapa, denominada recuperação (\textit{retrieval}), são identificados documentos ou trechos de documentos relevantes para a consulta realizada pelo usuário. Essa recuperação pode utilizar métodos baseados em correspondência lexical ou métodos semânticos fundamentados em representações vetoriais. Na segunda etapa, as informações recuperadas são incorporadas ao contexto fornecido ao modelo de linguagem, juntamente com as instruções necessárias para a realização da tarefa. Finalmente, na terceira etapa, o LLM utiliza esse contexto enriquecido para gerar a resposta \cite{zhao2026survey}.
+
+A utilização de informações externas apresenta vantagens especialmente em aplicações que dependem de conhecimento específico ou que necessitam de informações que não estavam disponíveis durante o treinamento do modelo. O trabalho de Lewis et al. \cite{lewis2020rag} demonstrou que a combinação entre memória paramétrica e memória não paramétrica pode melhorar o desempenho de modelos de linguagem em tarefas intensivas em conhecimento, além de contribuir para a produção de respostas mais específicas e fundamentadas.
+
+Entretanto, a qualidade de um sistema RAG depende diretamente da qualidade das informações recuperadas. Documentos irrelevantes, incompletos ou contraditórios podem ser incorporados ao contexto e influenciar negativamente a resposta gerada. Por esse motivo, estratégias como reranking, expansão ou reescrita de consultas, filtragem de documentos e recuperação iterativa podem ser empregadas para aumentar a relevância do contexto disponibilizado ao LLM \cite{zhao2026survey}.
+
+Nesse sentido, o RAG representa uma mudança importante na forma de utilização dos modelos de linguagem. Em vez de depender exclusivamente do conhecimento armazenado durante o treinamento, o modelo pode consultar uma fonte externa de informações no momento da inferência. Essa característica é particularmente relevante para sistemas que precisam trabalhar com diversas bases de conhecimento externas e que podem ser atualizadas ao longo do tempo, inclusive para monitoramento de fontes específicas como mananciais.
+
+\subsection{Sistemas baseados em agentes}
+\label{subsec:agentic}
+
+Uma evolução adicional na utilização dos LLMs consiste na construção de sistemas baseados em agentes (\textit{agentic systems}). Nessa abordagem, o modelo de linguagem deixa de atuar apenas como um mecanismo de entrada e saída textual e passa a desempenhar o papel de componente central de raciocínio em um sistema capaz de perceber informações, planejar ações, utilizar ferramentas e interagir com um ambiente \cite{zhao2026survey}.
+
+Sistemas agentic podem ser estruturados a partir de três componentes funcionais principais: memória, planejamento e execução. A memória permite armazenar informações relacionadas às interações anteriores e ao contexto da tarefa. O planejamento possibilita decompor objetivos complexos em uma sequência de subtarefas e revisar estratégias de acordo com os resultados obtidos. A execução é responsável pela realização das ações planejadas, podendo envolver a utilização de ferramentas externas, APIs, mecanismos de busca, bancos de dados ou interpretadores de código \cite{zhao2026survey}.
+
+O funcionamento desses sistemas ocorre de maneira iterativa. Inicialmente, o agente observa o estado atual da tarefa e recupera informações relevantes de sua memória. Em seguida, o componente de planejamento determina uma ação ou sequência de ações. Essas ações são executadas e os resultados obtidos são utilizados como novo contexto para o próximo ciclo de decisão. Dessa forma, o sistema estabelece um ciclo contínuo de percepção, planejamento, execução e avaliação \cite{zhao2026survey}.
+
+Essa evolução, contudo, também introduz novos desafios. Sistemas agentic precisam lidar com crescimento do contexto, gerenciamento de memória, erros acumulados durante a execução, resultados inesperados de ferramentas e necessidade de verificar as ações realizadas. Assim, a confiabilidade desses sistemas depende não apenas das capacidades do LLM, mas também da arquitetura responsável pelo gerenciamento de memória, planejamento, execução e avaliação das ações \cite{zhao2026survey}.
+
+De início, os LLMs foram utilizados como modelos capazes de compreender e gerar linguagem, depois, mecanismos como o RAG permitiram complementar com fontes externas e só então as arquiteturas agênticas permitiram combinar os modelos com memória, planejamento e ferramentas para a execução de tarefas mais complexas. 
+
+\section{Arquiteturas baseadas em agentes e LLMs}
+
+
+Os sistemas baseados em agentes constituem uma abordagem consolidada na Ciência da Computação para a construção de software capaz de perceber informações do ambiente, tomar decisões e executar ações orientadas a objetivos \cite{muller1999}. Na literatura clássica, a arquitetura de um agente inteligente descreve a organização de seus módulos de controle e a maneira como suas capacidades operam conjuntamente para produzir um comportamento autônomo \cite{muller1999, russell2022artificial}. A recente convergência entre esse paradigma e os Grandes Modelos de Linguagem provocou uma mudança de paradigma na área, permitindo que o LLM atue como o motor cognitivo e de raciocínio central do agente \cite{cheng2026, zhao2026survey}.
+
+Sob a perspectiva formalizada por \citeonline{cheng2026}, um agente inteligente baseado em LLM pode ser conceituado por meio de uma sextupla composta por seis elementos fundamentais: \begin{equation} \label{eq:sextupla_agente} V = \langle \mathcal{L}, \mathcal{G}, \mathcal{M}, \mathcal{J}_{tool}, \mathcal{E}, \mathcal{R}_{refl} \rangle \end{equation} em que $\mathcal{L}$ representa o modelo de linguagem base configurado por personas; $\mathcal{G}$ define o objetivo ou meta do sistema; $\mathcal{M}$ encarrega-se da memória; $\mathcal{J}_{tool}$ mapeia o conjunto de ferramentas externas disponíveis; $\mathcal{E}$ refere-se ao módulo de execução de ações; e $\mathcal{R}_{refl}$ corresponde ao mecanismo de reflexão e autoaperfeiçoamento \cite{cheng2026}.
+
+Essa composição modular permite que o agente supere as limitações intrínsecas dos modelos de linguagem isolados, como por exemplo a memória paramétrica estática e a incapacidade de interagir diretamente com o ambiente, estabelecendo assim um ciclo dinâmico e iterativo de percepção, deliberação, ação e observação \cite{cheng2026, zhao2026survey}.
+
+
+Do ponto de vista arquitetural, um agente baseado em LLM pode ser compreendido como um sistema composto por um núcleo de raciocínio associado a mecanismos externos que ampliam as capacidades do modelo. O LLM fornece a capacidade de interpretar instruções, organizar informações, realizar inferências e selecionar ações, enquanto componentes auxiliares permitem manter informações contextuais, consultar fontes externas e interagir com ferramentas ou ambientes. Essa composição permite que o agente ultrapasse algumas das limitações inerentes ao conhecimento paramétrico do modelo e execute tarefas que exigem múltiplas etapas de interação \cite{cheng2026,zhao2026survey}.
+
+\subsection{Componentes arquiteturais de agentes baseados em LLMs}
+
+As arquiteturas contemporâneas de agentes baseados em LLMs podem ser organizadas em torno de diferentes componentes funcionais. Embora existam variações significativas entre as propostas, três elementos fundamentais podem ser destacados: memória, planejamento e execução. Esses componentes são integrados ao modelo de linguagem em um processo iterativo no qual informações do ambiente são analisadas, ações são planejadas e executadas e os resultados obtidos são utilizados para orientar as etapas seguintes \cite{cheng2026,zhao2026survey}.
+
+A memória é responsável por armazenar informações relevantes para a continuidade da interação e para a execução de tarefas que ultrapassam uma única chamada ao modelo. Em termos gerais, pode-se distinguir entre memória de curto prazo e memória de longo prazo. A primeira está associada às informações presentes no contexto corrente do modelo, incluindo instruções, observações e resultados intermediários. A segunda envolve mecanismos externos capazes de persistir informações entre diferentes etapas ou interações, possibilitando sua recuperação quando necessário \cite{zhao2026survey}.
+
+O planejamento constitui outro componente fundamental. Enquanto o modelo de linguagem pode produzir uma resposta diretamente a partir de uma solicitação, um agente precisa frequentemente decompor um objetivo complexo em uma sequência de subtarefas. O planejamento permite determinar quais ações devem ser realizadas, em que ordem e quais informações ou ferramentas são necessárias para alcançar o objetivo. Em arquiteturas baseadas em LLMs, esse processo pode ocorrer de maneira iterativa, permitindo que o agente revise seu plano a partir das informações obtidas durante a execução \cite{cheng2026,zhao2026survey}.
+
+A execução, por sua vez, corresponde à realização das ações definidas durante o planejamento. Em arquiteturas mais simples, o próprio LLM pode produzir uma ação ou instrução textual. Em arquiteturas mais sofisticadas, o agente pode utilizar ferramentas externas, como mecanismos de busca, APIs, bancos de dados, interpretadores de código e outros serviços computacionais. Essa capacidade de utilização de ferramentas amplia o espaço de ações disponível ao agente e permite que ele acesse informações ou execute operações que não poderiam ser realizadas exclusivamente a partir do conhecimento armazenado nos parâmetros do modelo \cite{zhao2026survey}.
+
+A interação entre esses componentes pode ser representada por um ciclo contínuo. Inicialmente, o agente recebe uma tarefa e observa o estado atual do ambiente. Em seguida, recupera informações relevantes de sua memória, interpreta o contexto e estabelece um plano de ação. As ações planejadas são então executadas, podendo envolver tanto o próprio modelo quanto ferramentas externas. Os resultados dessas ações retornam ao agente na forma de novas observações, que podem ser utilizadas para atualizar o contexto e a memória e, posteriormente, revisar ou gerar novas ações. Dessa forma, a arquitetura deixa de representar um fluxo linear de entrada e saída e passa a operar como um ciclo de percepção, raciocínio, ação e feedback \cite{muller1999,cheng2026,zhao2026survey}.
+
+\subsection{Integração com fontes externas e RAG}
+
+A utilização de fontes externas constitui um mecanismo importante para ampliar a capacidade dos agentes baseados em LLMs. Embora modelos de linguagem possuam grande quantidade de conhecimento incorporado em seus parâmetros, esse conhecimento pode ser limitado em relação a informações específicas de domínio, conteúdos privados ou informações que sofrem alterações frequentes. A abordagem de \textit{Retrieval-Augmented Generation} (RAG) foi proposta como uma forma de combinar a capacidade generativa do modelo com informações recuperadas de fontes externas \cite{lewis2020rag}.
+
+Em uma arquitetura RAG, documentos ou registros relevantes são inicialmente recuperados a partir de uma consulta. As informações selecionadas são então incorporadas ao contexto fornecido ao modelo, que utiliza esse conhecimento adicional durante a geração da resposta \cite{lewis2020rag}. Em agentes baseados em LLMs, esse mecanismo pode ser integrado como um componente arquitetural de recuperação de conhecimento, permitindo que o agente consulte bases documentais, bancos de dados ou outras fontes externas durante a execução de suas tarefas \cite{zhao2026survey}.
+
+A integração entre agentes e RAG é particularmente relevante quando o sistema precisa operar sobre conhecimento especializado ou informações que não fazem parte do conhecimento paramétrico do modelo. Nesse cenário, o agente pode identificar a necessidade de informações adicionais, formular ou reformular uma consulta, recuperar os conteúdos relevantes e incorporá-los ao processo de raciocínio. O mecanismo de recuperação passa, portanto, a fazer parte do ciclo de decisão do agente, em vez de constituir apenas uma etapa independente de geração de respostas \cite{lewis2020rag,zhao2026survey}.
+
+\subsection{Arquiteturas multiagentes}
+
+A evolução dos agentes baseados em LLMs também possibilitou a construção de arquiteturas nas quais múltiplos agentes colaboram para resolver um objetivo comum. Em vez de concentrar todas as responsabilidades em um único agente, diferentes agentes podem assumir funções especializadas e trocar informações durante a execução da tarefa. Essa abordagem é particularmente adequada para problemas complexos que podem ser decompostos em subtarefas relativamente independentes \cite{cheng2026,zhao2026survey}.
+
+Em arquiteturas multiagentes, a coordenação pode ocorrer de maneira centralizada ou distribuída. No primeiro caso, um agente ou componente coordenador é responsável por decompor a tarefa, distribuir responsabilidades e organizar os resultados produzidos pelos demais agentes. No segundo, os próprios agentes podem interagir entre si, compartilhando informações e tomando decisões de maneira mais descentralizada. Essas diferentes formas de organização permitem explorar especialização funcional, paralelização de tarefas e mecanismos de colaboração entre agentes \cite{cheng2026,zhao2026survey}.
+
+A arquitetura multiagente introduz, entretanto, novos desafios relacionados à coordenação, comunicação e consistência das decisões. À medida que o número de agentes aumenta, torna-se necessário controlar a troca de informações, evitar redundância de tarefas e determinar mecanismos para resolução de conflitos. Assim, a utilização de múltiplos agentes não representa apenas a replicação de um mesmo componente, mas exige mecanismos arquiteturais específicos para orquestração e colaboração \cite{cheng2026}.
+
+\subsection{Desafios arquiteturais}
+
+Apesar dos avanços, arquiteturas baseadas em agentes e LLMs ainda apresentam limitações relevantes. Um dos principais desafios está relacionado ao gerenciamento de contexto e memória em tarefas de longa duração. A quantidade de informações produzidas durante sucessivas interações pode crescer rapidamente, tornando necessário selecionar, resumir ou recuperar apenas os conteúdos relevantes para cada etapa do processo \cite{zhao2026survey}.
+
+Outro desafio está relacionado à confiabilidade das ações executadas pelo agente. Como as decisões são influenciadas pela natureza probabilística dos LLMs, podem ocorrer respostas inconsistentes, alucinações, utilização inadequada de ferramentas e erros acumulados ao longo de uma sequência de ações. Em tarefas de longa duração, um erro intermediário pode comprometer etapas posteriores, tornando mecanismos de verificação, recuperação de erros e avaliação das ações particularmente importantes \cite{cheng2026,zhao2026survey}.
+
+A integração de ferramentas e fontes externas também aumenta a complexidade arquitetural. Embora essa integração amplie as capacidades do agente, ela cria novas dependências e pontos potenciais de falha. Além disso, sistemas que utilizam múltiplos componentes precisam considerar aspectos de segurança, controle de acesso, privacidade, observabilidade e gerenciamento dos custos computacionais associados às chamadas ao modelo e aos serviços externos \cite{cheng2026, zhao2026survey}.
+
+Dessa forma, arquiteturas baseadas em agentes e LLMs podem ser entendidas como uma evolução dos sistemas tradicionais de agentes inteligentes, incorporando modelos de linguagem como mecanismos centrais de interpretação, raciocínio e tomada de decisão. A combinação entre LLMs, memória, planejamento, ferramentas, recuperação de conhecimento e mecanismos de execução permite construir sistemas capazes de atuar em tarefas mais abertas e complexas. Entretanto, essa flexibilidade também aumenta a necessidade de mecanismos arquiteturais que garantam controle, confiabilidade, eficiência e capacidade de recuperação diante de falhas \cite{muller1999,cheng2026,zhao2026survey}.
+
+
+\section{Sistemas de Apoio à Decisão}
+\label{sec:sad}
+
+Os Sistemas de Apoio à Decisão (SAD), ou \textit{Decision Support Systems} (DSS), surgiram na literatura de sistemas de informação na década de 1970 como uma evolução natural dos sistemas de processamento de dados (\textit{EDP}) e dos sistemas de informações gerenciais (\textit{MIS}) \cite{sprague1980framework}. Enquanto os sistemas anteriores focavam na automação de processos transacionais operacionais e na geração de relatórios estruturados para gerentes médios, os SAD consolidaram-se com o objetivo explícito de apoiar decisores em problemas semiestruturados e não estruturados, caracterizados por alta complexidade, incerteza e pela impossibilidade de resolução puramente algorítmica \cite{sprague1980framework}.
+
+O arcabouço teórico seminal proposto por \citeonline{sprague1980framework} estabelece que um SAD robusto deve estruturar-se em torno de uma arquitetura tripartite, frequentemente denominada paradigma DDM (\textit{Dialog, Data, Model}), composta por três subsistemas integrados:
+
+\begin{itemize}
+    \item \textbf{Subsistema de Diálogo (\textit{Dialogue Generation and Management Software} -- DGMS):} Representa a interface de interação entre o usuário decisor e o sistema \cite{sprague1980framework}. Conforme a classificação de Bennett, citada por \citeonline[p. 17]{sprague1980framework}, essa interface é dividida em: (i) linguagem de ação (o que o usuário pode fazer para se comunicar com o sistema); (ii) linguagem de apresentação (o que o usuário visualiza na tela); e (iii) base de conhecimento (o conhecimento prévio que o usuário deve portar para interagir efetivamente).
+    \item \textbf{Subsistema de Dados (\textit{Database Management System} -- DBMS):} Responsável pela captura, extração e gerência de dados de fontes internas e externas \cite{sprague1980framework}. Sprague \cite{sprague1980framework} destaca a necessidade de criar uma base de dados logicamente separada dos sistemas operacionais da organização, garantindo flexibilidade de consulta, integração de dados não estruturados e respostas em tempo hábil para decisões estratégicas.
+    \item \textbf{Subsistema de Modelos (\textit{Model Base Management Software} -- MBMS):} Encarregado de catalogar, manter e inter-relacionar modelos analíticos, matemáticos, estatísticos ou de simulação \cite{sprague1980framework}. O diferencial do subsistema de modelos reside em sua integração direta com o subsistema de dados, permitindo que diferentes modelos de simulação operacional, tática ou estratégica comuniquem-se por meio do banco de dados comum \cite{sprague1980framework}.
+\end{itemize}
+
+Além do paradigma DDM, \citeonline{sprague1980framework} postula que as tecnologias de SAD operam em três níveis distintos de abstração: o SAD Específico (\textit{Specific DSS}), que representa a aplicação final e customizada com a qual o decisor interage de fato; o Gerador de SAD (\textit{DSS Generator}), que consiste em pacotes integrados de \textit{hardware} e \textit{software} que facilitam o desenvolvimento ágil de SAD específicos; e as Ferramentas de SAD (\textit{DSS Tools}), que representam os elementos fundamentais e linguagens de programação de menor nível utilizados para construir geradores de SAD.
+
+Um dos principais pilares do desenvolvimento de SAD reside na adoção de uma abordagem de \textbf{projeto iterativo} ou evolutivo (\textit{evolutionary design}) \cite{sprague1980framework}. Por se tratar de sistemas direcionados a problemas mal definidos, onde os requisitos funcionais não podem ser totalmente antecipados, o ciclo de vida de desenvolvimento tradicional de engenharia de software (como o modelo em cascata) mostra-se inadequado \cite{sprague1980framework}. Em contrapartida, Sprague defende que as fases de análise, projeto, codificação e implementação devem se fundir em um único ciclo iterativo de \textit{feedback} rápido \cite{sprague1980framework}, no qual um protótipo operacional inicial é implementado de forma ágil e expandido de forma contínua com base na experiência de uso do tomador de decisão \cite{sprague1980framework}.
+
+Sob uma perspectiva contemporânea, a ascensão dos agentes inteligentes baseados em Grandes Modelos de Linguagem (\textit{Large Language Models} -- LLMs) pode ser compreendida como a convergência moderna e a evolução conceitual direta do paradigma tripartite de Sprague \cite{sprague1980framework, cheng2026, zhao2026survey}. O LLM, ao atuar como um motor central de raciocínio verbal, redefine o subsistema de diálogo tradicional (DGMS), permitindo interações fluidas em linguagem natural e orquestração autônoma de tarefas \cite{cheng2026, zhao2026survey}. 
+
+Simultaneamente, técnicas de Geração Aumentada por Recuperação (\textit{Retrieval-Augmented Generation} -- RAG) atuam como uma evolução do subsistema de dados (DBMS), fornecendo ao agente acesso a bases de conhecimento externas em tempo de inferência \cite{zhao2026survey, lewis2020rag}. Por fim, a capacidade de os agentes baseados em LLMs invocarem e utilizarem ferramentas externas de forma planejada -- como interpretadores de código, calculadoras e algoritmos de aprendizado de máquina para detecção de anomalias -- reflete exatamente a integração dinâmica preconizada pelo subsistema de modelos clássico (MBMS) \cite{cheng2026, zhao2026survey}. 
+
+Para que um sistema de apoio à decisão seja aplicado ao monitoramento ambiental de rios, ele precisa ser alimentado direta ou indiretamente de forma contínua por dados brutos capturados diretamente no meio físico, como por exemplo, por dados de sensores.
+
+\section{Dados de Sensores}
+\label{sec:dados_sensores}
+
+No contexto da Inteligência Artificial e dos sistemas baseados em agentes, o processamento de fluxos de dados originados por sensores representa o mecanismo primário de percepção ambiental. De acordo com a taxonomia clássica de \citeonline{muller1999}, os agentes podem ser classificados quanto ao seu estado material em agentes de \textit{hardware}, que possuem presença física e interagem diretamente com o mundo físico através de sensores e atuadores, e agentes de \textit{software}, que operam em ambientes virtuais ou computacionais. Contudo, em cenários contemporâneos de monitoramento ambiental e Internet das Coisas (IoT), essa distinção torna-se híbrida: agentes de \textit{software} passam a consumir fluxos contínuos de dados gerados por sensores físicos \textit{in situ} para construir representações internas estáveis do ambiente real, de forma a subsidiar os componentes de planejamento e tomada de decisão \cite{cheng2026, muller1999}.
+
+No domínio dos recursos hídricos, a transição do monitoramento manual convencional --- historicamente baseado na coleta discreta e esparsa de amostras físicas analisadas laboratorialmente \cite{leigh2019framework} --- para sistemas automatizados de alta frequência revolucionou a governança ambiental. Sensores multiparamétricos modernos realizam leituras semi-contínuas de variáveis como turbidez (expressa em NTU) e condutividade elétrica calibrada a 25\,°C (expressa em $\mu$S/cm), registrando dados de forma automática em intervalos temporais curtos, tipicamente de hora em hora ou de acordo com a variação do nível do leito do rio \cite{leigh2019framework}. Essas variáveis atuam frequentemente como substitutos (\textit{surrogates}) em tempo real para a estimativa de poluentes de análise química complexa e demorada, tais como sedimentos suspensos totais e concentrações de fósforo e nitrato \cite{leigh2019framework}.
+
+A despeito dos benefícios analíticos, a coleta contínua em alta frequência submete o sistema aos desafios inerentes à gestão de \textit{Big Data}, caracterizada pela elevada velocidade, variedade e volume dos dados gerados \cite{leigh2019framework}. A geração de dados em tempo quase real impede que auditorias funcionais, checagens e correções de dados sejam realizadas por operadores de forma puramente manual, visto que a velocidade de transmissão excede a capacidade de supervisão humana direta \cite{leigh2019framework}. Consequentemente, torna-se imperativo o desenvolvimento de sistemas automatizados e autônomos robustos para garantir o controle e a garantia de qualidade (QA/QC) dos fluxos de dados antes de sua exibição ou consumo analítico \cite{leigh2019framework}.
+
+Outro desafio crítico associado aos dados de sensores físico-químicos reside na sua natureza dinâmica e inerentemente não estacionária \cite{leigh2019framework}. A turbidez e a condutividade elétrica em rios sofrem influência direta de fenômenos meteorológicos e hidrológicos sazonais, como regimes de vazão e pluviosidade em bacias hidrográficas \cite{leigh2019framework}. Em períodos de alta vazão no período chuvoso, processos erosivos elevam abruptamente a turbidez hídrica; em contrapartida, durante períodos de estiagem, a evaporação e a concentração de íons elevam a condutividade elétrica, as quais sofrem diluição rápida e drástica na ocorrência de novas precipitações \cite{leigh2019framework}. Essas flutuações e relações complexas entre variáveis dificultam a modelagem física ou estatística estacionária tradicional, exigindo que o subsistema de percepção do agente seja capaz de diferenciar variações ecológicas extremas legítimas de anomalias puramente instrumentais causadas por falhas técnicas, calibração incorreta ou bioincrustação (\textit{biofouling}) das sondas físicas \cite{leigh2019framework}.
+
+
+\section{Detecção de Anomalias}
+\label{sec:deteccao_anomalias}
+
+A detecção de anomalias (DA) em séries temporais de sensores ambientais constitui um componente crítico para garantir a confiabilidade de sistemas inteligentes de monitoramento. Anomalias são conceitualmente definidas como observações que diferem marcadamente do padrão de comportamento esperado ou da normalidade dos dados, sendo tipicamente raras e geradas por mecanismos distintos daqueles que produzem os dados normais \cite{leigh2019framework, sun2019building}. No contexto de sensores físico-químicos em redes hídricas, as anomalias decorrem majoritariamente de falhas técnicas instrumentais, tais como esgotamento de baterias, calibração inadequada, falhas de transmissão de dados e, especialmente, a bioincrustação (\textit{biofouling}) das sondas submersas, as quais podem mascarar ou distorcer os padrões ecológicos reais \cite{leigh2019framework}.
+
+De acordo com o framework proposto por \citeonline{leigh2019framework}, as anomalias em séries temporais de qualidade da água podem ser categorizadas em três classes funcionais que demandam diferentes abordagens algorítmicas de detecção:
+
+\begin{itemize}
+    \item \textbf{Classe 1 (Mudanças Repentinas):} Compreende anomalias pontuais ou coletivas que apresentam uma variação abrupta em relação às observações imediatamente vizinhas. Exemplos clássicos incluem grandes picos isolados (\textit{large sudden spikes}), pequenos picos (\textit{small sudden spikes}) e mudanças repentinas de nível (\textit{sudden shifts}) \cite{leigh2019framework}. 
+    \item \textbf{Classe 2 (Detectáveis por Regras):} Representa anomalias que violam limites físicos ou lógicos predefinidos. Engloba valores impossíveis (como turbidez negativa ou condutividade elétrica nula em água natural), valores fora da faixa operacional do sensor (\textit{out-of-range}) e dados ausentes (\textit{missing values}) causados por interrupções na amostragem \cite{leigh2019framework}.
+    \item \textbf{Classe 3 (Dependente de Análise Dinâmica):} Refere-se a anomalias graduais ou de variação estatística complexa, que frequentemente exigem intervenção de especialistas ou técnicas sofisticadas para sua confirmação. Incluem desvios constantes (\textit{constant offsets}), derivas temporais de calibração (\textit{drift}) e períodos de variabilidade anomalamente alta ou baixa \cite{leigh2019framework}.
+\end{itemize}
+
+Para a detecção automática dessas diferentes classes de anomalias, a literatura descreve uma transição de abordagens estáticas e baseadas em regras simples para algoritmos preditivos e técnicas de aprendizado de máquina adaptáveis ao fluxo contínuo de dados. As anomalias de Classe 2 são comumente identificadas por regras de decisão \textit{if-then} automatizadas baseadas em testes de faixa e especificações de sensores \cite{leigh2019framework}. No entanto, as anomalias de Classe 1 e Classe 3 exigem modelos capazes de aprender a dinâmica temporal e a não estacionaridade dos fluxos de dados \cite{leigh2019framework, sun2019building}.
+
+Os métodos tradicionais baseados em regressão, tais como os modelos Autoregressivos Integrados de Médias Móveis (ARIMA) e os modelos RegARIMA (que incorporam covariáveis adicionais), atuam de maneira semi-supervisionada: são treinados em dados livres de erros para aprender o comportamento ``normal'' do sistema e gerar previsões com um intervalo de predição correspondente a $100(1-\alpha)\%$ \cite{leigh2019framework}. Uma observação subsequente é rotulada como anomalia caso caia fora desse intervalo limite \cite{leigh2019framework}. Para mitigar o impacto de anomalias subsequentes no processo de previsão, a integração de mecanismos de mitigação --- onde observações classificadas como anômalas são substituídas por seus respectivos valores previstos (\textit{Anomaly Detection and Mitigation} -- ADAM) --- melhora substancialmente a taxa de detecção de anomalias cumulativas e graduais de Classe 3, embora possa elevar a taxa de falsos positivos \cite{leigh2019framework}.
+
+Alternativamente, os métodos baseados em espaço de características (\textit{feature-space based}) atuam de forma não supervisionada e dispensam a etapa de treinamento de parâmetros \cite{leigh2019framework}. Essas técnicas, tais como o algoritmo \textit{HDoutliers} e abordagens baseadas em K-Vizinhos Mais Próximos ($k$NN-agg e $k$NN-sum), aplicam transformações de derivadas (unidirecionais ou bidirecionais) sobre as séries temporais originais para projetar os dados em um espaço multidimensional, onde a distância euclidiana ou a densidade local de cada ponto é mapeada \cite{leigh2019framework}. O limite anômalo é definido matematicamente por meio da teoria de valores extremos, fornecendo uma base probabilística para a separação de \textit{outliers} \cite{leigh2019framework}.
+
+No domínio dos sistemas inteligentes de monitoramento hídrico e Internet das Coisas (IoT), a necessidade de processamento contínuo em tempo real de grandes volumes de dados de sensores (\textit{data streams}) impulsionou a adoção de paradigmas de Processamento de Eventos Complexos (CEP -- \textit{Complex Event Processing}) integrados a algoritmos eficientes de aprendizado de máquina \cite{sun2019building}. Conforme demonstrado por \citeonline{sun2019building}, motores de CEP de alto desempenho (como o Apache Kafka) integrados a bancos de dados de séries temporais (como o InfluxDB) viabilizam a ingestão e o processamento de dados contínuos com baixíssima latência.
+
+Nesse ecossistema de fluxo contínuo, destaca-se a aplicação do algoritmo \textit{Isolation Forest} (IFO) para detecção de anomalias em séries temporais de sensores \cite{sun2019building}. Diferentemente de classificadores tradicionais que buscam definir perfis normais complexos (como \textit{Support Vector Machines}), o IFO baseia-se na premissa de que anomalias são escassas e possuem atributos muito diferentes dos dados normais, tornando-as mais suscetíveis ao isolamento por meio de partições aleatórias em uma estrutura de árvores de decisão (\textit{random trees}) \cite{sun2019building}. O algoritmo calcula um escore de anomalia baseado no comprimento médio dos caminhos necessários para isolar os pontos nas árvores; pontos com caminhos significativamente curtos são rotulados como anomalias \cite{sun2019building}. Devido à sua complexidade computacional linear e baixo requisito de memória, o \textit{Isolation Forest} mostra-se altamente escalável para dados de sensores ambientais de alta frequência \cite{sun2019building}.
+
+Por fim, os desafios práticos da detecção de anomalias em geociências e monitoramento ambiental envolvem lidar com o severo desbalanceamento de classes e a alta sazonalidade dos ecossistemas \cite{leigh2019framework, sun2019building}. Conforme destacado na literatura, o principal desafio analítico reside na diferenciação precisa entre anomalias técnicas instrumentais e variações ecológicas extremas legítimas do próprio corpo d'água (como picos de turbidez devidos a enxurradas sazonais decorrentes de precipitação intensa), o que demanda a incorporação de conhecimento de domínio e a combinação híbrida de múltiplos métodos de detecção de forma modular e adaptável \cite{leigh2019framework, sun2019building}.
+
+
+\section{Monitoramento da Qualidade da Água}
+\label{sec:monitoramento_agua}
+
+O monitoramento da qualidade da água é uma atividade complexa e multidisciplinar, essencial para a gestão sustentável dos recursos hídricos e para a preservação dos ecossistemas aquáticos. Embora a avaliação hídrica tenha sido exaustivamente estudada pela comunidade científica nas últimas décadas, a literatura aponta para a ausência de uma estratégia holística ou universalmente aceita que gerencie de forma integrada todas as etapas do ciclo de monitoramento --- desde o planejamento conceitual inicial até a aplicação prática e governança dos dados gerados no campo \cite{behmel2016water}. A formulação e implementação de Programas de Monitoramento da Qualidade da Água (PMQA, ou \textit{Water Quality Monitoring Programs -- WQMPs}) frequentemente enfrentam falhas devido à desconexão crônica entre o desenho técnico das amostragens e as necessidades reais de tomada de decisão de gestores de bacias hidrográficas \cite{behmel2016water}.
+
+Para mitigar essas limitações metodológicas, \citeonline{behmel2016water} propõem um arcabouço estruturado na identificação de 13 casos de uso específicos que devem ser obrigatoriamente endereçados para conceber, implementar ou otimizar um PMQA. Esses casos de uso englobam decisões críticas que variam desde a definição da rede física de monitoramento (como a seleção de locais e pontos de amostragem) e a classificação de parâmetros prioritários de qualidade de água, até aspectos operacionais de logística de amostragem, estimativas de viabilidade orçamentária e a definição de estratégias eficientes de fluxo de dados e comunicação \cite{behmel2016water}. Por não existir uma solução de monitoramento de aplicação única e universal (\textit{one-size-fits-all}), dada a heterogeneidade geográfica, ecológica e socioeconômica de cada bacia, torna-se indispensável o desenvolvimento de tecnologias de suporte adaptáveis \cite{behmel2016water}. Nesse horizonte, os autores defendem o desenvolvimento de Sistemas Inteligentes de Apoio à Decisão (SAD Inteligentes, ou \textit{Intelligent Decision Support Systems -- IDSS}) capazes de cruzar de forma sinérgica o conhecimento científico especializado de analistas hídricos com a participação ativa e os objetivos práticos dos gestores locais de bacias \cite{behmel2016water}.
+
+Adicionalmente, as inovações em sensores físicos e conectividade aceleraram a transição de programas clássicos de coleta manual e descontínua --- marcados pelo atraso analítico de ensaios laboratoriais tradicionais --- para o monitoramento contínuo em alta frequência por meio de sondas automatizadas \textit{in situ} \cite{leigh2019framework}. Variáveis dinâmicas como turbidez e condutividade elétrica operam como indicadores indiretos e preditivos de anomalias hídricas de maior complexidade físico-química \cite{leigh2019framework}.
+
+Nesse contexto tecnológico, a integração de agentes inteligentes baseados em Grandes Modelos de Linguagem (LLMs) representa a concretização da evolução dos IDSS recomendada pela literatura de gestão hídrica \cite{behmel2016water, cheng2026, zhao2026survey}. O agente cognitivo atua como o elo de conexão capaz de orquestrar dinamicamente os requisitos dos 13 casos de uso de um PMQA \cite{behmel2016water}. Ao processar fluxos contínuos de sensores (Seção~\ref{sec:dados_sensores}) e disparar algoritmos de detecção de anomalias em tempo real (Seção~\ref{sec:deteccao_anomalias}), o agente contextualiza o estado físico-químico da bacia, filtra ruídos operacionais e instrumentais das sondas e formula diagnósticos explicativos em linguagem natural acessível para gestores de recursos hídricos, superando a barreira histórica entre a engenharia de dados e a governança ambiental ativa \cite{behmel2016water, leigh2019framework, sun2019building}.

@@ -1,0 +1,46 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Cheng \textit{et al.} 2026]{cheng2026}
+\abntrefinfo{Cheng \textit{et al.}}{CHENG \textit{et al.}}{2026}
+{CHENG, Y.; ZHANG, C.; ZHANG, Z.; MENG, X.; HONG, S.; LI, W.; WANG, Z.; WANG, Z.; YIN, F.; ZHAO, J.; HE, X. Exploring large language model-based intelligent agents: Definitions, methods, and prospects.
+\emph{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery}, 2026.}
+
+\bibitem[LeCun, Bengio e Hinton 2015]{lecun2015deep}
+\abntrefinfo{LeCun, Bengio e Hinton}{LECUN; BENGIO; HINTON}{2015}
+{LECUN, Y.; BENGIO, Y.; HINTON, G. Deep learning.
+\emph{Nature}, v.~521, n.~7553, p. 436--444, 2015.}
+
+\bibitem[Leigh \textit{et al.} 2019]{leigh2019framework}
+\abntrefinfo{Leigh \textit{et al.}}{LEIGH \textit{et al.}}{2019}
+{LEIGH, C.; ALSIBAI, O.; HYNDMAN, R.~J.; KANDANAARACHCHI, S.; KING, O.~C.; MCGREE, J.~M.; NEELAMRAJU, C.; STRAUSS, J.; TALAGALA, P.~D.; TURNER, R. D.~R.; MENGERSEN, K.; PETERSON, E.~E. A framework for automated anomaly detection in high frequency water-quality data from in situ sensors.
+\emph{Science of The Total Environment}, Elsevier, v.~664, p. 885--898, 2019.}
+
+\bibitem[Lewis \textit{et al.} 2020]{lewis2020rag}
+\abntrefinfo{Lewis \textit{et al.}}{LEWIS \textit{et al.}}{2020}
+{LEWIS, P.; PEREZ, E.; PIKTUS, A.; PETRONI, F.; KARPUKHIN, V.; GOYAL, N.; KUTTLER, H.; LEWIS, M.; YIH, W.-t.; ROCKTASCHEL, T.; RIEDEL, S.; KIELA, D. Retrieval-augmented generation for knowledge-intensive nlp tasks. In:  \emph{Advances in Neural Information Processing Systems}. [S.l.: s.n.], 2020. v.~33.}
+
+\bibitem[Müller 1999]{muller1999}
+\abntrefinfo{Müller}{MüLLER}{1999}
+{MüLLER, J.~P. Architectures and applications of intelligent agents: A survey.
+\emph{The Knowledge Engineering Review}, v.~13, n.~4, p. 353--380, 1999.}
+
+\bibitem[Russell e Norvig 2021]{russell2021artificial}
+\abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2021}
+{RUSSELL, S.~J.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 4. ed. Hoboken: Pearson, 2021.}
+
+\bibitem[Sun \textit{et al.} 2019]{sun2019building}
+\abntrefinfo{Sun \textit{et al.}}{SUN \textit{et al.}}{2019}
+{SUN, A.~Y.; ZHONG, Z.; JEONG, H.; YANG, Q. Building complex event processing capability for intelligent environmental monitoring.
+\emph{Environmental Modelling \& Software}, Elsevier, v.~116, p.~1--6, 2019.}
+
+\bibitem[Zhao \textit{et al.} 2026]{zhao2026survey}
+\abntrefinfo{Zhao \textit{et al.}}{ZHAO \textit{et al.}}{2026}
+{ZHAO, W.~X.; ZHOU, K.; LI, J.; TANG, T.; WANG, X.; HOU, Y.; MIN, Y.; ZHANG, B.; ZHANG, J.; DONG, Z.; DU, Y.; CHEN, Y.; CHEN, Y.; CHEN, Z.; JIANG, J.; REN, R.; LI, Y.; TANG, X.; LIU, Z.; LIU, P.; NIE, J.-Y.; WEN, J.-R. A survey of large language models.
+\emph{Frontiers of Computer Science}, v.~20, n.~12, p. 2012627, 2026.}
+
+\end{thebibliography}
