@@ -1,0 +1,6 @@
+% Requer \usepackage{pgfplots}; \pgfplotsset{compat=1.18}
+\begin{tikzpicture}
+\begin{axis}[ybar, width=0.78\textwidth, height=6cm, ylabel={Número de publicações}, xlabel={Ano}, symbolic x coords={2025,2026,2027}, xtick=data, ymin=0, ymax=10, ymajorgrids=true, nodes near coords, bar width=24pt, enlarge x limits=0.25]
+\addplot coordinates {(2025,5) (2026,9) (2027,1)};
+\end{axis}
+\end{tikzpicture}

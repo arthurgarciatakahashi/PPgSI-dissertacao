@@ -49,6 +49,12 @@
 % para tabelas melhores 
 \usepackage{tikz}
 % para figuras melhores 
+\usepackage{longtable}
+% para funcionar o fonte
+\usepackage{float}
+% para manter a figura na mesma pagina q ela deveria
+\usepackage{pgfplots}
+% tabela dos artigos
 
 \usetikzlibrary{positioning}
 
@@ -134,6 +140,16 @@
   \widowpenalty10000
   \displaywidowpenalty10000
 
+% ----
+% adiciona fonte
+% ----
+
+  \providecommand{\fonte}[1]{%
+    \par
+    \begin{flushleft}
+        \footnotesize Fonte: #1
+    \end{flushleft}%
+}
 % ----
 % Início do documento
 % ----

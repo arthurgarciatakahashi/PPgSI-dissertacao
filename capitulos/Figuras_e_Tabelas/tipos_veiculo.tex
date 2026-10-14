@@ -1,0 +1,6 @@
+% Requer \usepackage{pgfplots}; \pgfplotsset{compat=1.18}
+\begin{tikzpicture}
+\begin{axis}[ybar, width=0.78\textwidth, height=6cm, ylabel={Número de publicações}, symbolic x coords={Periódico,Conferência}, xtick=data, ymin=0, ymax=15, ymajorgrids=true, nodes near coords, bar width=30pt, enlarge x limits=0.35, xticklabel style={font=\small}]
+\addplot coordinates {(Periódico,13) (Conferência,2)};
+\end{axis}
+\end{tikzpicture}

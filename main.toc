@@ -35,33 +35,33 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Protocolo da revisão do estado da arte}{21}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Tema da revisão}{21}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tipo de revisão}{21}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Questões de pesquisa}{21}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}QP1 -- Aplicações de LLMs no monitoramento da qualidade da água}{21}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}QP2 -- Utilização de dados de sensores}{22}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}QP3 -- Mecanismos de apoio à decisão}{22}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}QP4 -- Limitações e oportunidades de pesquisa}{22}{subsection.A.3.4}%
-\contentsline {section}{\numberline {A.4}Bases de dados usadas}{23}{section.A.4}%
-\contentsline {section}{\numberline {A.5}String de busca}{23}{section.A.5}%
-\contentsline {section}{\numberline {A.6}Estratégia de seleção de estudos primários}{24}{section.A.6}%
-\contentsline {subsection}{\numberline {A.6.1}Critérios de inclusão}{24}{subsection.A.6.1}%
-\contentsline {subsection}{\numberline {A.6.2}Critérios de exclusão}{24}{subsection.A.6.2}%
-\contentsline {section}{\numberline {A.7}Critérios de qualidade}{25}{section.A.7}%
-\contentsline {section}{\numberline {A.8}Estratégia para extração de dados e síntese de resultados}{25}{section.A.8}%
+\contentsline {appendix}{\chapternumberline {A}Protocolo da revisão de escopo}{21}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Objetivo e tipo de revisão}{21}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Questões de pesquisa}{21}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}QP1 -- Aplicações de LLMs e IA generativa}{21}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}QP2 -- Dados de sensores e monitoramento}{21}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}QP3 -- Apoio à decisão}{21}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}QP4 -- Limitações e lacunas}{22}{subsection.A.2.4}%
+\contentsline {section}{\numberline {A.3}Fontes de informação e datas das buscas}{22}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Estratégia de busca documentada}{22}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Critérios de elegibilidade}{23}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Critérios de inclusão}{23}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}Critérios de exclusão}{23}{subsection.A.5.2}%
+\contentsline {section}{\numberline {A.6}Procedimento de seleção}{24}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Extração e síntese dos dados}{25}{section.A.7}%
+\contentsline {section}{\numberline {A.8}Limitações do registro metodológico}{25}{section.A.8}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}Resultados da condução da revisão do estado da arte}{27}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Relato da condução}{27}{section.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}Dados gerais da execução}{27}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Registro das consultas e limitações documentais}{28}{subsection.B.1.2}%
-\contentsline {subsection}{\numberline {B.1.3}Processo de seleção dos estudos primários}{28}{subsection.B.1.3}%
-\contentsline {section}{\numberline {B.2}Tabela dos estudos primários selecionados}{28}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Análise descritiva}{29}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Distribuição dos artigos no tempo}{29}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Tipos de veículos de publicação}{29}{subsection.B.3.2}%
-\contentsline {subsection}{\numberline {B.3.3}Distribuição por país, instituição e autores}{30}{subsection.B.3.3}%
+\contentsline {appendix}{\chapternumberline {B}Relato da condução e resultados da seleção}{26}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Relato da condução}{26}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Fluxo de seleção}{27}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Publicações selecionadas para análise bibliográfica preliminar}{28}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Análise descritiva preliminar}{30}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}Distribuição temporal}{30}{subsection.B.4.1}%
+\contentsline {subsection}{\numberline {B.4.2}Tipos de veículos de publicação}{30}{subsection.B.4.2}%
+\contentsline {subsection}{\numberline {B.4.3}Distribuição por autores, países e instituições}{31}{subsection.B.4.3}%
+\contentsline {section}{\numberline {B.5}Relação com o objetivo do mestrado}{34}{section.B.5}%
+\contentsline {paragraph}{Limitação da seleção.}{34}{section*.8}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }

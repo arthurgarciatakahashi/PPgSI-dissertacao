@@ -1,170 +1,174 @@
-
-\chapter{Resultados da condução da revisão do estado da arte}
+\chapter{Relato da condução e resultados da seleção}
 \label{ap:resultados}
 
 \section{Relato da condução}
 
-\subsection{Dados gerais da execução}
+As buscas foram executadas em 11 de outubro de 2026 nas cinco fontes bibliográficas descritas no Apêndice~A: Scopus (20 registros), Web of Science (23), ScienceDirect (39), IEEE Xplore (1) e ACM Digital Library (52), totalizando 135 registros. Não foram aplicados filtros adicionais além dos campos e expressões documentados no protocolo. Após a remoção de nove duplicatas, restaram 126 registros para triagem.
 
-As buscas foram realizadas em cinco bases de dados científicas
-no período de 4 de agosto de 2026 a 11 de outubro de 2026. A
-estratégia utilizou termos relacionados ao monitoramento da qualidade
-da água, apoio à decisão, dados de sensores e modelos de linguagem
-de grande porte.
+Na triagem inicial, 70 registros foram excluídos por tipo documental inadequado: 51 volumes completos de anais, seis patentes, seis registros de conjuntos de dados, seis livros completos e um índice de livro. Também foi excluída uma tese/dissertação sem revisão por pares confirmada e 25 registros por incompatibilidade temática. Assim, 30 registros foram encaminhados à avaliação complementar de pertinência baseada em títulos, metadados e justificativas registradas na planilha. Nessa etapa, 13 foram excluídos por incompatibilidade com o escopo. Entre os 17 restantes, dois eram capítulos de livro e foram excluídos conforme o recorte documental definido para esta pesquisa. O conjunto resultante para análise bibliográfica preliminar contém 15 publicações.
 
-A string utilizada na maior parte das plataformas foi:
-
-\begin{verbatim}
-"water quality monitoring" AND "decision support"
-AND "sensor data" AND "large language models"
-\end{verbatim}
-
-Não foi utilizado o termo de exclusão \textit{medical}. A data
-exata de execução de cada consulta não foi preservada no registro
-disponível; portanto, informa-se apenas o período geral conhecido.
-
-A Tabela~\ref{tab:resultados-busca} apresenta a quantidade de registros
-informada para cada base de dados.
+A busca complementar nas listas de referências citadas não acrescentou registros (n = 0), e não houve identificação por outros métodos (n = 0). Na ACM Digital Library, dos 52 registros recuperados, 51 correspondiam a volumes inteiros de anais, não a artigos individuais; o registro individual foi mantido na triagem.
 
 \begin{table}[htbp]
-    \centering
-    \caption{Registros retornados pelas bases de dados}
-    \label{tab:resultados-busca}
-    \begin{tabular}{|l|r|}
-        \hline
-        \textbf{Base de dados} & \textbf{Registros} \\
-        \hline
-        Scopus & 15 \\
-        \hline
-        Web of Science & 22 \\
-        \hline
-        ScienceDirect & 22 \\
-        \hline
-        IEEE Xplore & 2 \\
-        \hline
-        ACM Digital Library & 1 \\
-        \hline
-        \textbf{Total bruto} & \textbf{62} \\
-        \hline
-    \end{tabular}
-    % -- o\fonte nao ta definido ainda... pensar
-    % \fonte{Elaboração própria, com base nos resultados das buscas.}
+\centering
+\caption{Resultados da identificação e da triagem inicial por fonte}
+\label{tab:triagem-por-fonte}
+\scriptsize
+\begin{tabular}{p{2.7cm}rrrrrr}
+\hline
+\textbf{Fonte} & \textbf{Brutos} & \textbf{Duplic.} & \textbf{Tipo doc.} & \textbf{Tese} & \textbf{Escopo} & \textbf{Candidatos} \\
+\hline
+Scopus & 20 & 0 & 6 & 0 & 8 & 6 \\
+WoS & 23 & 6 & 12 & 1 & 1 & 3 \\
+ScienceDirect & 39 & 3 & 1 & 0 & 16 & 19 \\
+IEEE Xplore & 1 & 0 & 0 & 0 & 0 & 1 \\
+ACM Digital Library & 52 & 0 & 51 & 0 & 0 & 1 \\
+\textbf{Total} & \textbf{135} & \textbf{9} & \textbf{70} & \textbf{1} & \textbf{25} & \textbf{30} \\
+\hline
+\end{tabular}
+\normalsize
+\fonte{Elaboração própria. A coluna candidatos representa os registros que avançaram à avaliação complementar, antes das 15 exclusões posteriores (13 por escopo e duas por tipo documental).}
 \end{table}
 
-A soma dos resultados informados pelas cinco bases totalizou
-62 registros brutos. Esse total representa a quantidade de resultados
-retornados antes da consolidação e da remoção de duplicatas. Assim,
-não corresponde necessariamente à quantidade de estudos únicos.
+\section{Fluxo de seleção}
 
-\subsection{Registro das consultas e limitações documentais}
+A Figura~\ref{fig:fluxo-selecao-prisma} sintetiza as etapas e os quantitativos. Os 15 registros finais foram selecionados por triagem bibliográfica de título e metadados; como não foi realizada leitura integral neste momento, são tratados como publicações selecionadas para análise bibliográfica preliminar, e não como elegibilidade confirmada por texto completo.
 
-As buscas foram conduzidas ao longo do período informado, mas
-não há registro disponível da data exata de cada consulta. Por
-esse motivo, não é possível associar uma data individual a cada
-base sem introduzir uma informação não documentada.
+\input{capitulos/Figuras_e_Tabelas/fluxo_prisma.tex}
 
-A string principal foi utilizada na maior parte das plataformas.
-As adaptações específicas de sintaxe, os campos pesquisados e
-os filtros próprios de cada mecanismo não estão integralmente
-documentados nesta versão. Essa limitação deverá ser considerada
-na avaliação da reprodutibilidade do processo de busca.
+\section{Publicações selecionadas para análise bibliográfica preliminar}
 
-Os endereços das plataformas foram utilizados para consultar
-os resultados. Entretanto, os endereços disponíveis para IEEE
-Xplore e ACM Digital Library correspondem às páginas gerais
-das plataformas, não constituindo, isoladamente, evidência
-persistente da consulta específica realizada.
+A Tabela~\ref{tab:estudos-selecionados} apresenta as 15 publicações mantidas após a triagem. O conjunto inclui artigos de periódicos e artigos de conferência relacionados, em diferentes graus, a monitoramento da água, sistemas hídricos, LLMs, IA generativa, RAG ou apoio à decisão. A seleção foi feita a partir de título e metadados; não se afirma que os textos completos tenham sido avaliados.
 
-\subsection{Processo de seleção dos estudos primários}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.7cm}@{\hspace{0.25cm}}>{\raggedright\arraybackslash}p{2.5cm}@{\hspace{0.25cm}}>{\raggedright\arraybackslash}p{8.0cm}@{}}
+\caption{Publicações selecionadas para análise bibliográfica preliminar} \label{tab:estudos-selecionados}\\
+\hline
+\textbf{Referência} & \textbf{Fonte} & \textbf{Título} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Referência} & \textbf{Fonte} & \textbf{Título} \\
+\hline
+\endhead
+Bhandari et al. (2026) & Scopus & Water Quality Assessment Using Transformer, Quantum Neural Network, XGBoost, and Random Forest Models in an Agentic n8n Workflow with Applications in Maritime Robotics, Education, and Training \\
+Mounce et al. (2025) & Scopus & AI-Augmented Water Quality Event Response: The Role of Generative Models for Decision Support \\
+Rahman et al. (2026) & Scopus & Applications, Challenges, and Future Trends of Artificial Intelligence of Things (AIoT)-Enabled Water Quality and Resource Management \\
+Hosseini et al. (2026) & Scopus & Making waves: A conceptual framework exploring how large language model-based multi-agent systems could reshape water engineering \\
+Li et al. (2026) & WoS & Artificial Intelligence in Surface Water Quality Research and Management: Recent Progress and Future Directions \\
+Wang et al. (2027) & ScienceDirect & Making waves: Emerging risks as regulatory mismatch meets automation in llm-agents like openclaw for water treatment and environmental infrastructure \\
+Shrestha et al. (2025) & ScienceDirect & A community-centric intelligent cyberinfrastructure for addressing nitrogen pollution using web systems and conversational AI \\
+Liu et al. (2025) & ScienceDirect & AI-driven solutions in wastewater treatment and agricultural reuse systems: A comprehensive review \\
+Xu et al. (2025) & ScienceDirect & Enhancing large language models by integrating domain knowledge based data-driven small models for anomaly diagnosis and troubleshooting in wastewater treatment plants \\
+Rashid et al. (2026) & ScienceDirect & The transformative role of artificial intelligence in water resources engineering: A comprehensive review \\
+Alam e Ihsanullah (2026) & ScienceDirect & AI-enabled root-cause diagnosis of water quality anomalies in continuous monitoring networks using a retrieval-augmented generation (RAG) approach \\
+Arslan (2026) & ScienceDirect & Sustainable water information systems with LLMs and RAG: Opportunities and challenges \\
+Taiwo et al. (2025) & ScienceDirect & Making waves: Generative artificial intelligence in water distribution networks: Opportunities and challenges \\
+Vijayakumar et al. (2026) & IEEE Xplore & A Multi-Modal Edge-Ai Framework for Real-Time Industrial Water Quality Monitoring and Automated Epa Compliance Using Iot and Regulatory Llms \\
+Liang et al. (2026) & ACM Digital Library & Large Models in Smart Water Systems \\
+\hline
+\end{longtable}
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.0}
+\normalsize
+\fonte{Elaboração própria com base nos metadados registrados na planilha de triagem. O ano de Wang et al. corresponde ao ano do fascículo indicado na base; a planilha registra disponibilização on-line anterior à data de fascículo.}
 
-Os 62 registros identificados constituem o conjunto inicial de
-resultados da revisão. A partir desse conjunto, devem ser realizadas
-a consolidação dos registros, a identificação de duplicatas e a
-avaliação da elegibilidade das publicações.
+\section{Análise descritiva preliminar}
 
-Nesta versão, as quantidades de duplicatas, exclusões por título
-e resumo, textos completos avaliados e estudos incluídos ainda
-não foram consolidadas. Esses valores não são apresentados como
-resultados porque dependem da execução e do registro das etapas
-de seleção.
+\subsection{Distribuição temporal}
 
-A Figura~\ref{fig:fluxo-revisao} representa, de forma provisória,
-a etapa inicial documentada do processo.
+A distribuição por ano dos 15 registros selecionados é: cinco publicações de 2025, nove de 2026 e uma com ano de fascículo 2027. A concentração em 2026 é compatível com o recorte recente do tema e com a busca realizada em outubro de 2026. O registro de Wang et al. é contado pelo ano de fascículo informado na base, conforme decisão adotada nesta pesquisa.
 
 \begin{figure}[htbp]
-    \centering
-    \fbox{
-        \parbox{0.85\textwidth}{
-            \centering
-            Identificação nas cinco bases de dados
-
-            \vspace{0.3cm}
-
-            Scopus: 15 registros
-
-            Web of Science: 22 registros
-
-            ScienceDirect: 22 registros
-
-            IEEE Xplore: 2 registros
-
-            ACM Digital Library: 1 registro
-
-            \vspace{0.3cm}
-
-            Total inicial: 62 registros
-
-            \vspace{0.3cm}
-
-            Próximas etapas a concluir: remoção de duplicatas,
-            triagem por título e resumo, avaliação dos textos
-            completos e definição do conjunto final de estudos.
-        }
-    }
-    \caption{Etapa inicial documentada do processo de seleção}
-    \label{fig:fluxo-revisao}
-    % -- o\fonte nao ta definido ainda... pensar
-    %\fonte{Elaboração própria.}
+\centering
+\input{capitulos/Figuras_e_Tabelas/distribuicao_ano.tex}
+\caption{Distribuição das publicações selecionadas por ano.}
+\label{fig:distribuicao-ano}
+\fonte{Elaboração própria a partir do ano de publicação registrado nos metadados.}
 \end{figure}
-
-\section{Tabela dos estudos primários selecionados}
-
-A tabela definitiva dos estudos primários deverá ser preenchida
-após a conclusão da seleção. Como essa etapa ainda não foi
-consolidada, não são apresentados títulos, autores ou anos como
-se constituíssem o conjunto final de estudos incluídos.
-
-Após a seleção, a tabela deverá conter, no mínimo, o título
-da publicação, os autores e o ano de publicação. Recomenda-se
-também registrar a base de origem e um identificador persistente,
-quando disponível.
-
-\section{Análise descritiva}
-
-A análise descritiva será realizada sobre o conjunto final de
-estudos selecionados. Como a seleção ainda não foi concluída,
-não são apresentados gráficos de distribuição temporal, veículos
-de publicação, países, instituições ou autores, pois tais análises
-exigem dados bibliográficos consolidados.
-
-\subsection{Distribuição dos artigos no tempo}
-
-Após a seleção dos estudos primários, será elaborado um gráfico
-com a quantidade de publicações por ano. A análise buscará
-identificar a evolução temporal das pesquisas relacionadas ao
-tema da revisão.
 
 \subsection{Tipos de veículos de publicação}
 
-Os estudos selecionados serão classificados de acordo com
-o tipo de veículo de publicação, como periódicos científicos
-e conferências. A distribuição será apresentada em gráfico
-e acompanhada de uma interpretação dos resultados.
+Pelos metadados disponíveis, 13 registros estão associados a periódicos científicos e dois são artigos de conferência (IEEE Xplore e ACM Digital Library). A predominância de artigos de periódicos decorre também da distribuição das fontes consultadas, especialmente ScienceDirect, Scopus e Web of Science. A classificação foi feita pelo veículo registrado na planilha; a confirmação independente da revisão por pares não foi realizada para cada publicação.
 
-\subsection{Distribuição por país, instituição e autores}
+\begin{figure}[htbp]
+\centering
+\input{capitulos/Figuras_e_Tabelas/tipos_veiculo.tex}
+\caption{Distribuição das publicações por tipo de veículo.}
+\label{fig:tipos-veiculo}
+\fonte{Elaboração própria a partir dos metadados bibliográficos.}
+\end{figure}
 
-Serão analisadas as informações bibliográficas relativas aos
-países, às instituições e aos autores dos estudos selecionados.
-Os resultados serão apresentados por meio de gráficos ou tabelas
-adequados à distribuição observada, com o objetivo de identificar
-concentrações de publicações e padrões de colaboração.
+\subsection{Distribuição por autores, países e instituições}
+
+A lista bibliográfica contém publicações de autoria individual e múltipla. Entre os nomes registrados, Ibrahim Demir aparece em duas publicações (Shrestha et al., 2025; Hosseini et al., 2026); os demais nomes não apresentam recorrência identificada no conjunto de 15 registros. Esse resultado deve ser interpretado como frequência de nomes tal como aparecem nos metadados, sem desambiguação de homônimos.
+
+\begin{figure}[htbp]
+\centering
+\input{capitulos/Figuras_e_Tabelas/autores_recorrentes.tex}
+\caption{Autor recorrente identificado nos metadados do conjunto selecionado.}
+\label{fig:autores-recorrentes}
+\fonte{Elaboração própria. O gráfico apresenta apenas a recorrência identificada; os demais nomes aparecem uma vez.}
+\end{figure}
+
+Com base nas afiliações informadas para as 15 publicações mantidas, foram contabilizadas as ocorrências de cada país e instituição por artigo. Como quatro publicações indicam afiliações em mais de um país, a soma das ocorrências por país é superior ao número de publicações. Hong Kong foi mantido como a localização indicada na tabela de afiliações, identificada como Hong Kong (China), sem agregação automática à China continental. Os resultados refletem os dados de afiliação compilados para esta análise e não o país onde cada estudo foi realizado.
+
+\begin{figure}[htbp]
+\centering
+\input{capitulos/Figuras_e_Tabelas/distribuicao_paises.tex}
+\caption{Distribuição dos artigos por país ou localização das afiliações.}
+\label{fig:distribuicao-paises}
+\fonte{Elaboração própria a partir das afiliações compiladas para as 15 publicações. Um artigo pode ser contabilizado em mais de um país.}
+\end{figure}
+
+A China é a localização mais frequente no conjunto (cinco artigos), seguida por Estados Unidos, Paquistão e Reino Unido, com três artigos associados a cada um. Esses números descrevem as afiliações dos autores no corpus selecionado; não demonstram, isoladamente, liderança científica nacional nem o local de aplicação das soluções propostas.
+
+Na distribuição por instituição, a National University of Sciences and Technology (NUST), no Paquistão, e o Harbin Institute of Technology, na China, aparecem associadas a três publicações cada. As outras 14 instituições informadas aparecem uma vez cada, incluindo as duas afiliações de Liang et al. (2026). A contagem foi normalizada para reunir as variantes do nome da mesma instituição quando isso estava explícito nos dados fornecidos.
+
+\begin{figure}[htbp]
+\centering
+\input{capitulos/Figuras_e_Tabelas/instituicoes_recorrentes.tex}
+\caption{Instituições com maior recorrência no conjunto selecionado.}
+\label{fig:instituicoes-recorrentes}
+\fonte{Elaboração própria a partir das afiliações fornecidas. As demais 14 instituições aparecem associadas a um artigo cada.}
+\end{figure}
+
+\begin{center}
+\small
+\begin{tabular}{p{8.0cm}r}
+\hline
+\textbf{Instituição} & \textbf{Artigos associados} \\
+\hline
+Harbin Institute of Technology (HIT) & 3 \\
+National University of Sciences and Technology (NUST) & 3 \\
+Aalto University & 1 \\
+King Fahd University of Petroleum and Minerals (KFUPM) & 1 \\
+King Saud University & 1 \\
+Lamar University & 1 \\
+Southern Methodist University (SMU) & 1 \\
+Southern University of Science and Technology (SUSTech) & 1 \\
+The Hong Kong Polytechnic University (PolyU) & 1 \\
+University of Bologna & 1 \\
+University of Exeter & 1 \\
+University of Iowa & 1 \\
+University of Sheffield & 1 \\
+University of the West of England (UWE Bristol) & 1 \\
+Qinghai Normal University & 1 \\
+Department of Public Security of Qinghai Province & 1 \\
+\hline
+\textbf{Total de ocorrências instituição--artigo} & \textbf{20} \\
+\hline
+\end{tabular}
+\end{center}
+\fonte{Elaboração própria a partir das afiliações compiladas para as 15 publicações. Um artigo pode estar associado a mais de uma instituição. Para Liang et al. (2026), foram contabilizadas as duas instituições informadas nas afiliações: Qinghai Normal University e Department of Public Security of Qinghai Province.}
+
+A distribuição institucional é dispersa: apenas duas instituições aparecem em três publicações cada, enquanto as outras instituições informadas aparecem uma vez. As contagens são descritivas e dependem da consistência dos nomes institucionais fornecidos; variantes explícitas foram reunidas sob uma denominação comum.
+
+\section{Relação com o objetivo do mestrado}
+
+O conjunto selecionado preliminarmente oferece pontos de partida para comparar arquiteturas inteligentes aplicáveis ao monitoramento da água, com atenção especial a sistemas multiagentes baseados em LLMs, integração com dados de sensores, geração aumentada por recuperação (RAG), diagnóstico de anomalias, apoio à decisão e integração de modelos especializados. A análise técnica posterior deverá distinguir propostas conceituais, revisões e implementações avaliadas empiricamente, evitando concluir que uma arquitetura é superior apenas pela presença de termos como ``agente'' ou ``LLM'' no título.
+
+\paragraph{Limitação da seleção.}
+A seleção e a análise descritiva deste apêndice foram concluídas com base em título e metadados, sem leitura integral dos 15 textos. Portanto, os números e gráficos descrevem o conjunto bibliográfico preliminar e não devem ser interpretados como confirmação de elegibilidade em texto completo nem como avaliação da qualidade ou superioridade das arquiteturas.
