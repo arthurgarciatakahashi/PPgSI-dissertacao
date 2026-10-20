@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.11)  14 OCT 2026 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.11)  18 OCT 2026 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1159,7 +1159,7 @@ bibitemlist
 Ap\^endice A.
 [21
 
-] [22] [23] [24]) (./capitulos/apendiceB.tex [25]
+] [22] [23] [24] [25] [26]) (./capitulos/apendiceB.tex [27]
 Ap\^endice B.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 17.
@@ -1170,60 +1170,55 @@ Underfull \hbox (badness 3503) in paragraph at lines 25--25
 []|\OT1/cmr/m/n/9 (+20) ACM Di-gi-tal Li-
  []
 
-[26
+[28
 
-
+] (./capitulos/Figuras_e_Tabelas/fluxo_prisma.tex) [29
 pdfTeX warning (ext4): destination with the same identifier (name{table.B.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.36 
-     ] (./capitulos/Figuras_e_Tabelas/fluxo_prisma.tex) [27
+l.67 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{table.B.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.67 
+     ] [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.42 
+l.76 
      ]
-ignored: Infinite glue shrinkage found in box being split [28] [29] (./capitulos/Figuras_e_Tabelas/distribuicao_ano.tex) (./capitulos/Figuras_e_Tabelas/tipos_veiculo.tex) [30
+ignored: Infinite glue shrinkage found in box being split [31] [32] (./capitulos/Figuras_e_Tabelas/distribuicao_ano.tex) (./capitulos/Figuras_e_Tabelas/tipos_veiculo.tex) (./capitulos/Figuras_e_Tabelas/autores_recorrentes.tex) [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107 
-      ] (./capitulos/Figuras_e_Tabelas/autores_recorrentes.tex
+l.148 \end{figure}
+                  ] (./capitulos/Figuras_e_Tabelas/distribuicao_paises.tex) (./capitulos/Figuras_e_Tabelas/instituicoes_recorrentes.tex
+Underfull \hbox (badness 6675) in paragraph at lines 18--18
+ [][]\OT1/cmr/m/n/10.95 (+20) NUST
+ []
 
-Package pgfplots Warning: Axis range for axis x is approximately empty; enlarging it (it is [0.0:0.0]) on input line 5.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-) [31
+) [34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 
-      
+l.170 \end{figure}
+                  
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 
-      ] (./capitulos/Figuras_e_Tabelas/distribuicao_paises.tex)
-Overfull \hbox (32.94843pt too wide) in paragraph at lines 6--121
- [][] 
- []
-
-(./capitulos/Figuras_e_Tabelas/instituicoes_recorrentes.tex)
-Overfull \hbox (208.00203pt too wide) in paragraph at lines 6--133
- [][] 
- []
-
-[32
+l.170 \end{figure}
+                  ] [35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.164 \end{center}
-                  ] [33
+l.198 \end{center}
+                  
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.165 ... of Public Security of Qinghai Province.}
-                                                  ]) [34]
+l.198 \end{center}
+                  ] [36]) [37]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1238,18 +1233,18 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: 008577A2BC91042ABBF89A2377873E92;3664.
  ) 
 Here is how much of TeX's memory you used:
- 40719 strings out of 467525
- 905375 string characters out of 5418981
- 1602394 words of memory out of 5000000
- 68655 multiletter control sequences out of 15000+600000
- 642824 words of font info for 175 fonts, out of 8000000 for 9000
+ 40745 strings out of 467525
+ 905590 string characters out of 5418981
+ 1603394 words of memory out of 5000000
+ 68667 multiletter control sequences out of 15000+600000
+ 643044 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,1061b,2514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,1061b,2605s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (35 pages, 328670 bytes).
+Output written on main.pdf (38 pages, 335042 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
- 105 named destinations out of 1000 (max. 500000)
- 37770 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 690 PDF objects out of 1000 (max. 8388607)
+ 618 compressed objects within 7 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 37786 words of extra memory for PDF output out of 42996 (max. 10000000)
 

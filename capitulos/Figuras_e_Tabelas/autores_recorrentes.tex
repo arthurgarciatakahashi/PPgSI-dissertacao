@@ -1,6 +1,18 @@
-% Requer \usepackage{pgfplots}; \pgfplotsset{compat=1.18}
+% Recorrência de nomes tal como aparecem nos metadados; sem desambiguação de homônimos.
 \begin{tikzpicture}
-\begin{axis}[ybar, width=0.78\textwidth, height=5cm, ylabel={Número de publicações}, symbolic x coords={Ibrahim Demir}, xtick=data, ymin=0, ymax=3, ymajorgrids=true, nodes near coords, bar width=28pt, enlarge x limits=0.5]
-\addplot coordinates {(Ibrahim Demir,2)};
+\begin{axis}[
+  xbar, width=0.76\textwidth, height=2.8cm,
+  xmin=0, xmax=3, ymin=0.5, ymax=1.5, xlabel={Número de publicações},
+  ytick={1}, yticklabels={Ibrahim Demir}, y dir=reverse,
+  xtick={0,1,2,3},
+  axis lines=left, tick align=outside,
+  xmajorgrids=true, grid style={gray!18},
+  tick label style={font=\small}, label style={font=\small},
+  yticklabel style={font=\small},
+  nodes near coords, nodes near coords style={font=\small\bfseries, xshift=4pt},
+  bar width=16pt, enlarge y limits=0.6,
+  every axis plot/.append style={fill=orange!75!yellow, draw=orange!65!black}
+]
+\addplot coordinates {(2,1)};
 \end{axis}
 \end{tikzpicture}

@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1792015638.1737 "main.aux" "main.bbl" "main" 1792015643.65852 0
+["bibtex main"] 1792356104.59165 "main.aux" "main.bbl" "main" 1792356110.38837 0
   "./abntex2-alf.bst" 1791771476 60064 0819ac8568f9a482510a46e3a8a6f605 ""
   "./abntex2-options.bib" 1791771476 5396 4eb260dac60f150ae608d45252853090 ""
   "./referencias.bib" 1791773061.49508 7667 0e56c1fe65bd75e11214a6af4be7e643 ""
-  "main.aux" 1792015642.42786 37435 4d06397c5fded4f6ec29174b804b3723 "pdflatex"
+  "main.aux" 1792356108.98632 38911 448731eb563f8173fdc3e988af4f3365 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1792015632.53725 "main.idx" "main.ind" "main" 1792015643.65808 0
-  "main.idx" 1792015640.71981 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1792015632.53725 "main.idx" "main.ind" "main" 1792356110.388 0
+  "main.idx" 1792356107.23514 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1792015638.50253 "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" "main.pdf" "main" 1792015643.65903 0
+["pdflatex"] 1792356105.11861 "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" "main.pdf" "main" 1792356110.38902 0
   "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" 1792015630.46 6548 786161f3f98d551eb9cee267360be844 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -261,22 +261,22 @@
   "abntex2abrev.sty" 1791771476 4703 c09bc216a7a951c544ebf85acdfdbec9 ""
   "abntex2cite.sty" 1791771476 41423 a89e7383c2b0a64588bf9617f29323c1 ""
   "abntex2ppgsi.cls" 1791771476 52523 43ddddcbbc574a2638e41bc177af7db6 ""
-  "capitulos/Figuras_e_Tabelas/autores_recorrentes.tex" 1792015481.5239 375 6b9eae89f8c76e5ae66ae278152abe8c ""
-  "capitulos/Figuras_e_Tabelas/distribuicao_ano.tex" 1792015481.73828 401 6f27e408cd279ce14ab6567482baeb78 ""
-  "capitulos/Figuras_e_Tabelas/distribuicao_paises.tex" 1792015481.69303 542 077097efeb3003850b00251fa6838a1f ""
-  "capitulos/Figuras_e_Tabelas/fluxo_prisma.tex" 1792015481.65589 2348 70a2d93e2105c8beae7208fd1610e4fb ""
-  "capitulos/Figuras_e_Tabelas/instituicoes_recorrentes.tex" 1792015481.57006 549 09376979dcb5e423d20d24b3d483c162 ""
+  "capitulos/Figuras_e_Tabelas/autores_recorrentes.tex" 1792300654.18702 755 50ec21d2c282370cc332889217c127b2 ""
+  "capitulos/Figuras_e_Tabelas/distribuicao_ano.tex" 1792300654.1541 759 0cc403c18135f0ee38e02c460b05c0a2 ""
+  "capitulos/Figuras_e_Tabelas/distribuicao_paises.tex" 1792300654.09914 890 8aa6d166a78e132c3b765c72d951677a ""
+  "capitulos/Figuras_e_Tabelas/fluxo_prisma.tex" 1792354298.80962 2266 a41ce7583f05b4349bdfb2195e8bd7fd ""
+  "capitulos/Figuras_e_Tabelas/instituicoes_recorrentes.tex" 1792300653.84979 857 1cc95050c7e7d2d0f4e18fd71e7ac403 ""
   "capitulos/Figuras_e_Tabelas/quadro_agentes_muller.tex" 1791771476 2214 d06f7aa8b246dca67e85041495fb2da6 ""
-  "capitulos/Figuras_e_Tabelas/tipos_veiculo.tex" 1792015481.77747 434 0c5fa71873a3aedd7ca1ea75a89f8901 ""
-  "capitulos/apendiceA.tex" 1792015519.31349 8569 73dabfa237b1c61cdf9be6eeeda9b9b0 ""
-  "capitulos/apendiceB.tex" 1792015503.43275 13850 8f091bb2a9241d41f923b56d8f646d2b ""
+  "capitulos/Figuras_e_Tabelas/tipos_veiculo.tex" 1792300653.9788 756 ede009d459d35f666e3f9e43ae2e3ca7 ""
+  "capitulos/apendiceA.tex" 1792353128.38357 12938 b341c6591a515507c2115d8b76f16ec8 ""
+  "capitulos/apendiceB.tex" 1792355782.98086 15145 5d4ec79ac997b21b2cee447373847d42 ""
   "capitulos/cap2_resumido.tex" 1791764673.49308 22250 1bd86afb4f9a72850c027b1010273004 ""
-  "main.aux" 1792015642.42786 37435 4d06397c5fded4f6ec29174b804b3723 "pdflatex"
-  "main.bbl" 1792015638.48596 3641 c2a73d7eae1fe711512bbebc0c033ed6 "bibtex main"
-  "main.brf" 1792015642.44676 3664 008577a2bc91042abbf89a2377873e92 "pdflatex"
+  "main.aux" 1792356108.98632 38911 448731eb563f8173fdc3e988af4f3365 "pdflatex"
+  "main.bbl" 1792356105.09727 3641 c2a73d7eae1fe711512bbebc0c033ed6 "bibtex main"
+  "main.brf" 1792356109.01279 3664 008577a2bc91042abbf89a2377873e92 "pdflatex"
   "main.ind" 1792015632.78666 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
   "main.tex" 1792015630.46 6548 786161f3f98d551eb9cee267360be844 ""
-  "main.toc" 1792015642.44744 5572 06e9bf4e6e86f005fdfa1fdd6b57d1f8 "pdflatex"
+  "main.toc" 1792356109.01348 5770 ec83efb540e137a89bd9ea5d4dd2b444 "pdflatex"
   "usp_logo.jpg" 1791771476 66077 65e959599585dc3e564498a3f43f155f ""
   (generated)
   "main.aux"

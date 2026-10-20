@@ -21,27 +21,89 @@ leitura integral antes da inclusão definitiva na síntese.
 
 \section{Questões de pesquisa}
 
+As questões foram definidas para mapear a contribuição da literatura em quatro
+camadas complementares: aplicações de IA generativa, integração com dados de
+monitoramento, apoio à decisão e limitações das soluções propostas. A análise
+será orientada por categorias de extração definidas a priori e refinadas durante
+a leitura integral, preservando-se categorias emergentes quando os estudos
+apresentarem aspectos não previstos no protocolo.
+
 \subsection{QP1 -- Aplicações de LLMs e IA generativa}
 
-Quais aplicações de LLMs, IA generativa, RAG ou agentes inteligentes
-têm sido propostas para monitoramento, interpretação ou gestão da
-qualidade da água e de sistemas hídricos?
+\textbf{Questão.} Quais aplicações de LLMs, IA generativa, geração aumentada
+por recuperação (RAG) ou agentes inteligentes têm sido propostas para o
+monitoramento, a interpretação ou a gestão da qualidade da água e de sistemas
+hídricos?
+
+\textbf{Motivação.} Identificar os problemas hídricos que motivam o uso dessas
+tecnologias e distinguir aplicações efetivas de propostas conceituais ou usos
+genéricos de IA.
+
+\textbf{Resposta esperada.} Um mapa de finalidades e tarefas, como interpretação
+de dados, consulta em linguagem natural, diagnóstico, previsão, geração de
+relatórios, recomendação e coordenação de agentes, indicando o contexto hídrico
+quando informado.
+
+\textbf{Estratégia de análise.} Extrair finalidade, contexto de aplicação,
+tecnologia declarada e papel desempenhado pelo LLM/agente. Agrupar os estudos
+por tarefa principal e registrar separadamente trabalhos conceituais, revisões
+e implementações avaliadas empiricamente.
 
 \subsection{QP2 -- Dados de sensores e monitoramento}
 
-Quais tipos de dados de sensores, IoT ou redes de monitoramento contínuo
-são utilizados, e como são tratados, analisados ou interpretados?
+\textbf{Questão.} Quais tipos de dados de sensores, IoT ou redes de
+monitoramento contínuo são utilizados, e como são tratados, analisados ou
+interpretados?
 
-\subsection{QP3 -- Apoio à decisão}
+\textbf{Motivação.} A utilidade de sistemas inteligentes para monitoramento
+hídrico depende dos dados disponíveis, da frequência de coleta e da forma como
+medições e informações contextuais são integradas.
 
-Quais mecanismos de apoio à decisão são descritos, incluindo alertas,
-diagnóstico de anomalias, explicações, recomendações, visualizações e
+\textbf{Resposta esperada.} Uma caracterização dos dados e fontes utilizados,
+como parâmetros físico-químicos, séries temporais, dados operacionais,
+observações remotas ou documentos técnicos, além das etapas de processamento
+relatadas.
+
+\textbf{Estratégia de análise.} Registrar sensores/fontes, parâmetros,
+frequência ou temporalidade, pré-processamento, integração de dados e métodos
+analíticos. Quando um aspecto não for informado, classificá-lo como não
+reportado, sem inferir sua utilização.
+
+\subsection{QP3 -- Mecanismos de apoio à decisão}
+
+\textbf{Questão.} Quais mecanismos de apoio à decisão são descritos, incluindo
+alertas, diagnóstico de anomalias, explicações, recomendações, visualizações e
 interfaces humano--IA?
+
+\textbf{Motivação.} O objetivo aplicado da pesquisa não se limita a identificar
+modelos de IA: importa compreender como os resultados são transformados em
+informações utilizáveis por operadores, especialistas ou gestores.
+
+\textbf{Resposta esperada.} Uma comparação dos mecanismos de apoio à decisão,
+dos usuários a que se destinam e da participação humana prevista no fluxo de
+trabalho.
+
+\textbf{Estratégia de análise.} Codificar o tipo de saída, o usuário-alvo, o
+grau de automação, a possibilidade de intervenção humana e a forma de avaliação
+do apoio à decisão, quando descritos no texto.
 
 \subsection{QP4 -- Limitações e lacunas}
 
-Quais limitações técnicas, metodológicas e de avaliação são relatadas,
-e quais oportunidades de pesquisa permanecem em aberto?
+\textbf{Questão.} Quais limitações técnicas, metodológicas e de avaliação são
+relatadas, e quais oportunidades de pesquisa permanecem em aberto?
+
+\textbf{Motivação.} A identificação de limitações ajuda a evitar conclusões
+baseadas apenas na novidade tecnológica e orienta a definição de requisitos
+para arquiteturas inteligentes aplicáveis ao monitoramento da água.
+
+\textbf{Resposta esperada.} Uma síntese das limitações relacionadas, por
+exemplo, à qualidade e disponibilidade dos dados, confiabilidade das respostas,
+validação empírica, explicabilidade, integração com sistemas existentes,
+segurança e supervisão humana, apenas quando sustentadas pelos estudos.
+
+\textbf{Estratégia de análise.} Extrair limitações e recomendações declaradas
+pelos autores e agrupá-las por tema. Distinguir explicitamente limitações
+relatadas pelos estudos de lacunas interpretadas na síntese desta revisão.
 
 \section{Fontes de informação e datas das buscas}
 
@@ -61,12 +123,12 @@ aplicados filtros adicionais nas consultas descritas.
 \begin{description}
     \item[IEEE Xplore]\mbox{}\\
     {\small\ttfamily\raggedright
-    "water quality monitoring" "decision support" "sensor data" "large language models"\par}
+    "water quality monitoring" AND "decision support" AND "sensor data" AND "large language models"\par}
     Sem filtros.
 
     \item[ScienceDirect]\mbox{}\\
     {\small\ttfamily\raggedright
-    "water quality monitoring" "decision support" "sensor data" "large language models"\par}
+    "water quality monitoring" AND "decision support" AND "sensor data" AND "large language models"\par}
     Sem filtros.
 
     \item[Web of Science]\mbox{}\\
@@ -85,16 +147,20 @@ aplicados filtros adicionais nas consultas descritas.
     Sem filtros.
 \end{description}
 
-As expressões combinam quatro conceitos: monitoramento da qualidade da
-água, apoio à decisão, dados de sensores e modelos de linguagem de grande
-porte. A sintaxe e os campos de busca variam conforme a interface de cada
-base, por isso as expressões são documentadas individualmente para
-favorecer a transparência e a reprodutibilidade do procedimento.
+As expressões combinam quatro conceitos escolhidos por corresponderem ao
+problema aplicado (monitoramento da qualidade da água), à finalidade decisória
+(apoio à decisão), à fonte de dados de interesse (dados de sensores) e à família
+de tecnologia investigada (modelos de linguagem de grande porte). O operador
+AND foi usado para exigir a presença dos quatro conceitos na recuperação. Essa
+opção aumenta a especificidade, mas pode reduzir a sensibilidade e deixar de
+recuperar trabalhos que usem sinônimos ou não mencionem todos os conceitos nos
+campos pesquisados. A sintaxe e os campossão similares mas variam por
+plataforma e portanto são documentados individualmente para favorecer a transparência e
+a reprodutibilidade.
 \section{Critérios de elegibilidade}
 
 Os critérios abaixo constituem a regra de triagem proposta para esta
-versão e deverão ser aplicados consistentemente na leitura de títulos,
-resumos e textos completos.
+versão e deverão ser aplicados consistentemente na leitura dos textos completos.
 
 \subsection{Critérios de inclusão}
 
@@ -107,8 +173,8 @@ resumos e textos completos.
     \item Estudos sobre monitoramento ou qualidade da água; dados de
     sensores, IoT ou monitoramento contínuo; LLMs, IA generativa, RAG
     ou agentes; ou mecanismos de apoio à decisão em sistemas hídricos.
-    \item Publicações com informação suficiente para avaliar sua
-    contribuição, após consulta ao resumo e, quando elegíveis, ao texto
+    \item Publicações com informação suficiente para uma possível
+    contribuição. Primeiramente sendo feita uma consulta ao resumo e, quando elegíveis, ao texto
     completo.
 \end{itemize}
 
@@ -120,7 +186,7 @@ resumos e textos completos.
     volumes inteiros de anais, quando não correspondam a um estudo
     individual.
     \item Livros completos e capítulos de livros, pois não serão considerados
-    parte do corpus elegível desta pesquisa. A unidade de análise será o artigo
+    parte elegível desta pesquisa. A unidade de análise será o artigo
     individual publicado em periódico ou conferência com revisão por pares
     verificável.
     \item Publicações cujo conteúdo não tenha relação suficientemente
@@ -150,8 +216,22 @@ excluídos por incompatibilidade temática. Dos 17 restantes, dois capítulos de
 livro foram excluídos por não atenderem ao recorte documental adotado. Os 15
 registros restantes compõem o conjunto selecionado para a análise bibliográfica
 preliminar apresentada no Apêndice B. Não foi realizada leitura integral nesta
-etapa; por isso, a seleção não deve ser interpretada como validação de todos
+etapa, portanto, a seleção não deve ser interpretada como validação de todos
 os detalhes metodológicos ou de elegibilidade a partir do texto completo.
+
+\section{Estratégia de snowballing e avaliação da qualidade}
+
+Foi prevista a consulta às listas de referências dos estudos mantidos após a
+triagem bibliográfica, como procedimento complementar para identificar
+publicações potencialmente relevantes que não tivessem sido recuperadas pelas
+buscas nas bases. A execução e o resultado desse procedimento são relatados no
+Apêndice B.
+
+Não foi definido um instrumento formal de avaliação da qualidade metodológica
+para esta etapa, pois o objetivo imediato é mapear a literatura e descrever suas
+características. Isso não significa que a qualidade dos estudos tenha sido
+considerada equivalente: limitações de método, validação e evidência empírica
+serão extraídas e descritas quando a leitura integral for realizada.
 
 \section{Extração e síntese dos dados}
 
@@ -165,11 +245,7 @@ orientada pelas questões de pesquisa.
 
 \section{Limitações do registro metodológico}
 
-Nem todos os registros recuperados apresentavam resumo ou metadados
-completos no momento da triagem. Assim, a avaliação preliminar descrita
-neste apêndice baseia-se nos títulos e nos metadados disponíveis e não
-equivale à leitura dos resumos ou dos textos completos de todos os
-registros. Quando o ano de fascículo for posterior à data da busca, será considerada
+Quando o ano de fascículo for posterior à data da busca, será considerada
 a data de disponibilização eletrônica da publicação. Assim, a indicação
 de um ano futuro no fascículo não implica, por si só, que o registro ainda
 não estivesse publicado on-line na data da busca.
