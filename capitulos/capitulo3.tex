@@ -1,0 +1,101 @@
+
+\chapter{Análise do Estado da Arte}
+\label{cap:estado-da-arte}
+
+\section{Questões de pesquisa}
+\label{sec:ea-questoes-pesquisa}
+
+A análise do estado da arte é orientada por quatro questões de pesquisa, que organizam a discussão das aplicações, dos dados utilizados, dos mecanismos de apoio à decisão e das limitações das abordagens investigadas.
+
+\begin{itemize}
+    \item \textbf{QP1 -- Aplicações de LLMs e IA generativa:} Quais aplicações de LLMs, IA generativa, geração aumentada por recuperação (RAG) ou agentes inteligentes têm sido propostas para o monitoramento, a interpretação ou a gestão da qualidade da água e de sistemas hídricos?
+
+    \item \textbf{QP2 -- Dados de sensores e monitoramento:} Quais tipos de dados de sensores, Internet das Coisas (IoT) ou redes de monitoramento contínuo são utilizados, e como são tratados, analisados ou interpretados?
+
+    \item \textbf{QP3 -- Mecanismos de apoio à decisão:} Quais mecanismos de apoio à decisão são descritos, incluindo alertas, diagnóstico de anomalias, explicações, recomendações, visualizações e interfaces entre pessoas e sistemas de inteligência artificial?
+
+    \item \textbf{QP4 -- Limitações e lacunas:} Quais limitações técnicas, metodológicas e de avaliação são relatadas, e quais oportunidades de pesquisa permanecem em aberto?
+\end{itemize}
+
+As questões são discutidas de forma integrada. Essa opção permite relacionar as tecnologias utilizadas às características dos dados, às funções de apoio à decisão e às evidências disponíveis sobre as soluções, evitando tratar cada publicação como uma unidade isolada de descrição.
+
+\section{Aplicações de LLMs e agentes inteligentes em sistemas hídricos}
+\label{sec:ea-aplicacoes}
+
+A utilização de inteligência artificial no domínio hídrico abrange problemas que apresentam diferentes requisitos de processamento, interpretação e tomada de decisão. A análise de medições, a identificação de eventos incomuns e a consulta a informações técnicas não constituem tarefas equivalentes: cada uma exige tipos específicos de dados, métodos de análise e formas de apresentar os resultados aos usuários.
+
+Nesse contexto, é importante distinguir a aplicação de modelos preditivos ou classificadores da utilização de LLMs e agentes inteligentes. Modelos analíticos especializados podem ser utilizados para estimar valores, identificar padrões ou detectar anomalias em séries temporais. Os LLMs, por sua vez, podem contribuir para interpretar solicitações em linguagem natural, organizar informações e produzir explicações textuais. Já os agentes permitem integrar essas capacidades a um fluxo de trabalho que envolve consulta a fontes externas, execução de ferramentas e utilização dos resultados obtidos como contexto para etapas posteriores.
+
+Essa distinção é relevante porque a presença de inteligência artificial em uma solução não implica, necessariamente, o uso de LLMs, assim como o uso de um LLM não caracteriza automaticamente um sistema baseado em agentes. A comparação entre abordagens deve considerar o papel efetivamente desempenhado por cada componente, a tarefa que ele executa e a relação entre suas saídas e o processo decisório.
+
+Os títulos das publicações selecionadas indicam a presença de diferentes linhas de investigação, incluindo sistemas inteligentes para exploração de dados de qualidade da água, modelos generativos para apoio à resposta a eventos, estruturas conceituais multiagentes aplicadas à engenharia hídrica e soluções que combinam técnicas de aprendizado de máquina com fluxos de trabalho agênticos. Essa diversidade sugere que o campo não se limita a uma única arquitetura ou finalidade. Entretanto, a identificação definitiva das contribuições de cada abordagem depende da leitura integral dos estudos, não sendo suficiente inferir seu funcionamento ou desempenho apenas a partir dos títulos e metadados.
+
+Uma distinção central para a pesquisa é aquela entre utilizar um LLM como interface de consulta e incorporá-lo a um sistema que também executa procedimentos analíticos. No primeiro caso, o principal resultado pode ser a resposta textual produzida a partir de uma solicitação. No segundo, o agente pode consultar dados, acionar ferramentas e incorporar os resultados dessas operações à resposta. Essa integração abre possibilidades para tarefas mais complexas, mas também aumenta a necessidade de controlar as ações executadas, verificar as saídas das ferramentas e preservar a rastreabilidade das informações.
+
+Portanto, para o problema investigado, a questão relevante não é apenas se os LLMs podem ser empregados no domínio hídrico, mas como suas capacidades devem ser combinadas com métodos analíticos e fontes de informação verificáveis. Uma arquitetura adequada precisa atribuir responsabilidades claras aos componentes, evitando que o modelo de linguagem seja tratado como substituto de mecanismos especializados de processamento e validação.
+
+\section{Dados de monitoramento e integração com ferramentas analíticas}
+\label{sec:ea-dados}
+
+Os dados utilizados constituem um elemento determinante para a aplicação de sistemas inteligentes ao monitoramento da qualidade da água. Medições provenientes de sensores podem representar parâmetros físico-químicos observados ao longo do tempo, enquanto informações operacionais e documentais podem contribuir para contextualizar as condições de coleta, as características dos equipamentos e os procedimentos associados à interpretação dos resultados.
+
+A análise de dados de sensores apresenta requisitos diferentes daqueles encontrados em tarefas predominantemente textuais. Séries temporais exigem atenção à ordenação cronológica, à frequência de amostragem, aos valores ausentes, às inconsistências e às mudanças no comportamento observado. Além disso, as medições podem ser afetadas por falhas instrumentais e condições ambientais. Como discutido na fundamentação teórica, a identificação de anomalias em dados de qualidade da água requer cuidado para distinguir comportamentos decorrentes de problemas técnicos de variações ambientais legítimas \cite{leigh2019framework}.
+
+Essa característica estabelece uma diferença importante entre o processamento numérico e a interpretação em linguagem natural. Um LLM pode organizar uma explicação sobre determinada ocorrência, mas não deve ser considerado, por si só, um método suficiente para detectar anomalias em dados contínuos. A identificação de padrões precisa estar apoiada em procedimentos analíticos apropriados, cujos resultados possam ser consultados e verificados pelo sistema.
+
+Uma arquitetura integrada pode, portanto, separar o tratamento dos dados, a execução dos métodos analíticos e a interpretação dos resultados. Nessa organização, ferramentas especializadas processam as medições e produzem resultados estruturados; o agente utiliza esses resultados para decidir quais informações adicionais são necessárias, consultar fontes de contexto e construir uma resposta para o usuário. A separação de responsabilidades favorece a rastreabilidade e permite avaliar os componentes de forma individual, embora sua efetividade precise ser verificada na implementação.
+
+A integração com fontes externas também é relevante quando a interpretação depende de informações que não estão presentes nas medições, como documentação técnica, descrições de parâmetros ou registros operacionais. O mecanismo de geração aumentada por recuperação (RAG) oferece uma forma de fornecer ao LLM informações recuperadas de fontes identificáveis durante a elaboração de uma resposta \cite{lewis2020rag}. Contudo, a recuperação de documentos não garante, isoladamente, que o conteúdo recuperado seja correto, atualizado ou suficiente para responder à consulta.
+
+Para o domínio hídrico, a integração deve considerar a origem, a temporalidade e o significado dos dados utilizados. Uma explicação sobre uma alteração observada, por exemplo, precisa distinguir o valor medido, o resultado produzido pelo método analítico e a interpretação formulada pelo agente. Quando não houver informações suficientes para sustentar uma conclusão, o sistema deverá explicitar essa insuficiência em vez de preencher as lacunas por inferência não verificada.
+
+Assim, a contribuição potencial de agentes baseados em LLMs está na coordenação de etapas de consulta, análise e interpretação, e não na substituição indiscriminada dos métodos de processamento de dados. A adequação dessa estratégia depende de como os dados são representados, de quais ferramentas estão disponíveis e de como os resultados intermediários são validados.
+
+\section{Mecanismos de apoio à decisão e participação humana}
+\label{sec:ea-apoio-decisao}
+
+O apoio à decisão pode assumir diferentes formas, desde a apresentação de indicadores e alertas até a organização de evidências, a explicação de resultados e a recomendação de ações que devem ser consideradas por um usuário. Essas funções precisam ser diferenciadas porque exigem níveis distintos de automação e apresentam consequências diferentes quando há erros.
+
+Um alerta informa que determinada condição merece atenção, enquanto um diagnóstico procura caracterizar a situação observada. Uma explicação busca tornar compreensíveis os elementos que sustentam uma interpretação; uma recomendação, por sua vez, sugere uma ação a partir das informações disponíveis. Embora essas funções possam ser combinadas em um mesmo sistema, não se deve presumir que o desempenho em uma delas assegure a qualidade das demais.
+
+Os LLMs podem contribuir para apresentar resultados técnicos em linguagem natural e relacionar informações provenientes de diferentes fontes. Agentes inteligentes podem ampliar essa função ao selecionar ferramentas, recuperar informações complementares e organizar etapas de análise. Entretanto, a fluência de uma resposta não constitui evidência de sua correção. A avaliação de um mecanismo de apoio à decisão precisa considerar a correspondência entre a resposta gerada e os dados que efetivamente a sustentam.
+
+Para aplicações de monitoramento, uma resposta útil deve permitir identificar quais medições, resultados analíticos ou documentos foram considerados. Também deve distinguir observações registradas de interpretações produzidas pelo sistema, explicitar incertezas relevantes e indicar quando as informações disponíveis não permitem uma conclusão segura. Esses requisitos são especialmente importantes quando os resultados podem influenciar a avaliação de eventos ambientais ou a priorização de ações por especialistas e gestores.
+
+A participação humana constitui outro aspecto relevante. A automação pode reduzir o esforço necessário para consultar dados e organizar informações, mas a decisão final pode exigir conhecimento especializado, avaliação do contexto e consideração de fatores que não estão representados no sistema. Por isso, a arquitetura investigada deve ser entendida como apoio à análise, preservando a possibilidade de o usuário examinar as evidências, questionar a interpretação e decidir se a recomendação é apropriada.
+
+Do ponto de vista comparativo, as soluções devem ser avaliadas não apenas pela existência de uma interface conversacional, mas pelo papel dessa interface no processo de decisão. É necessário verificar se ela apenas apresenta informações, se permite consultar ferramentas e dados, se fundamenta as respostas em fontes identificáveis ou se recomenda ações. Essa distinção ajuda a evitar que sistemas com níveis muito diferentes de funcionalidade sejam considerados equivalentes apenas por utilizarem tecnologias de inteligência artificial semelhantes.
+
+A literatura selecionada deverá ser examinada integralmente para determinar quais desses mecanismos estão efetivamente implementados, como são avaliados e quais usuários são considerados. Até que essa análise seja concluída, as categorias apresentadas constituem dimensões para a comparação crítica, não resultados confirmados sobre todas as publicações.
+
+\section{Limitações técnicas, metodológicas e lacunas de pesquisa}
+\label{sec:ea-limitacoes-lacunas}
+
+A integração entre LLMs, agentes inteligentes e sistemas de monitoramento reúne desafios que precisam ser considerados em conjunto. As limitações podem estar relacionadas aos dados de entrada, aos métodos analíticos, à recuperação de informações, ao comportamento do modelo de linguagem ou à coordenação dos componentes da arquitetura. Uma solução pode apresentar bom desempenho em uma dessas dimensões e, ainda assim, produzir resultados inadequados quando o fluxo completo é considerado.
+
+Uma primeira dimensão é a confiabilidade dos dados. Medições incompletas, ruído instrumental, falhas de transmissão e alterações ambientais podem comprometer a interpretação dos resultados. Nesse caso, a geração de explicações em linguagem natural não corrige automaticamente problemas na origem. A arquitetura precisa preservar informações sobre a qualidade dos dados e evitar que resultados analíticos incertos sejam apresentados como conclusões definitivas.
+
+Uma segunda dimensão diz respeito à fundamentação das respostas. LLMs podem produzir conteúdo plausível sem que todas as afirmações estejam sustentadas pelas fontes consultadas. A utilização de RAG e de ferramentas externas pode ampliar o acesso a informações, mas introduz dependência da qualidade da recuperação, da atualização das fontes e da correspondência entre o conteúdo recuperado e a pergunta formulada. Consequentemente, a avaliação deve verificar não apenas a forma da resposta, mas também sua consistência com as evidências disponíveis.
+
+Uma terceira dimensão é a avaliação empírica. Resultados obtidos em demonstrações conceituais ou exemplos limitados não são necessariamente suficientes para sustentar conclusões sobre o uso de uma arquitetura em condições operacionais. A análise dos estudos precisa distinguir propostas conceituais, protótipos, experimentos controlados e aplicações avaliadas em cenários reais, registrando as diferenças entre seus níveis de evidência. Também é necessário examinar quais métricas são utilizadas e se elas correspondem às tarefas que o sistema pretende apoiar.
+
+A comparação entre trabalhos pode ser dificultada quando as soluções utilizam conjuntos de dados, tarefas, condições experimentais e critérios de avaliação diferentes. Nessas circunstâncias, a comparação direta de resultados numéricos pode ser inadequada. Uma síntese qualitativa deve explicitar as diferenças de contexto e de finalidade, identificando o que pode ser comparado e quais conclusões permanecem restritas a cada cenário.
+
+Também devem ser considerados os desafios de integração e supervisão. Agentes que executam múltiplas etapas podem acumular erros, selecionar ferramentas inadequadas ou produzir respostas inconsistentes a partir de resultados intermediários. Em arquiteturas com múltiplos agentes, a coordenação entre componentes acrescenta questões relacionadas à comunicação, à redundância e à consistência das saídas. Esses riscos tornam necessário definir mecanismos de verificação e critérios claros para interromper o processamento ou solicitar intervenção humana.
+
+A partir dessas dimensões, algumas lacunas constituem prioridades para a investigação proposta. A primeira consiste em compreender como integrar ferramentas analíticas especializadas a agentes baseados em LLMs sem confundir a geração de linguagem com a análise dos dados. A segunda envolve assegurar que as respostas produzidas possam ser relacionadas a medições, resultados de ferramentas e fontes de informação identificáveis. A terceira diz respeito à avaliação da abordagem em tarefas delimitadas, com critérios explícitos de correção, utilidade e confiabilidade. Por fim, permanece relevante compreender como manter a supervisão humana e comunicar incertezas em situações nas quais os dados são incompletos ou ambíguos.
+
+Essas lacunas devem ser tratadas como questões a verificar na síntese definitiva da literatura. A confirmação de que são pouco exploradas, assim como a identificação de outras lacunas específicas, depende da leitura integral e da comparação sistemática das contribuições dos estudos selecionados.
+
+\section{Síntese crítica e implicações para a pesquisa}
+\label{sec:ea-sintese}
+
+A análise conceitual permite distinguir três funções que podem ser articuladas em sistemas de apoio à decisão para o monitoramento da qualidade da água: o processamento analítico das medições, a coordenação de ferramentas e fontes de informação e a apresentação contextualizada dos resultados ao usuário. Essas funções são complementares, mas não intercambiáveis. Os métodos de análise de dados devem produzir resultados apropriados à tarefa; o agente deve coordenar consultas e operações de acordo com regras definidas; e o LLM pode contribuir para organizar e comunicar as informações resultantes.
+
+Essa separação também orienta a avaliação da arquitetura. A qualidade de uma resposta textual não demonstra, por si só, que a anomalia foi identificada corretamente. Da mesma forma, a detecção de um valor atípico não comprova que sua causa foi identificada ou que a recomendação apresentada seja apropriada. A avaliação precisa, portanto, considerar as etapas do fluxo de trabalho e as relações entre os dados de entrada, os resultados analíticos, as fontes consultadas e a resposta final.
+
+Em relação à QP1, a comparação deverá estabelecer quais tarefas são efetivamente atribuídas aos LLMs e aos agentes, distinguindo usos de linguagem natural, recuperação de informações, execução de ferramentas e coordenação de processos. Em relação à QP2, deverá identificar os tipos de dados e as operações de tratamento e análise descritas, sem inferir o uso de sensores ou séries temporais quando isso não estiver documentado. Para a QP3, deverá diferenciar alertas, diagnósticos, explicações, recomendações e interfaces, considerando o usuário-alvo e a participação humana. Finalmente, para a QP4, deverá relacionar as limitações reportadas pelos estudos às condições de avaliação e às lacunas que possam ser sustentadas pela comparação entre as publicações.
+
+Para a pesquisa em desenvolvimento, essa síntese aponta para a necessidade de uma abordagem que integre dados e ferramentas analíticas a um agente baseado em LLM, com mecanismos de recuperação de informação quando necessários e com respostas fundamentadas em evidências identificáveis. A arquitetura deverá permitir distinguir resultados computacionais de interpretações textuais, explicitar insuficiências de informação e preservar a possibilidade de verificação pelo usuário.
+
+Entretanto, essas implicações ainda devem ser confrontadas com as contribuições e os resultados efetivamente descritos nos textos completos. A análise definitiva do estado da arte deverá confirmar, refinar ou rejeitar as lacunas aqui formuladas, comparando as arquiteturas, os dados, os mecanismos de apoio à decisão e as evidências de avaliação de cada abordagem. Dessa forma, a proposta de pesquisa será fundamentada não apenas nas possibilidades gerais das tecnologias, mas também nas evidências e limitações identificadas na literatura.

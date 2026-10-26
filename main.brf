@@ -1,62 +1,66 @@
-\backcite {russell2021artificial}{{5}{2.1}{section.2.1}}
-\backcite {russell2021artificial}{{5}{2.1}{section.2.1}}
-\backcite {lecun2015deep}{{5}{2.1}{section.2.1}}
-\backcite {lecun2015deep}{{5}{2.1}{section.2.1}}
-\backcite {russell2021artificial}{{5}{2.2}{section.2.2}}
-\backcite {muller1999}{{6}{2.2}{section.2.2}}
-\backcite {muller1999}{{6}{2.2}{section.2.2}}
-\backcite {muller1999}{{6}{2.2}{section.2.2}}
-\backcite {muller1999}{{6}{2.2}{section.2.2}}
-\backcite {muller1999}{{6}{2.2}{section.2.2}}
-\backcite {cheng2026}{{6}{2.2}{quadro.2.1}}
-\backcite {muller1999}{{7}{1}{quadro.2.1}}
-\backcite {muller1999,cheng2026}{{7}{2.2}{quadro.2.1}}
-\backcite {muller1999,cheng2026}{{7}{2.2}{quadro.2.1}}
-\backcite {zhao2026survey}{{8}{2.3}{section.2.3}}
-\backcite {zhao2026survey}{{8}{2.3}{section.2.3}}
-\backcite {zhao2026survey}{{8}{2.3}{section.2.3}}
-\backcite {lewis2020rag}{{8}{2.3.1}{subsection.2.3.1}}
-\backcite {zhao2026survey}{{9}{2.3.1}{subsection.2.3.1}}
-\backcite {zhao2026survey}{{9}{2.3.1}{subsection.2.3.1}}
-\backcite {zhao2026survey}{{9}{2.3.2}{subsection.2.3.2}}
-\backcite {zhao2026survey}{{9}{2.3.2}{subsection.2.3.2}}
-\backcite {zhao2026survey}{{9}{2.3.2}{subsection.2.3.2}}
-\backcite {zhao2026survey}{{10}{2.3.2}{subsection.2.3.2}}
-\backcite {muller1999}{{10}{2.4}{section.2.4}}
-\backcite {cheng2026,zhao2026survey}{{10}{2.4}{section.2.4}}
-\backcite {cheng2026,zhao2026survey}{{10}{2.4}{section.2.4}}
-\backcite {cheng2026,zhao2026survey}{{11}{2.4.1}{subsection.2.4.1}}
-\backcite {cheng2026,zhao2026survey}{{11}{2.4.1}{subsection.2.4.1}}
-\backcite {zhao2026survey}{{11}{2.4.1}{subsection.2.4.1}}
-\backcite {cheng2026,zhao2026survey}{{11}{2.4.1}{subsection.2.4.1}}
-\backcite {cheng2026,zhao2026survey}{{11}{2.4.1}{subsection.2.4.1}}
-\backcite {zhao2026survey}{{11}{2.4.1}{subsection.2.4.1}}
-\backcite {muller1999,cheng2026,zhao2026survey}{{12}{2.4.1}{subsection.2.4.1}}
-\backcite {muller1999,cheng2026,zhao2026survey}{{12}{2.4.1}{subsection.2.4.1}}
-\backcite {muller1999,cheng2026,zhao2026survey}{{12}{2.4.1}{subsection.2.4.1}}
-\backcite {lewis2020rag}{{12}{2.4.2}{subsection.2.4.2}}
-\backcite {lewis2020rag}{{12}{2.4.2}{subsection.2.4.2}}
-\backcite {zhao2026survey}{{12}{2.4.2}{subsection.2.4.2}}
-\backcite {lewis2020rag,zhao2026survey}{{12}{2.4.2}{subsection.2.4.2}}
-\backcite {lewis2020rag,zhao2026survey}{{12}{2.4.2}{subsection.2.4.2}}
-\backcite {cheng2026,zhao2026survey}{{13}{2.4.3}{subsection.2.4.3}}
-\backcite {cheng2026,zhao2026survey}{{13}{2.4.3}{subsection.2.4.3}}
-\backcite {cheng2026}{{13}{2.4.3}{subsection.2.4.3}}
-\backcite {leigh2019framework}{{13}{2.5}{section.2.5}}
-\backcite {leigh2019framework}{{13}{2.5}{section.2.5}}
-\backcite {leigh2019framework}{{13}{2.5}{section.2.5}}
-\backcite {leigh2019framework}{{13}{2.6}{section.2.6}}
-\backcite {sun2019building}{{14}{2.6}{section.2.6}}
-\backcite {sun2019building}{{14}{2.6}{section.2.6}}
-\backcite {leigh2019framework, sun2019building}{{14}{2.6}{section.2.6}}
-\backcite {leigh2019framework, sun2019building}{{14}{2.6}{section.2.6}}
-\backcite {leigh2019framework, sun2019building}{{14}{2.6}{section.2.6}}
-\backcite {leigh2019framework, sun2019building}{{14}{2.6}{section.2.6}}
-\backcite {muller1999, russell2021artificial}{{14}{2.7}{section.2.7}}
-\backcite {muller1999, russell2021artificial}{{14}{2.7}{section.2.7}}
-\backcite {cheng2026, zhao2026survey}{{14}{2.7}{section.2.7}}
-\backcite {cheng2026, zhao2026survey}{{14}{2.7}{section.2.7}}
-\backcite {lewis2020rag}{{14}{2.7}{section.2.7}}
-\backcite {leigh2019framework, sun2019building}{{14}{2.7}{section.2.7}}
-\backcite {leigh2019framework, sun2019building}{{14}{2.7}{section.2.7}}
-\backcite {tricco2018prismascr}{{21}{A.1}{section.A.1}}
+\backcite {leigh2019framework}{{5}{1.1}{section.1.1}}
+\backcite {lewis2020rag}{{6}{1.1}{section.1.1}}
+\backcite {russell2021artificial}{{14}{2.1}{section.2.1}}
+\backcite {russell2021artificial}{{14}{2.1}{section.2.1}}
+\backcite {lecun2015deep}{{14}{2.1}{section.2.1}}
+\backcite {lecun2015deep}{{14}{2.1}{section.2.1}}
+\backcite {russell2021artificial}{{14}{2.2}{section.2.2}}
+\backcite {muller1999}{{15}{2.2}{section.2.2}}
+\backcite {muller1999}{{15}{2.2}{section.2.2}}
+\backcite {muller1999}{{15}{2.2}{section.2.2}}
+\backcite {muller1999}{{15}{2.2}{section.2.2}}
+\backcite {muller1999}{{15}{2.2}{section.2.2}}
+\backcite {cheng2026}{{15}{2.2}{quadro.2.1}}
+\backcite {muller1999}{{16}{1}{quadro.2.1}}
+\backcite {muller1999,cheng2026}{{16}{2.2}{quadro.2.1}}
+\backcite {muller1999,cheng2026}{{16}{2.2}{quadro.2.1}}
+\backcite {zhao2026survey}{{17}{2.3}{section.2.3}}
+\backcite {zhao2026survey}{{17}{2.3}{section.2.3}}
+\backcite {zhao2026survey}{{17}{2.3}{section.2.3}}
+\backcite {lewis2020rag}{{17}{2.3.1}{subsection.2.3.1}}
+\backcite {zhao2026survey}{{18}{2.3.1}{subsection.2.3.1}}
+\backcite {zhao2026survey}{{18}{2.3.1}{subsection.2.3.1}}
+\backcite {zhao2026survey}{{18}{2.3.2}{subsection.2.3.2}}
+\backcite {zhao2026survey}{{18}{2.3.2}{subsection.2.3.2}}
+\backcite {zhao2026survey}{{18}{2.3.2}{subsection.2.3.2}}
+\backcite {zhao2026survey}{{19}{2.3.2}{subsection.2.3.2}}
+\backcite {muller1999}{{19}{2.4}{section.2.4}}
+\backcite {cheng2026,zhao2026survey}{{19}{2.4}{section.2.4}}
+\backcite {cheng2026,zhao2026survey}{{19}{2.4}{section.2.4}}
+\backcite {cheng2026,zhao2026survey}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {cheng2026,zhao2026survey}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {zhao2026survey}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {cheng2026,zhao2026survey}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {cheng2026,zhao2026survey}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {zhao2026survey}{{20}{2.4.1}{subsection.2.4.1}}
+\backcite {muller1999,cheng2026,zhao2026survey}{{21}{2.4.1}{subsection.2.4.1}}
+\backcite {muller1999,cheng2026,zhao2026survey}{{21}{2.4.1}{subsection.2.4.1}}
+\backcite {muller1999,cheng2026,zhao2026survey}{{21}{2.4.1}{subsection.2.4.1}}
+\backcite {lewis2020rag}{{21}{2.4.2}{subsection.2.4.2}}
+\backcite {lewis2020rag}{{21}{2.4.2}{subsection.2.4.2}}
+\backcite {zhao2026survey}{{21}{2.4.2}{subsection.2.4.2}}
+\backcite {lewis2020rag,zhao2026survey}{{21}{2.4.2}{subsection.2.4.2}}
+\backcite {lewis2020rag,zhao2026survey}{{21}{2.4.2}{subsection.2.4.2}}
+\backcite {cheng2026,zhao2026survey}{{22}{2.4.3}{subsection.2.4.3}}
+\backcite {cheng2026,zhao2026survey}{{22}{2.4.3}{subsection.2.4.3}}
+\backcite {cheng2026}{{22}{2.4.3}{subsection.2.4.3}}
+\backcite {leigh2019framework}{{22}{2.5}{section.2.5}}
+\backcite {leigh2019framework}{{22}{2.5}{section.2.5}}
+\backcite {leigh2019framework}{{22}{2.5}{section.2.5}}
+\backcite {leigh2019framework}{{22}{2.6}{section.2.6}}
+\backcite {sun2019building}{{23}{2.6}{section.2.6}}
+\backcite {sun2019building}{{23}{2.6}{section.2.6}}
+\backcite {leigh2019framework, sun2019building}{{23}{2.6}{section.2.6}}
+\backcite {leigh2019framework, sun2019building}{{23}{2.6}{section.2.6}}
+\backcite {leigh2019framework, sun2019building}{{23}{2.6}{section.2.6}}
+\backcite {leigh2019framework, sun2019building}{{23}{2.6}{section.2.6}}
+\backcite {muller1999, russell2021artificial}{{23}{2.7}{section.2.7}}
+\backcite {muller1999, russell2021artificial}{{23}{2.7}{section.2.7}}
+\backcite {cheng2026, zhao2026survey}{{23}{2.7}{section.2.7}}
+\backcite {cheng2026, zhao2026survey}{{23}{2.7}{section.2.7}}
+\backcite {lewis2020rag}{{23}{2.7}{section.2.7}}
+\backcite {leigh2019framework, sun2019building}{{23}{2.7}{section.2.7}}
+\backcite {leigh2019framework, sun2019building}{{23}{2.7}{section.2.7}}
+\backcite {leigh2019framework}{{26}{3.3}{section.3.3}}
+\backcite {lewis2020rag}{{27}{3.3}{section.3.3}}
+\backcite {tricco2018prismascr}{{37}{A.1}{section.A.1}}

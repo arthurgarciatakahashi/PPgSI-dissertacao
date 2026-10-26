@@ -1,0 +1,155 @@
+
+\chapter{Introdução}
+\label{cap:introducao}
+
+\section{Contextualização}
+\label{sec:contextualizacao}
+
+O monitoramento da qualidade da água é uma atividade importante para a gestão dos recursos hídricos, a identificação de alterações ambientais e o apoio à tomada de decisão. A disponibilidade de medições obtidas por sensores permite acompanhar parâmetros físico-químicos ao longo do tempo e observar mudanças nas condições dos corpos d'água. Com a ampliação de sistemas automatizados de monitoramento, torna-se possível obter séries temporais com maior frequência de coleta, aumentando o volume de informações que precisam ser armazenadas, processadas e interpretadas.
+
+Apesar dos benefícios desse tipo de monitoramento, a utilização de dados de sensores apresenta desafios. As medições podem conter valores ausentes, ruídos, inconsistências e alterações decorrentes de falhas instrumentais ou de condições ambientais. Além disso, uma variação significativa em determinado parâmetro não representa necessariamente um problema: ela pode decorrer tanto de uma falha de medição quanto de um evento ambiental legítimo. A distinção entre essas situações exige considerar o comportamento temporal dos dados e o contexto em que foram coletados \cite{leigh2019framework}.
+
+Métodos computacionais de análise de dados e inteligência artificial podem contribuir para o processamento dessas informações, por meio da identificação de padrões, da detecção de anomalias e da geração de alertas. Entretanto, a identificação automática de um comportamento incomum não resolve, por si só, todas as necessidades de interpretação. Em aplicações de monitoramento, também pode ser necessário relacionar as medições observadas a informações contextuais, explicar os resultados em linguagem acessível e fornecer elementos que auxiliem especialistas e gestores a decidir quais ações devem ser consideradas.
+
+Nesse cenário, os modelos de linguagem de grande porte (\textit{Large Language Models} -- LLMs) apresentam possibilidades para a interação em linguagem natural, a síntese de informações e a organização de respostas a partir de diferentes fontes de conhecimento. Quando integrados a ferramentas computacionais, bases de dados e mecanismos de recuperação de informação, esses modelos podem fazer parte de sistemas capazes de executar sequências de tarefas, consultar dados e apoiar processos de análise. A geração aumentada por recuperação (\textit{Retrieval-Augmented Generation} -- RAG), por exemplo, permite combinar a geração textual com informações recuperadas de fontes externas \cite{lewis2020rag}.
+
+A incorporação de LLMs em agentes inteligentes amplia essa possibilidade ao permitir que o modelo participe de um ciclo de interpretação do contexto, planejamento, utilização de ferramentas e análise dos resultados obtidos. Dependendo da arquitetura adotada, o sistema pode consultar dados, acionar procedimentos analíticos e organizar as evidências disponíveis para responder a uma solicitação. Contudo, a utilização de um LLM não garante, isoladamente, a correção das informações geradas. A confiabilidade do sistema depende também da qualidade dos dados, dos mecanismos de integração, da verificação das respostas e da possibilidade de supervisão humana.
+
+Diante desse contexto, esta pesquisa investiga o uso de agentes inteligentes baseados em LLMs como mecanismo de apoio à tomada de decisão em sistemas de monitoramento da qualidade da água. O interesse está na integração entre dados de monitoramento, recursos de análise computacional e capacidades de interação em linguagem natural, considerando tanto as possibilidades de aplicação quanto as limitações técnicas e metodológicas envolvidas.
+
+\section{Motivação e Justificativa}
+\label{sec:justificativa}
+
+A motivação desta pesquisa decorre da necessidade de transformar grandes volumes de medições de monitoramento em informações úteis para a compreensão de situações e para o apoio à tomada de decisão. A existência de sensores e de mecanismos automatizados de coleta não elimina a necessidade de interpretar os dados, verificar a consistência das observações e compreender os fatores que podem explicar alterações nos parâmetros monitorados.
+
+A análise de séries temporais de qualidade da água envolve desafios que vão além da identificação de valores atípicos. Uma alteração observada pode estar associada a um evento ambiental real, a uma falha do sensor ou a um problema de transmissão. Assim, a interpretação deve considerar o comportamento dos dados, a informação contextual disponível e os limites dos métodos utilizados. Abordagens automatizadas podem apoiar essa tarefa, mas seus resultados precisam ser apresentados de forma compreensível e passível de verificação.
+
+Os LLMs oferecem uma alternativa para facilitar a interação com sistemas computacionais por meio da linguagem natural e para sintetizar informações provenientes de diferentes fontes. Quando associados a agentes e ferramentas externas, podem atuar em fluxos de trabalho que envolvem consultas, análises e organização de resultados. Essa combinação justifica investigar arquiteturas que não utilizem o modelo de linguagem como única fonte de decisão, mas que o integrem a dados e procedimentos computacionais verificáveis.
+
+A relevância científica do trabalho está em investigar como essas capacidades podem ser organizadas em uma arquitetura voltada ao monitoramento da qualidade da água, identificando possibilidades, requisitos e limitações. A pesquisa também busca distinguir o potencial conceitual dessas tecnologias das evidências efetivamente disponíveis sobre sua aplicação e avaliação.
+
+Do ponto de vista prático, espera-se que a investigação contribua para orientar o desenvolvimento de sistemas capazes de auxiliar usuários na consulta e interpretação de informações de monitoramento. A proposta não pressupõe substituir especialistas nem transferir decisões críticas integralmente para um modelo de linguagem. O foco é estudar mecanismos computacionais que possam apoiar a análise, explicitar informações relevantes e manter a participação humana no processo decisório.
+
+\section{Problema de pesquisa}
+\label{sec:problema}
+
+Sistemas de monitoramento da qualidade da água podem produzir dados em alta frequência, cuja interpretação exige considerar o comportamento temporal das medições, a possibilidade de falhas instrumentais e o contexto ambiental. Embora métodos de análise de dados possam identificar padrões e anomalias, os resultados precisam ser relacionados a informações contextuais e apresentados de modo que auxiliem a compreensão das situações observadas.
+
+Os agentes inteligentes baseados em LLMs apresentam recursos que podem contribuir para essa integração, especialmente quando associados a ferramentas analíticas, fontes externas de conhecimento e mecanismos de consulta a dados. Entretanto, ainda é necessário compreender como organizar esses componentes de maneira adequada ao domínio, quais tarefas podem ser apoiadas e quais limitações devem ser consideradas para evitar respostas sem fundamentação suficiente.
+
+Dessa forma, o problema de pesquisa consiste em investigar como agentes inteligentes baseados em LLMs podem ser integrados a dados e métodos de análise de sistemas de monitoramento da qualidade da água para apoiar a interpretação das informações e a tomada de decisão, considerando a confiabilidade, a rastreabilidade e a participação humana.
+
+\section{Questões de pesquisa}
+\label{sec:questoes-pesquisa}
+
+A pesquisa é orientada pelas seguintes questões:
+
+\begin{itemize}
+    \item \textbf{QP1 -- Aplicações de LLMs e IA generativa:} Quais aplicações de LLMs, IA generativa, geração aumentada por recuperação (RAG) ou agentes inteligentes têm sido propostas para o monitoramento, a interpretação ou a gestão da qualidade da água e de sistemas hídricos?
+
+    \item \textbf{QP2 -- Dados de sensores e monitoramento:} Quais tipos de dados de sensores, Internet das Coisas (IoT) ou redes de monitoramento contínuo são utilizados, e como são tratados, analisados ou interpretados?
+
+    \item \textbf{QP3 -- Mecanismos de apoio à decisão:} Quais mecanismos de apoio à decisão são descritos, incluindo alertas, diagnóstico de anomalias, explicações, recomendações, visualizações e interfaces entre pessoas e sistemas de inteligência artificial?
+
+    \item \textbf{QP4 -- Limitações e lacunas:} Quais limitações técnicas, metodológicas e de avaliação são relatadas, e quais oportunidades de pesquisa permanecem em aberto?
+\end{itemize}
+
+Essas questões orientam a análise do estado da arte e contribuem para identificar requisitos relevantes para a definição da proposta de pesquisa.
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+\subsection{Objetivo geral}
+\label{subsec:objetivo-geral}
+
+Investigar e propor uma abordagem baseada em agentes inteligentes com LLMs para apoiar a interpretação de dados e a tomada de decisão em sistemas de monitoramento da qualidade da água, considerando a integração com fontes de dados e ferramentas analíticas, a confiabilidade das informações produzidas e a supervisão humana.
+
+\subsection{Objetivos específicos}
+\label{subsec:objetivos-especificos}
+
+Para alcançar o objetivo geral, são definidos os seguintes objetivos específicos:
+
+\begin{itemize}
+    \item Sistematizar os fundamentos teóricos relacionados a agentes inteligentes, LLMs, RAG, dados de sensores, monitoramento da qualidade da água e detecção de anomalias.
+
+    \item Analisar criticamente o estado da arte sobre aplicações de LLMs, IA generativa e agentes inteligentes em sistemas hídricos, considerando dados utilizados, mecanismos de apoio à decisão e limitações relatadas.
+
+    \item Identificar requisitos funcionais e aspectos de confiabilidade relevantes para a integração entre agentes baseados em LLMs, dados de monitoramento e ferramentas analíticas.
+
+    \item Definir uma arquitetura ou abordagem conceitual para apoiar a consulta, a interpretação e a contextualização de informações relacionadas ao monitoramento da qualidade da água.
+
+    \item Estabelecer procedimentos e critérios para avaliar a abordagem proposta, considerando sua adequação às tarefas definidas, a fundamentação das respostas e as limitações identificadas.
+\end{itemize}
+
+\section{Método de pesquisa}
+\label{sec:metodo-pesquisa}
+
+A pesquisa está organizada em etapas complementares, que articulam a fundamentação teórica, a análise do estado da arte, a definição da proposta e seu planejamento de avaliação.
+
+Inicialmente, será realizada a consolidação da fundamentação teórica sobre inteligência artificial, agentes inteligentes, LLMs, mecanismos de recuperação de informação, dados de sensores e detecção de anomalias. Essa etapa fornece os conceitos necessários para delimitar o problema e compreender os componentes tecnológicos que podem integrar a abordagem proposta.
+
+Em seguida, será analisado o estado da arte por meio de uma revisão de escopo da literatura. O objetivo dessa revisão é mapear aplicações, tipos de dados, mecanismos de apoio à decisão e limitações relacionadas ao uso de IA, LLMs e agentes inteligentes no contexto hídrico. O protocolo e o relato da condução da revisão são apresentados nos apêndices, enquanto o Capítulo~\ref{cap:estado-da-arte} será dedicado à análise comparativa e qualitativa do conjunto de estudos.
+
+A partir da fundamentação e da análise da literatura, serão identificados requisitos para a abordagem proposta. Essa etapa deverá considerar as fontes de dados disponíveis, as tarefas analíticas que podem ser executadas por ferramentas externas, o papel do LLM, os mecanismos de recuperação de informação e as formas de apresentar resultados ao usuário. A definição final da arquitetura dependerá da análise dos requisitos e das condições de acesso aos dados.
+
+Posteriormente, será especificada a abordagem e, conforme a viabilidade técnica e a disponibilidade de dados, será desenvolvido um protótipo ou artefato computacional para investigar sua aplicação. A avaliação deverá ser definida de acordo com as funcionalidades efetivamente implementadas e com os dados disponíveis, evitando atribuir ao sistema capacidades que não tenham sido verificadas experimentalmente.
+
+Por fim, os resultados serão analisados em relação aos objetivos da pesquisa, às questões identificadas no estado da arte e às limitações do método. Os procedimentos específicos de implementação e avaliação serão detalhados no capítulo metodológico correspondente.
+
+\section{Cronograma proposto}
+\label{sec:cronograma}
+
+O cronograma a seguir apresenta uma previsão inicial das atividades. Os períodos deverão ser ajustados conforme o calendário do programa, as orientações do orientador e a disponibilidade dos dados necessários à avaliação.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Cronograma proposto para o desenvolvimento da pesquisa}
+    \label{tab:cronograma-pesquisa}
+    \small
+    \begin{tabular}{p{7.5cm}p{2.5cm}}
+        \toprule
+        \textbf{Atividade} & \textbf{Período previsto} \\
+        \midrule
+        Consolidação da fundamentação teórica & Out.--Nov./2026 \\
+        Leitura integral e análise dos estudos selecionados & Out.--Dez./2026 \\
+        Síntese do estado da arte e identificação de lacunas & Nov./2026--Jan./2027 \\
+        Definição dos requisitos e da arquitetura proposta & Jan.--Fev./2027 \\
+        Desenvolvimento ou especificação do protótipo & Fev.--Abr./2027 \\
+        Planejamento e execução da avaliação & Abr.--Mai./2027 \\
+        Análise dos resultados e discussão & Mai.--Jun./2027 \\
+        Redação e revisão dos capítulos finais & Jun.--Jul./2027 \\
+        Revisão geral, ajustes e preparação para defesa & Jul./2027 \\
+        \bottomrule
+    \end{tabular}
+    \fonte{Elaboração própria.}
+\end{table}
+
+\section{Limitações e riscos}
+\label{sec:limitacoes-riscos}
+
+A pesquisa apresenta limitações relacionadas à disponibilidade e à qualidade dos dados, à maturidade das tecnologias investigadas e à possibilidade de avaliar a abordagem em condições representativas de uso.
+
+Uma primeira limitação diz respeito à disponibilidade de dados de monitoramento. A ausência de séries temporais suficientemente longas, dados rotulados ou informações contextuais pode restringir a avaliação de determinadas funcionalidades, especialmente aquelas relacionadas à detecção de anomalias e à interpretação de eventos ambientais. Caso essas restrições ocorram, o escopo experimental deverá ser ajustado e as consequências para a validade dos resultados serão explicitadas.
+
+Outra limitação está relacionada à revisão de escopo. A cobertura da literatura depende das fontes consultadas, das expressões de busca e dos critérios de seleção adotados. Além disso, a seleção bibliográfica preliminar não equivale à confirmação da elegibilidade dos estudos após leitura integral. A análise do estado da arte deverá considerar essas restrições e distinguir evidências consolidadas de propostas conceituais ou resultados ainda insuficientemente avaliados.
+
+O uso de LLMs também envolve riscos de geração de informações incorretas, respostas sem fundamentação suficiente e interpretações inadequadas de dados. Para reduzir esses riscos, a abordagem deverá priorizar a consulta a fontes identificáveis, a utilização de ferramentas analíticas apropriadas, a explicitação das incertezas e a verificação das informações utilizadas para sustentar as respostas. Sempre que necessário, os resultados deverão ser apresentados como apoio à análise, e não como decisão automática.
+
+Há ainda riscos de integração entre componentes, incluindo incompatibilidades entre formatos de dados, limitações de acesso a serviços externos, custos computacionais e variações no comportamento dos modelos. Esses aspectos deverão ser considerados na escolha da arquitetura e no planejamento da avaliação.
+
+Por fim, a generalização dos resultados poderá ser limitada pelo domínio, pelos conjuntos de dados e pelas tarefas utilizadas nos experimentos. A pesquisa deverá registrar as condições em que a abordagem for avaliada e evitar extrapolar conclusões para contextos que não tenham sido investigados.
+
+\section{Estrutura do documento}
+\label{sec:estrutura-documento}
+
+Além deste capítulo introdutório, o documento está organizado em capítulos que desenvolvem os fundamentos, a análise da literatura, o método e a avaliação da pesquisa.
+
+O Capítulo~2 apresenta a fundamentação teórica necessária para compreender os conceitos de inteligência artificial, agentes inteligentes, LLMs, geração aumentada por recuperação, arquiteturas baseadas em agentes, dados de sensores e detecção de anomalias.
+
+O Capítulo~3 apresenta a análise do estado da arte, com uma discussão geral, comparativa e qualitativa dos estudos relacionados ao uso de inteligência artificial, LLMs e agentes inteligentes no monitoramento e na gestão da qualidade da água. O capítulo busca identificar padrões, diferenças entre abordagens, limitações e lacunas relevantes para a pesquisa.
+
+O Capítulo~4 descreve a metodologia da pesquisa e os procedimentos previstos para especificar, desenvolver ou implementar a abordagem proposta e planejar sua avaliação.
+
+O Capítulo~5 apresenta os resultados obtidos com a aplicação ou avaliação da abordagem, incluindo a análise de seu comportamento e a discussão das evidências produzidas.
+
+Por fim, o Capítulo~6 reúne as conclusões, retoma os objetivos da pesquisa, discute as contribuições e limitações do trabalho e apresenta possibilidades de continuidade.

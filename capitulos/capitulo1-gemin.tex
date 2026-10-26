@@ -1,0 +1,58 @@
+\chapter{Introdução}
+\label{cap:introducao}
+
+Este capítulo apresenta a introdução da dissertação, contextualizando o problema de pesquisa, a justificativa, a hipótese, os objetivos e a estrutura do trabalho.
+
+\section{Contextualização e Motivação}
+
+O monitoramento da qualidade da água em tempo real por meio de sensores \textit{in situ} e de alta frequência tem se consolidado como uma abordagem fundamental para a gestão sustentável dos recursos hídricos. A coleta contínua de dados físico-químicos (como turbidez, pH, condutividade e oxigênio dissolvido) permite identificar rapidamente alterações ecológicas e contaminações. Contudo, o grande volume e a alta velocidade na geração dessas séries temporais impõem desafios operacionais significativos, impedindo a supervisão puramente manual por operadores humanos.
+
+Nesse cenário, a integração de modelos de Inteligência Artificial (IA), em especial os Grandes Modelos de Linguagem (\textit{Large Language Models} -- LLMs) e arquiteturas baseadas em agentes autônomos, surge como uma alternativa promissora. Agentes inteligentes alimentados por LLMs podem atuar no processamento dos fluxos de dados, auxiliando no diagnóstico de anomalias operacionais e operando como um Sistema de Apoio à Decisão (SAD) para gestores de bacias hidrográficas.
+
+\section{Justificativa e Problema de Pesquisa}
+
+Apesar dos avanços na instrumentação e na detecção automática de anomalias em séries temporais, há uma lacuna histórica na comunicação entre a engenharia de dados/sensores e a tomada de decisão ambiental prática. As anomalias detectadas frequentemente decorrem de falhas instrumentais (como bioincrustação de sondas, falhas de transmissão e descalibração) e não de eventos ambientais reais. 
+
+Sem uma camada de interpretação contextualizada, gestores hídricos enfrentam sobrecarga de alertas ou dificuldade em distinguir erros operacionais dos sensores de eventos de poluição reais. O problema central desta pesquisa reside, portanto, em como estruturar e orquestrar agentes inteligentes baseados em LLMs para que atuem de forma autônoma na interpretação contínua de dados hídricos de alta frequência, transformando alertas de anomalias em diagnósticos explicativos em linguagem natural e apoiando a tomada de decisão em tempo hábil.
+
+\section{Hipótese / Proposição}
+
+A hipótese principal deste trabalho é que uma arquitetura baseada em agentes inteligentes integrados a LLMs e mecanismos de Geração Aumentada por Recuperação (\textit{Retrieval-Augmented Generation} -- RAG) é capaz de orquestrar tarefas complexas de supervisão de dados de alta frequência, identificando e contextualizando anomalias de sensores com maior eficácia e gerando diagnósticos compreensíveis que reduzem o tempo e a complexidade na tomada de decisão de gestores ambientais.
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+O objetivo geral deste trabalho é propor, desenvolver e avaliar um Sistema de Apoio à Decisão baseado em uma arquitetura de Agentes Inteligentes alimentados por Large Language Models (LLMs) para suporte à tomada de decisão em sistemas de monitoramento da qualidade da água de alta frequência.
+
+\subsection{Objetivos Específicos}
+Para atingir o objetivo geral, definem-se os seguintes objetivos específicos:
+\begin{itemize}
+    \item Projetar uma arquitetura conceitual e operacional baseada em agentes inteligentes (incorporando componentes de memória, planejamento, uso de ferramentas e RAG) adaptada ao domínio hídrico;
+    \item Desenvolver rotinas de integração e interpretação automática sobre fluxos de dados de sensores e algoritmos preditivos de detecção de anomalias em séries temporais;
+    \item Implementar um protótipo funcional da solução como prova de conceito para cenários de monitoramento hídrico;
+    \item Avaliar a qualidade, precisão e relevância das respostas e diagnósticos em linguagem natural gerados pelos agentes em cenários de uso simulados e reais.
+\end{itemize}
+
+\section{Método de Pesquisa}
+
+Esta pesquisa enquadra-se, quanto à natureza, como uma pesquisa aplicada; quanto à abordagem, como mista (qualitativa e quantitativa); e quanto ao seu objetivo, como uma pesquisa propositiva e exploratória. 
+
+Em relação aos procedimentos técnicos, adota-se a metodologia de \textit{Design Science Research} (DSR), adequada para a condução de pesquisas em tecnologia e sistemas de informação voltadas à criação e avaliação de artefatos (neste caso, a arquitetura e o protótipo do sistema multiagente). 
+
+O processo metodológico organiza-se nas seguintes etapas fundamentais:
+\begin{enumerate}
+    \item \textbf{Mapeamento e Identificação do Problema:} Levantamento bibliográfico rigoroso sobre monitoramento de qualidade da água, detecção de anomalias em sensores e arquiteturas de agentes baseados em LLMs;
+    \item \textbf{Proposição do Artefato:} Concepção da arquitetura dos agentes inteligentes, definindo fluxos de execução, integração com bases externas de conhecimento via RAG e ferramentas de análise de dados;
+    \item \textbf{Desenvolvimento do Protótipo:} Construção da prova de conceito utilizando linguagens e bibliotecas adequadas para orquestração de LLMs e processamento de séries temporais;
+    \item \textbf{Avaliação do Artefato:} Testes práticos com dados históricos e simulados de monitoramento hídrico para mensurar a capacidade de diagnóstico, acurácia e utilidade prática da interface para o tomador de decisão.
+\end{enumerate}
+
+\section{Estrutura do Documento}
+
+O restante desta dissertação está organizado nos seguintes capítulos:
+\begin{itemize}
+    \item \textbf{Capítulo 2 -- Fundamentação Teórica:} Apresenta os conceitos essenciais para a compreensão do trabalho, abordando os fundamentos de Inteligência Artificial, Agentes Inteligentes, Large Language Models (LLMs), RAG, Sistemas de Apoio à Decisão (SAD), dados de sensores e detecção de anomalias na qualidade da água;
+    \item \textbf{Capítulo 3 -- Arquitetura Proposta:} Detalha o modelo conceitual, os componentes funcionais (memória, planejamento, ferramentas) e a orquestração dos agentes inteligentes propostos para o sistema de monitoramento;
+    \item \textbf{Capítulo 4 -- Desenvolvimento e Experimentos:} Descreve a implementação do protótipo, o ambiente de testes, os conjuntos de dados utilizados e os cenários experimentais executados;
+    \item \textbf{Capítulo 5 -- Conclusão:} Apresenta as considerações finais, principais contribuições do trabalho, limitações encontradas e sugestões para trabalhos futuros.
+\end{itemize}

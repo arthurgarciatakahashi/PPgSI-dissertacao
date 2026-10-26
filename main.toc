@@ -2,68 +2,85 @@
 \babel@toc {brazil}{}\relax 
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}Introdução}{4}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}Introdução}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contextualização}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivação e Justificativa}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problema de pesquisa}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Questões de pesquisa}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objetivos}{8}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Objetivo geral}{8}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Objetivos específicos}{9}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Método de pesquisa}{9}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Cronograma proposto}{10}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Limitações e riscos}{11}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Estrutura do documento}{12}{section.1.9}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}Fundamentação teórica}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Inteligência Artificial}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Agentes inteligentes}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Large Language Models}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Retrieval-Augmented Generation}{8}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Sistemas baseados em agentes}{9}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Arquiteturas baseadas em agentes e LLMs}{10}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Componentes arquiteturais de agentes baseados em LLMs}{10}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Integração com fontes externas e RAG}{12}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Arquiteturas multiagentes}{12}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Dados de Sensores}{13}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Detecção de Anomalias}{13}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Considerações Finais}{14}{section.2.7}%
+\contentsline {chapter}{\chapternumberline {2}Fundamentação teórica}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Inteligência Artificial}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Agentes inteligentes}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Large Language Models}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Retrieval-Augmented Generation}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Sistemas baseados em agentes}{18}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Arquiteturas baseadas em agentes e LLMs}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Componentes arquiteturais de agentes baseados em LLMs}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Integração com fontes externas e RAG}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Arquiteturas multiagentes}{21}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Dados de Sensores}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Detecção de Anomalias}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Considerações Finais}{23}{section.2.7}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}Revisão Sistemática}{15}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}Análise do Estado da Arte}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Questões de pesquisa}{24}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Aplicações de LLMs e agentes inteligentes em sistemas hídricos}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dados de monitoramento e integração com ferramentas analíticas}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Mecanismos de apoio à decisão e participação humana}{27}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Limitações técnicas, metodológicas e lacunas de pesquisa}{29}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Síntese crítica e implicações para a pesquisa}{30}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}Metodologia}{16}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}Metodologia}{32}{chapter.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Resultados experimentais}{17}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}Resultados experimentais}{33}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Conclusões}{18}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}Conclusões}{34}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{19}{section*.6}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{35}{section*.6}%
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{20}{section*.7}%
+\contentsline {part}{\uppercase {Ap\^endices}}{36}{section*.7}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Protocolo da revisão de escopo}{21}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Objetivo e tipo de revisão}{21}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Questões de pesquisa}{21}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}QP1 -- Aplicações de LLMs e IA generativa}{21}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}QP2 -- Dados de sensores e monitoramento}{22}{subsection.A.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}QP3 -- Mecanismos de apoio à decisão}{22}{subsection.A.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}QP4 -- Limitações e lacunas}{23}{subsection.A.2.4}%
-\contentsline {section}{\numberline {A.3}Fontes de informação e datas das buscas}{23}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Estratégia de busca documentada}{23}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Critérios de elegibilidade}{25}{section.A.5}%
-\contentsline {subsection}{\numberline {A.5.1}Critérios de inclusão}{25}{subsection.A.5.1}%
-\contentsline {subsection}{\numberline {A.5.2}Critérios de exclusão}{25}{subsection.A.5.2}%
-\contentsline {section}{\numberline {A.6}Procedimento de seleção}{26}{section.A.6}%
-\contentsline {section}{\numberline {A.7}Estratégia de snowballing e avaliação da qualidade}{26}{section.A.7}%
-\contentsline {section}{\numberline {A.8}Extração e síntese dos dados}{27}{section.A.8}%
-\contentsline {section}{\numberline {A.9}Limitações do registro metodológico}{27}{section.A.9}%
+\contentsline {appendix}{\chapternumberline {A}Protocolo da revisão de escopo}{37}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Objetivo e tipo de revisão}{37}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Questões de pesquisa}{37}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}QP1 -- Aplicações de LLMs e IA generativa}{37}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}QP2 -- Dados de sensores e monitoramento}{38}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}QP3 -- Mecanismos de apoio à decisão}{38}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}QP4 -- Limitações e lacunas}{39}{subsection.A.2.4}%
+\contentsline {section}{\numberline {A.3}Fontes de informação e datas das buscas}{39}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Estratégia de busca documentada}{39}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Critérios de elegibilidade}{41}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Critérios de inclusão}{41}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}Critérios de exclusão}{41}{subsection.A.5.2}%
+\contentsline {section}{\numberline {A.6}Procedimento de seleção}{42}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Estratégia de snowballing e avaliação da qualidade}{42}{section.A.7}%
+\contentsline {section}{\numberline {A.8}Extração e síntese dos dados}{43}{section.A.8}%
+\contentsline {section}{\numberline {A.9}Limitações do registro metodológico}{43}{section.A.9}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}Relato da condução e resultados da seleção}{28}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Relato da condução}{28}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Fluxo de seleção}{29}{section.B.2}%
-\contentsline {paragraph}{Avaliação da qualidade.}{30}{section*.8}%
-\contentsline {section}{\numberline {B.3}Publicações selecionadas para análise bibliográfica preliminar}{31}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Análise descritiva preliminar}{33}{section.B.4}%
-\contentsline {subsection}{\numberline {B.4.1}Distribuição temporal}{33}{subsection.B.4.1}%
-\contentsline {subsection}{\numberline {B.4.2}Tipos de veículos de publicação}{33}{subsection.B.4.2}%
-\contentsline {subsection}{\numberline {B.4.3}Distribuição por autores, países e instituições}{33}{subsection.B.4.3}%
-\contentsline {section}{\numberline {B.5}Relação com o objetivo do mestrado}{36}{section.B.5}%
-\contentsline {paragraph}{Limitação da seleção.}{37}{section*.9}%
+\contentsline {appendix}{\chapternumberline {B}Relato da condução e resultados da seleção}{44}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Relato da condução}{44}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Fluxo de seleção}{45}{section.B.2}%
+\contentsline {paragraph}{Avaliação da qualidade.}{46}{section*.8}%
+\contentsline {section}{\numberline {B.3}Publicações selecionadas para análise bibliográfica preliminar}{47}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Análise descritiva preliminar}{49}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}Distribuição temporal}{49}{subsection.B.4.1}%
+\contentsline {subsection}{\numberline {B.4.2}Tipos de veículos de publicação}{49}{subsection.B.4.2}%
+\contentsline {subsection}{\numberline {B.4.3}Distribuição por autores, países e instituições}{49}{subsection.B.4.3}%
+\contentsline {section}{\numberline {B.5}Relação com o objetivo do mestrado}{52}{section.B.5}%
+\contentsline {paragraph}{Limitação da seleção.}{53}{section*.9}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }
