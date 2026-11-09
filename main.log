@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.11)  22 OCT 2026 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.11)  9 NOV 2026 01:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1070,9 +1070,9 @@ l.189
 
 ] (./main.toc [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 51.
+(Font)              <14.4> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 51.
+(Font)              <7> on input line 52.
  [3]) [4] (./capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
 [5
@@ -1080,63 +1080,53 @@ Cap\'{\i }tulo 1.
 
 ]
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 28.
+(babel)             Reported on input line 27.
  [6] [7] [8{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 109.
+(Font)              <10.95> on input line 108.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[]|\OT1/cmr/m/n/10.95 (+20) Nov.--
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
-[]|\OT1/cmr/m/n/10.95 (+20) Out.--
+[]|\OT1/cmr/m/n/10.95 (+20) Dez./2026--
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
-[]|\OT1/cmr/m/n/10.95 (+20) Out.--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-[]|\OT1/cmr/m/n/10.95 (+20) Nov./2026--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-[]|\OT1/cmr/m/n/10.95 (+20) Jan.--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]|\OT1/cmr/m/n/10.95 (+20) Desenvolvimento ou es-pe-ci-fica^^Xc~ao do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
 []|\OT1/cmr/m/n/10.95 (+20) Fev.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-[]|\OT1/cmr/m/n/10.95 (+20) Abr.--
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]|\OT1/cmr/m/n/10.95 (+20) Mar.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-[]|\OT1/cmr/m/n/10.95 (+20) Mai.--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 []|\OT1/cmr/m/n/10.95 (+20) Jun.--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+[]|\OT1/cmr/m/n/10.95 (+20) Ago.--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]|\OT1/cmr/m/n/10.95 (+20) Out.--
  []
 
 [10] [11
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.136 O
-        uso de LLMs também envolve riscos de geração de informações inc...] [12]) (./capitulos/cap2_resumido.tex [13]
+l.134 
+      ]) (./capitulos/cap2_resumido.tex [12]
 Cap\'{\i }tulo 2.
-[14
+[13
 
 ] (./capitulos/Figuras_e_Tabelas/quadro_agentes_muller.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
@@ -1173,16 +1163,277 @@ Overfull \hbox (21.79129pt too wide) in paragraph at lines 6--76
  [][] 
  []
 
-) [15] [16
+) [14] [15
 pdfTeX warning (ext4): destination with the same identifier (name{quadro.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.77 
-     ] [17] [18] [19] [20] [21] [22]) (./capitulos/capitulo3.tex [23]
+     ] [16] [17] [18] [19] [20] [21]) (./capitulos/capitulo3.tex [22]
 Cap\'{\i }tulo 3.
-[24
 
-] [25] [26] [27] [28] [29] [30]) [31]
+Underfull \hbox (badness 5022) in paragraph at lines 27--28
+[]|\OT1/cmr/bx/n/10.95 (+20) Evid^encia e li-mite
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 31--32
+[]|\OT1/cmr/bx/n/10.95 (+20) Evid^encia e li-mite
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\OT1/cmr/bx/n/10.95 (+20) Diagn^^Sostico
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/cmr/bx/n/10.95 (+20) e mo-ni-to-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 (+20) Xu; Alam;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 (+20) Bhan-dari;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 (+20) pro-ces-sam os da-dos;
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 (+20) LLMs con-tex-tu-a-li-zam
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 34--34
+\OT1/cmr/m/n/10.95 (+20) flu-xos de fer-ra-men-tas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\OT1/cmr/m/n/10.95 (+20) ti-ta-tiva, mas va-riam
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 34--35
+\OT1/cmr/m/n/10.95 (+20) em da-dos, ta-re-fas e
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 34--35
+\OT1/cmr/m/n/10.95 (+20) va-lida^^Xc~ao. M^^Setricas de
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 36--36
+[]|\OT1/cmr/bx/n/10.95 (+20) Evento, pla-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/bx/n/10.95 (+20) ta-forma e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) Mounce; Sh-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/10.95 (+20) Relat^^Sorios re-gu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) lat^^Sorios, fon-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) p^^Sublicas de ^^Sagua,
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) da-dos ge-o-es-pa-ci-ais,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) in-forma^^Xc~oes co-mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) so-bre pro-ble-mas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/10.95 (+20) GenAI/RAG fa-ci-lita
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) con-sulta e mem^^Soria
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) ins-ti-tu-ci-o-nal; pla-ta-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) mas con-ver-sa-ci-o-nais
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) am-pliam acesso, vi-su-
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 (+20) a-liza^^Xc~ao, educa^^Xc~ao e
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 36--37
+[]|\OT1/cmr/m/n/10.95 (+20) Evid^encia de de-mons-
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 36--37
+\OT1/cmr/m/n/10.95 (+20) n~ao equi-vale a ex-pe-ri-
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 36--37
+\OT1/cmr/m/n/10.95 (+20) sen-so-res em opera^^Xc~ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/cmr/bx/n/10.95 (+20) Revis~oes e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/cmr/bx/n/10.95 (+20) pa-no-ra-mas
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 38--38
+\OT1/cmr/m/n/10.95 (+20) Liu; Li; Rah-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/cmr/m/n/10.95 (+20) Literatura so-bre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/cmr/m/n/10.95 (+20) ^^Saguas su-per-fi-ci-ais,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/cmr/m/n/10.95 (+20) AIoT, re-cur-sos
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 38--38
+\OT1/cmr/m/n/10.95 (+20) to-ra-mento, con-trole e
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 38--39
+[]|\OT1/cmr/m/n/10.95 (+20) Sintetizam um campo
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 40--40
+\OT1/cmr/m/n/10.95 (+20) Taiwo; Ars-lan;
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 40--40
+\OT1/cmr/m/n/10.95 (+20) de re-des de dis-tri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\OT1/cmr/m/n/10.95 (+20) cheias, ir-riga^^Xc~ao
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 42--42
+\OT1/cmr/m/n/10.95 (+20) e gest~ao de re-ser-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 42--42
+\OT1/cmr/m/n/10.95 (+20) vat^^Sorios, dis-cu-ti-dos
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/10.95 (+20) Agentes es-pe-ci-a-li-za-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]|\OT1/cmr/m/n/10.95 (+20) Estrutura uma pers-
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 42--43
+\OT1/cmr/m/n/10.95 (+20) pec-tiva ar-qui-te-tu-ral e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\OT1/cmr/m/n/10.95 (+20) aplica^^Xc~oes po-ten-ci-ais,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\OT1/cmr/m/n/10.95 (+20) sem ex-pe-ri-mento de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\OT1/cmr/m/n/10.95 (+20) va-lida^^Xc~ao do sis-tema
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 44--44
+[]|\OT1/cmr/bx/n/10.95 (+20) Seguran^^Xca e
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 44--44
+\OT1/cmr/m/n/10.95 (+20) ra-men-tas e cen^^Sario
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 44--45
+\OT1/cmr/m/n/10.95 (+20) nece evid^encia de de-
+ []
+
+[23
+
+]
+ignored: Infinite glue shrinkage found in box being split [24] [25] [26] [27] [28] [29]) [30] [31]
 Cap\'{\i }tulo 4.
 [32
 
@@ -1200,16 +1451,16 @@ Cap\'{\i }tulo 6.
 
 ]
 bibitemlist
-) [35
+[35
 
-] [36
+] [36]) [37] [38
 
 
 ] (./capitulos/apendiceA.tex
 Ap\^endice A.
-[37
+[39
 
-] [38] [39] [40] [41] [42]) (./capitulos/apendiceB.tex [43]
+] [40] [41] [42] [43] [44]) (./capitulos/apendiceB.tex [45]
 Ap\^endice B.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 17.
@@ -1220,25 +1471,25 @@ Underfull \hbox (badness 3503) in paragraph at lines 25--25
 []|\OT1/cmr/m/n/9 (+20) ACM Di-gi-tal Li-
  []
 
-[44
+[46
 
-] (./capitulos/Figuras_e_Tabelas/fluxo_prisma.tex) [45
-pdfTeX warning (ext4): destination with the same identifier (name{table.B.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.67 
-     
+] (./capitulos/Figuras_e_Tabelas/fluxo_prisma.tex) [47
 pdfTeX warning (ext4): destination with the same identifier (name{table.B.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.67 
-     ] [46
+     
+pdfTeX warning (ext4): destination with the same identifier (name{table.B.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.67 
+     ] [48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.76 
      ]
-ignored: Infinite glue shrinkage found in box being split [47] [48] (./capitulos/Figuras_e_Tabelas/distribuicao_ano.tex) (./capitulos/Figuras_e_Tabelas/tipos_veiculo.tex) (./capitulos/Figuras_e_Tabelas/autores_recorrentes.tex) [49
+ignored: Infinite glue shrinkage found in box being split [49] [50] (./capitulos/Figuras_e_Tabelas/distribuicao_ano.tex) (./capitulos/Figuras_e_Tabelas/tipos_veiculo.tex) (./capitulos/Figuras_e_Tabelas/autores_recorrentes.tex) [51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1248,7 +1499,7 @@ Underfull \hbox (badness 6675) in paragraph at lines 18--18
  [][]\OT1/cmr/m/n/10.95 (+20) NUST
  []
 
-) [50
+) [52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1258,7 +1509,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.B.4}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.170 \end{figure}
-                  ] [51
+                  ] [53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.B.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1268,7 +1519,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.B.6}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.198 \end{center}
-                  ] [52]) [53]
+                  ] [54]) [55]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1280,21 +1531,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 461978927089B9CD17F212D0A2E3EF86;3893.
+(rerunfilecheck)             Checksum: AB72D62032AD1DD261DDBA314D3C1D7B;7119.
  ) 
 Here is how much of TeX's memory you used:
- 40835 strings out of 467525
- 906784 string characters out of 5418981
- 1603394 words of memory out of 5000000
- 68711 multiletter control sequences out of 15000+600000
- 643213 words of font info for 182 fonts, out of 8000000 for 9000
+ 41030 strings out of 467525
+ 909375 string characters out of 5418981
+ 1604393 words of memory out of 5000000
+ 68849 multiletter control sequences out of 15000+600000
+ 644490 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,1061b,2606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,1248b,2606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (54 pages, 379622 bytes).
+Output written on main.pdf (56 pages, 393075 bytes).
 PDF statistics:
- 863 PDF objects out of 1000 (max. 8388607)
- 774 compressed objects within 8 object streams
- 145 named destinations out of 1000 (max. 500000)
- 37922 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1036 PDF objects out of 1200 (max. 8388607)
+ 943 compressed objects within 10 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 37930 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -5,10 +5,30 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Alam e Ihsanullah 2026]{alam2026}
+\abntrefinfo{Alam e Ihsanullah}{ALAM; IHSANULLAH}{2026}
+{ALAM, G.; IHSANULLAH, I. Ai-enabled root-cause diagnosis of water quality anomalies in continuous monitoring networks using a retrieval-augmented generation (rag) approach.
+\emph{Journal of Environmental Management}, v.~416, p. 130753, 2026.}
+
+\bibitem[Arslan 2026]{arslan2026}
+\abntrefinfo{Arslan}{ARSLAN}{2026}
+{ARSLAN, M. Sustainable water information systems with llms and rag: Opportunities and challenges.
+\emph{Green Technologies and Sustainability}, v.~4, n.~2, p. 100359, 2026.}
+
+\bibitem[Bhandari \textit{et al.} 2026]{bhandari2026}
+\abntrefinfo{Bhandari \textit{et al.}}{BHANDARI \textit{et al.}}{2026}
+{BHANDARI, N.; RANA, M.~M.; SHIREEN, W.; SINGH, M.; JEFFRYES, C. Water quality assessment using transformer, quantum neural network, xgboost, and random forest models in an agentic n8n workflow with applications in maritime robotics, education, and training.
+\emph{Water}, v.~18, n.~18, p.~2240, 2026.}
+
 \bibitem[Cheng \textit{et al.} 2026]{cheng2026}
 \abntrefinfo{Cheng \textit{et al.}}{CHENG \textit{et al.}}{2026}
 {CHENG, Y.; ZHANG, C.; ZHANG, Z.; MENG, X.; HONG, S.; LI, W.; WANG, Z.; WANG, Z.; YIN, F.; ZHAO, J.; HE, X. Exploring large language model-based intelligent agents: Definitions, methods, and prospects.
 \emph{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery}, 2026.}
+
+\bibitem[Hosseini \textit{et al.} 2026]{hosseini2026}
+\abntrefinfo{Hosseini \textit{et al.}}{HOSSEINI \textit{et al.}}{2026}
+{HOSSEINI, S.~H.; ZOLGHADR-ASLI, B.; TENKANEN, H.; MADANI, K.; MATIN, M.~A.; DEMIR, I.; OSTFELD, A.; SINGH, V.~P.; SAVIC, D. Making waves: A conceptual framework exploring how large language model-based multi-agent systems could reshape water engineering.
+\emph{Water Research}, v.~291, p. 125157, 2026.}
 
 \bibitem[LeCun, Bengio e Hinton 2015]{lecun2015deep}
 \abntrefinfo{LeCun, Bengio e Hinton}{LECUN; BENGIO; HINTON}{2015}
@@ -24,24 +44,77 @@
 \abntrefinfo{Lewis \textit{et al.}}{LEWIS \textit{et al.}}{2020}
 {LEWIS, P.; PEREZ, E.; PIKTUS, A.; PETRONI, F.; KARPUKHIN, V.; GOYAL, N.; KUTTLER, H.; LEWIS, M.; YIH, W.-t.; ROCKTASCHEL, T.; RIEDEL, S.; KIELA, D. Retrieval-augmented generation for knowledge-intensive nlp tasks. In:  \emph{Advances in Neural Information Processing Systems}. [S.l.: s.n.], 2020. v.~33.}
 
+\bibitem[Li, Han e Zheng 2026]{li2026}
+\abntrefinfo{Li, Han e Zheng}{LI; HAN; ZHENG}{2026}
+{LI, Y.; HAN, F.; ZHENG, Y. Artificial intelligence in surface water quality research and management: Recent progress and future directions.
+\emph{Ecosystem Health and Sustainability}, v.~12, p.~0474, 2026.}
+
+\bibitem[Liang \textit{et al.} 2026]{liang2026}
+\abntrefinfo{Liang \textit{et al.}}{LIANG \textit{et al.}}{2026}
+{LIANG, L.; GU, X.; LU, W.; CAO, Y.; YANG, B. Large models in smart water systems. In:  \emph{Proceedings of the International Conference on Artificial Intelligence and Advanced Autonomous Systems}. [S.l.: s.n.], 2026. p. 24--30.}
+
+\bibitem[Liu \textit{et al.} 2025]{liu2025}
+\abntrefinfo{Liu \textit{et al.}}{LIU \textit{et al.}}{2025}
+{LIU, Y.; MANCUSO, G.; PETROTTO, L.; LAVRNIC, S.; DONG, Z.; TIAN, Y.; ZHANG, J.; TOSCANO, A. Ai-driven solutions in wastewater treatment and agricultural reuse systems: A comprehensive review.
+\emph{Journal of Environmental Management}, v.~393, p. 127008, 2025.}
+
+\bibitem[Mounce, Mounce e Boxall 2025]{mounce2025}
+\abntrefinfo{Mounce, Mounce e Boxall}{MOUNCE; MOUNCE; BOXALL}{2025}
+{MOUNCE, S.; MOUNCE, R.; BOXALL, J. Ai-augmented water quality event response: The role of generative models for decision support.
+\emph{Water}, v.~17, n.~22, p.~3260, 2025.}
+
 \bibitem[Müller 1999]{muller1999}
 \abntrefinfo{Müller}{MüLLER}{1999}
 {MüLLER, J.~P. Architectures and applications of intelligent agents: A survey.
 \emph{The Knowledge Engineering Review}, v.~13, n.~4, p. 353--380, 1999.}
 
+\bibitem[Rahman, Chung e Ng 2026]{rahman2026}
+\abntrefinfo{Rahman, Chung e Ng}{RAHMAN; CHUNG; NG}{2026}
+{RAHMAN, A.; CHUNG, G.~C.; NG, Y.~H. Applications, challenges, and future trends of artificial intelligence of things (aiot)-enabled water quality and resource management.
+\emph{Water}, v.~18, n.~8, p.~919, 2026.}
+
+\bibitem[Rashid \textit{et al.} 2026]{rashid2026}
+\abntrefinfo{Rashid \textit{et al.}}{RASHID \textit{et al.}}{2026}
+{RASHID, M.; SAEED, A.; KHALID, M.; MURTAZA, A.; SALEEM, M.~W. The transformative role of artificial intelligence in water resources engineering: A comprehensive review.
+\emph{Environmental Modelling \& Software}, v.~197, p. 106857, 2026.}
+
 \bibitem[Russell e Norvig 2021]{russell2021artificial}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2021}
 {RUSSELL, S.~J.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 4. ed. Hoboken: Pearson, 2021.}
+
+\bibitem[Shrestha \textit{et al.} 2025]{shrestha2025}
+\abntrefinfo{Shrestha \textit{et al.}}{SHRESTHA \textit{et al.}}{2025}
+{SHRESTHA, S.; MOUNT, J.; VALD, G.; SERMET, Y.; SAMUEL, D.~J.; BRYANT, C.; PERALTA, A.~C.; BECK, M.~W.; MEYERS, S.~D.; MULLER-KARGER, F.~E.; CWIERTNY, D.; DEMIR, I. A community-centric intelligent cyberinfrastructure for addressing nitrogen pollution using web systems and conversational ai.
+\emph{Environmental Science \& Policy}, v.~167, p. 104055, 2025.}
 
 \bibitem[Sun \textit{et al.} 2019]{sun2019building}
 \abntrefinfo{Sun \textit{et al.}}{SUN \textit{et al.}}{2019}
 {SUN, A.~Y.; ZHONG, Z.; JEONG, H.; YANG, Q. Building complex event processing capability for intelligent environmental monitoring.
 \emph{Environmental Modelling \& Software}, Elsevier, v.~116, p.~1--6, 2019.}
 
+\bibitem[Taiwo, Yussif e Zayed 2025]{taiwo2025}
+\abntrefinfo{Taiwo, Yussif e Zayed}{TAIWO; YUSSIF; ZAYED}{2025}
+{TAIWO, R.; YUSSIF, A.-M.; ZAYED, T. Making waves: Generative artificial intelligence in water distribution networks: Opportunities and challenges.
+\emph{Water Research X}, v.~28, p. 100316, 2025.}
+
 \bibitem[Tricco \textit{et al.} 2018]{tricco2018prismascr}
 \abntrefinfo{Tricco \textit{et al.}}{TRICCO \textit{et al.}}{2018}
 {TRICCO, A.~C.; LILLIE, E.; ZARIN, W.; O'BRIEN, K.~K.; COLQUHOUN, H.; LEVAC, D.; MOHER, D.; PETERS, M. D.~J.; HORSLEY, T.; WEEKS, L.; HEMPEL, S.; AKL, E.~A.; CHANG, C.; MCGOWAN, J.; STEWART, L.; HARTLING, L.; ALDCROFT, A.; WILSON, M.~G.; GARRITTY, C.; LEWIN, S.; GODFREY, C.~M.; MACDONALD, M.~T.; LANGLOIS, E.~V.; SOARES-WEISER, K.; MORIARTY, J.; CLIFFORD, T.; TUNCALP, O.; STRAUS, S.~E. {PRISMA} extension for scoping reviews ({PRISMA-ScR}): Checklist and explanation.
 \emph{Annals of Internal Medicine}, v.~169, n.~7, p. 467--473, 2018.}
+
+\bibitem[Vijayakumar \textit{et al.} 2026]{vijayakumar2026}
+\abntrefinfo{Vijayakumar \textit{et al.}}{VIJAYAKUMAR \textit{et al.}}{2026}
+{VIJAYAKUMAR, S.; KANE, S.~P.; LOUIS, F.; E, S.; SELVARAJ, S.; VAIAPPURI, K.; VEERAMALAI, V. A multi-modal edge-ai framework for real-time industrial water quality monitoring and automated epa compliance using iot and regulatory llms. In:  \emph{2026 IEEE Global Symposium on Emerging and Communication Technologies}. [S.l.: s.n.], 2026.}
+
+\bibitem[Wang \textit{et al.} 2027]{wang2027}
+\abntrefinfo{Wang \textit{et al.}}{WANG \textit{et al.}}{2027}
+{WANG, Y.-Q.; XU, B.; YANG, H.-L.; CHEN, J.-J.; LI, H.-W.; WANG, W.-Z.; WANG, H.-C. Making waves: Emerging risks as regulatory mismatch meets automation in llm-agents like openclaw for water treatment and environmental infrastructure.
+\emph{Water Research}, v.~308, p. 126862, 2027.}
+
+\bibitem[Xu, Wang e Bi 2025]{xu2025}
+\abntrefinfo{Xu, Wang e Bi}{XU; WANG; BI}{2025}
+{XU, S.; WANG, X.; BI, X. Enhancing large language models by integrating domain knowledge based data-driven small models for anomaly diagnosis and trouble shooting in wastewater treatment plants.
+\emph{Journal of Environmental Chemical Engineering}, v.~13, n.~4, p. 117379, 2025.}
 
 \bibitem[Zhao \textit{et al.} 2026]{zhao2026survey}
 \abntrefinfo{Zhao \textit{et al.}}{ZHAO \textit{et al.}}{2026}
