@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.11)  9 NOV 2026 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.11)  14 NOV 2026 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1083,39 +1083,39 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 27.
  [6] [7] [8{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 108.
+(Font)              <10.95> on input line 101.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 []|\OT1/cmr/m/n/10.95 (+20) Nov.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 []|\OT1/cmr/m/n/10.95 (+20) Dez./2026--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 []|\OT1/cmr/m/n/10.95 (+20) Fev.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 []|\OT1/cmr/m/n/10.95 (+20) Mar.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 []|\OT1/cmr/m/n/10.95 (+20) Jun.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 []|\OT1/cmr/m/n/10.95 (+20) Ago.--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 []|\OT1/cmr/m/n/10.95 (+20) Out.--
  []
 
@@ -1123,8 +1123,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.134 
-      ]) (./capitulos/cap2_resumido.tex [12]
+l.137 O
+        Capítulo~2 apresenta a fundamentação teórica necessária para co...]) (./capitulos/cap2_resumido.tex [12]
 Cap\'{\i }tulo 2.
 [13
 
@@ -1536,13 +1536,13 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 Here is how much of TeX's memory you used:
  41030 strings out of 467525
  909375 string characters out of 5418981
- 1604393 words of memory out of 5000000
+ 1604394 words of memory out of 5000000
  68849 multiletter control sequences out of 15000+600000
  644490 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1248b,2606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (56 pages, 393075 bytes).
+Output written on main.pdf (56 pages, 392636 bytes).
 PDF statistics:
  1036 PDF objects out of 1200 (max. 8388607)
  943 compressed objects within 10 object streams

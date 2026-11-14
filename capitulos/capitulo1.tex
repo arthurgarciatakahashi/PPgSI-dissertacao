@@ -61,7 +61,7 @@ Essas questões orientam a análise do estado da arte e contribuem para identifi
 \subsection{Objetivo geral}
 \label{subsec:objetivo-geral}
 
-Investigar e propor uma abordagem baseada em agentes inteligentes com LLMs para apoiar a interpretação de dados e a tomada de decisão em sistemas de monitoramento da qualidade da água, considerando a integração com fontes de dados e ferramentas analíticas, a confiabilidade das informações produzidas e a supervisão humana.
+Investigar e propor um modelo baseado em agentes inteligentes com LLMs para apoiar a interpretação de dados e a tomada de decisão em sistemas de monitoramento da qualidade da água, integrando fontes de dados e ferramentas analíticas para identificar comportamentos atípicos, contextualizar eventos e produzir informações confiáveis, sob supervisão humana.
 
 \subsection{Objetivos específicos}
 \label{subsec:objetivos-especificos}
@@ -69,15 +69,8 @@ Investigar e propor uma abordagem baseada em agentes inteligentes com LLMs para 
 Para alcançar o objetivo geral, são definidos os seguintes objetivos específicos:
 
 \begin{itemize}
-    \item Sistematizar os fundamentos teóricos relacionados a agentes inteligentes, LLMs, RAG, dados de sensores, monitoramento da qualidade da água e detecção de anomalias.
-
-    \item Analisar criticamente o estado da arte sobre aplicações de LLMs, IA generativa e agentes inteligentes em sistemas hídricos, considerando dados utilizados, mecanismos de apoio à decisão e limitações relatadas.
-
-    \item Identificar requisitos funcionais e aspectos de confiabilidade relevantes para a integração entre agentes baseados em LLMs, dados de monitoramento e ferramentas analíticas.
-
-    \item Definir uma arquitetura ou abordagem conceitual para apoiar a consulta, a interpretação e a contextualização de informações relacionadas ao monitoramento da qualidade da água.
-
-    \item Estabelecer procedimentos e critérios para avaliar a abordagem proposta, considerando sua adequação às tarefas definidas, a fundamentação das respostas e as limitações identificadas.
+    \item Definir uma arquitetura para apoiar a consulta, a interpretação e a contextualização de dados do monitoramento da qualidade da água, considerando a identificação de comportamentos atípicos e a integração com ferramentas analíticas.
+    \item Desenvolver um protótipo da arquitetura proposta, contemplando a interação entre os agentes inteligentes, os modelos de linguagem, as fontes de dados e os recursos de análise.
 \end{itemize}
 
 \section{Método de pesquisa}
@@ -133,7 +126,7 @@ Outra limitação está relacionada à revisão de escopo. A cobertura da litera
 O uso de LLMs também envolve riscos de geração de informações incorretas, respostas sem fundamentação suficiente e interpretações inadequadas de dados. Para reduzir esses riscos, a abordagem deverá priorizar a consulta a fontes identificáveis, a utilização de ferramentas analíticas apropriadas, a explicitação das incertezas e a verificação das informações utilizadas para sustentar as respostas. Sempre que necessário, os resultados deverão ser apresentados como apoio à análise, e não como decisão automática.
 
 Há ainda riscos de integração entre componentes, incluindo incompatibilidades entre formatos de dados, limitações de acesso a serviços externos, custos computacionais e variações no comportamento dos modelos. Esses aspectos deverão ser considerados na escolha da arquitetura e no planejamento da avaliação.
-%TODO: deixei generico mas tem que add tambem algo sobre arquitetura de agentes
+%TODO: deixei generico mas tem que add tambem algo sobre arquitetura de agentes e tambem preciso colocar alguma coisa sobre a parte fisica de sensores, avarias e furtos
 Por fim, a generalização dos resultados poderá ser limitada pelo domínio, pelos conjuntos de dados e pelas tarefas utilizadas nos experimentos. A pesquisa deverá registrar as condições em que a abordagem for avaliada e evitar extrapolar conclusões para contextos que não tenham sido investigados.
 
 \section{Estrutura do documento}
