@@ -1,76 +1,90 @@
-\begin{longtable}{p{10.5cm}p{3cm}}
-    \caption{Cronograma proposto para o desenvolvimento da pesquisa}
-    \label{tab:cronograma-pesquisa} \\
+\clearpage
+\begin{landscape}
+\begin{figure}[H]
+\centering
+\small
+\textbf{Cronograma de execução e marcos do projeto}\par
+\vspace{1mm}
+\footnotesize Outubro de 2026 a março de 2028\par
+\vspace{2mm}
+\begin{tikzpicture}[x=0.68cm,y=1cm]
+\definecolor{donegray}{RGB}{120,133,137}
+\definecolor{reviewblue}{RGB}{73,132,174}
+\definecolor{sensorsorange}{RGB}{205,139,56}
+\definecolor{archteal}{RGB}{41,145,132}
+\definecolor{buildgreen}{RGB}{89,151,100}
+\definecolor{evalgold}{RGB}{200,166,63}
 
-    \toprule
-    \textbf{Atividade} & \textbf{Período previsto} \\
-    \midrule
-    \endfirsthead
+% Months: Oct--Dec/2026, Jan--Dec/2027, Jan--Mar/2028.
+\foreach \i/\mes in {0/Out,1/Nov,2/Dez,3/Jan,4/Fev,5/Mar,6/Abr,7/Mai,8/Jun,9/Jul,10/Ago,11/Set,12/Out,13/Nov,14/Dez,15/Jan,16/Fev,17/Mar}{%
+    \pgfmathsetmacro{\monthx}{\i+0.5}%
+    \node[rotate=90,font=\tiny,anchor=center] at (\monthx,1.35) {\mes};%
+}
+\node[font=\scriptsize\bfseries] at (1.5,1.85) {2026};
+\node[font=\scriptsize\bfseries] at (9,1.85) {2027};
+\node[font=\scriptsize\bfseries] at (16,1.85) {2028};
+\node[anchor=east,font=\scriptsize\bfseries] at (-0.3,1.35) {ATIVIDADE / MARCO};
 
-    \multicolumn{2}{c}{\textit{Continuação da Tabela \thetable}} \\
-    \toprule
-    \textbf{Atividade} & \textbf{Período previsto} \\
-    \midrule
-    \endhead
+\foreach \i in {0,...,18}{%
+    \draw[gray!25] (\i,1.1) -- (\i,-11.35);%
+}
+\foreach \i in {0,...,29}{%
+    \pgfmathsetmacro{\gridy}{0.95-0.42*\i}%
+    \draw[gray!18] (0,\gridy) -- (18,\gridy);%
+}
+\draw[gray!65,thick] (3,1.1) -- (3,-11.35);
+\draw[gray!65,thick] (15,1.1) -- (15,-11.35);
 
-    \textbf{1. Consolidação do projeto de pesquisa} & \\
-    Finalização dos capítulos de introdução, fundamentação teórica e metodologia preliminar. & Nov.--Dez./2026 \\
-    Revisão e consolidação do protocolo da revisão de escopo e dos apêndices. & Nov.--Dez./2026 \\
+\newcommand{\barrow}[5]{%
+    \pgfmathsetmacro{\rowy}{0.76-0.42*#1}%
+    \node[anchor=east,align=right,text width=10.15cm,font=\tiny] at (-0.3,\rowy) {#4};%
+    \fill[#5] (#2,{\rowy-0.12}) rectangle (#3,{\rowy+0.12});%
+}
 
-    \textbf{2. Revisão de escopo e análise do estado da arte} & \\
-    Execução das buscas nas bases científicas e aplicação dos critérios de seleção. & Dez./2026--Fev./2027 \\
-    Leitura dos estudos selecionados, extração de dados e análise comparativa. & Fev.--Abr./2027 \\
-    Síntese dos resultados e consolidação do capítulo de estado da arte. & Mar.--Abr./2027 \\
+\barrow{0}{0}{1}{Busca bibliográfica e triagem inicial: 135 registros; 15 publicações para análise preliminar.}{donegray}
+\barrow{1}{1}{4}{Leitura integral, confirmação da elegibilidade e atualização da seleção.}{reviewblue}
+\barrow{2}{2}{6}{Extração dos estudos, análise crítica e síntese do estado da arte.}{reviewblue}
+\barrow{3}{1}{6}{Revisão dos capítulos de introdução e fundamentação teórica.}{reviewblue}
+\barrow{4}{1}{4}{Definição do local, permissões e plano de instalação dos sensores adquiridos.}{sensorsorange}
+\barrow{5}{3}{6}{Instalação, configuração, calibração e testes iniciais dos sensores.}{sensorsorange}
+\barrow{6}{3}{6}{Preparação da ingestão, armazenamento temporal e controle de qualidade.}{archteal}
+\barrow{7}{5}{12}{Coleta contínua, inspeção, manutenção e calibração dos sensores.}{sensorsorange}
+\barrow{8}{6}{11}{Limpeza, padronização e integração das séries com dados contextuais.}{archteal}
+\barrow{9}{3}{6}{Comparação de arquiteturas e definição de requisitos e casos de uso.}{archteal}
+\barrow{10}{4}{7}{Especificação dos componentes, agentes, fontes e mecanismos de rastreabilidade.}{archteal}
+\barrow{11}{5}{8}{Seleção do detector e avaliação da linha de base analítica.}{archteal}
+\barrow{12}{6}{9}{Implementação dos serviços de consulta a dados e análise de eventos.}{buildgreen}
+\barrow{13}{7}{10}{Curadoria da base documental e implementação da recuperação RAG.}{buildgreen}
+\barrow{14}{7}{10}{Implementação do orquestrador, integração com LLM e interface de consulta.}{buildgreen}
+\barrow{15}{9}{11}{Integração ponta a ponta, registros, tratamento de falhas e controle de acesso.}{buildgreen}
+\barrow{16}{7}{9}{Definição do protocolo experimental, cenários e métricas de avaliação.}{evalgold}
+\barrow{17}{9}{11}{Testes funcionais, de integração, confiabilidade, latência e custo.}{evalgold}
+\barrow{18}{10}{12}{Experimentos com dados coletados e cenários complementares controlados.}{evalgold}
+\barrow{19}{11}{13}{Análise dos resultados, limitações e validade dos experimentos.}{evalgold}
+\barrow{20}{7}{12}{Redação do texto e preparação dos resultados parciais para qualificação.}{reviewblue}
+\barrow{21}{12}{13}{Exame de qualificação, com data-limite de 27/10/2027.}{evalgold}
+\barrow{22}{13}{14}{Incorporação das recomendações da banca de qualificação.}{reviewblue}
+\barrow{23}{12}{15}{Redação e submissão de artigo científico com os resultados da pesquisa.}{reviewblue}
+\barrow{24}{12}{15}{Redação dos capítulos de metodologia, implementação, resultados e discussão.}{reviewblue}
+\barrow{25}{14}{16}{Revisão integral, normalização e encaminhamento da versão à banca.}{reviewblue}
+\barrow{26}{15}{17}{Preparação da apresentação e dos materiais para defesa.}{reviewblue}
+\barrow{27}{16}{17}{Defesa da dissertação, prevista para fevereiro de 2028.}{evalgold}
+\barrow{28}{16}{18}{Correções da banca e depósito da versão final até março de 2028.}{reviewblue}
 
-    \textbf{3. Planejamento e implantação da infraestrutura de monitoramento} & \\
-    Definição do local de monitoramento e dos requisitos técnicos para instalação dos sensores. & Dez./2026--Jan./2027 \\
-    Preparação da infraestrutura de alimentação, comunicação e acondicionamento dos equipamentos. & Jan.--Fev./2027 \\
-    Instalação, configuração, calibração e testes iniciais dos sensores físico-químicos. & Fev.--Mar./2027 \\
+\end{tikzpicture}
 
-    \textbf{4. Especificação da arquitetura proposta} & \\
-    Levantamento dos requisitos funcionais e não funcionais da arquitetura. & Fev.--Mar./2027 \\
-    Definição dos componentes, agentes inteligentes, fontes de dados e ferramentas analíticas. & Mar.--Abr./2027 \\
-    Especificação dos mecanismos de comunicação, integração, validação e rastreabilidade. & Mar.--Abr./2027 \\
+\vspace{1mm}
+\scriptsize
+\colorbox{donegray}{\rule{0.35cm}{0.1cm}} Concluído/documentado\quad
+\colorbox{reviewblue}{\rule{0.35cm}{0.1cm}} Revisão e redação\quad
+\colorbox{sensorsorange}{\rule{0.35cm}{0.1cm}} Sensores e dados\quad
+\colorbox{archteal}{\rule{0.35cm}{0.1cm}} Arquitetura\quad
+\colorbox{buildgreen}{\rule{0.35cm}{0.1cm}} Desenvolvimento\quad
+\colorbox{evalgold}{\rule{0.35cm}{0.1cm}} Avaliação e marcos
 
-    \textbf{5. Coleta e preparação dos dados} & \\
-    Início da coleta de dados reais por meio dos sensores instalados. & Mar./2027 \\
-    Monitoramento da infraestrutura, manutenção e calibração dos sensores. & Mar.--Ago./2027 \\
-    Organização, padronização e tratamento dos dados coletados. & Abr.--Jun./2027 \\
-    Integração dos dados de monitoramento com outras fontes de informação disponíveis. & Abr.--Jul./2027 \\
-
-    \textbf{6. Desenvolvimento do protótipo} & \\
-    Implementação dos mecanismos de acesso e consulta às fontes de dados. & Mar.--Mai./2027 \\
-    Desenvolvimento dos agentes inteligentes e integração com o LLM. & Abr.--Jun./2027 \\
-    Integração das ferramentas de análise de dados e detecção de anomalias. & Mai.--Jul./2027 \\
-    Implementação dos mecanismos de validação, registro e apresentação dos resultados. & Jun.--Jul./2027 \\
-
-    \textbf{7. Experimentação e avaliação} & \\
-    Definição dos cenários de teste e dos casos de uso para avaliação do protótipo. & Jun.--Jul./2027 \\
-    Execução dos experimentos com dados reais e, quando necessário, dados complementares. & Jul.--Ago./2027 \\
-    Avaliação dos resultados, identificação de limitações e ajustes no protótipo. & Ago.--Set./2027 \\
-    Consolidação dos resultados experimentais. & Set./2027 \\
-
-    \textbf{8. Exame de qualificação} & \\
-    Preparação do texto e dos resultados parciais para o exame de qualificação. & Jul.--Set./2027 \\
-    Revisão e entrega do material para qualificação, conforme os prazos do programa. & Set.--Out./2027 \\
-    Realização do exame de qualificação. & Até 27/10/2027 \\
-    Incorporação das recomendações da banca de qualificação. & Out.--Nov./2027 \\
-
-    \textbf{9. Consolidação da pesquisa e publicação científica} & \\
-    Redação e revisão do artigo científico com os resultados da pesquisa. & Out.--Nov./2027 \\
-    Submissão do artigo a periódico ou evento científico. & Nov.--Dez./2027 \\
-    Consolidação dos capítulos de metodologia, desenvolvimento e resultados da dissertação. & Out.--Dez./2027 \\
-
-    \textbf{10. Preparação para a defesa} & \\
-    Revisão integral da dissertação e adequação às normas do programa. & Dez./2027--Jan./2028 \\
-    Entrega da versão para depósito e encaminhamento à banca examinadora, conforme os prazos institucionais. & Jan./2028 \\
-    Preparação da apresentação e dos materiais para a defesa. & Jan.--Fev./2028 \\
-
-    \textbf{11. Defesa e encerramento da pesquisa} & \\
-    Realização da defesa da dissertação. & Fev./2028 \\
-    Incorporação das correções e recomendações da banca examinadora. & Fev.--Mar./2028 \\
-    Entrega da versão final corrigida e realização do depósito definitivo. & Mar./2028 \\
-
-    \bottomrule
-    \fonte{Elaboração própria.}
-\end{longtable}
+\caption{Cronograma mensal e marcos previstos para o desenvolvimento da pesquisa.}
+\label{fig:cronograma-pesquisa}
+\fonte{Elaboração própria. A busca e a triagem inicial foram realizadas em outubro de 2026. A qualificação deverá ocorrer até 27 de outubro de 2027; a defesa deverá ocorrer até fevereiro de 2028 e o depósito da versão final até março de 2028, respeitados os prazos do programa.}
+\end{figure}
+\end{landscape}
+\clearpage
