@@ -81,18 +81,24 @@ A pesquisa está organizada em etapas complementares, que articulam a fundamenta
 
 Inicialmente, será realizada a consolidação da fundamentação teórica sobre inteligência artificial, agentes inteligentes, LLMs, mecanismos de recuperação de informação, dados de sensores e detecção de anomalias. Essa etapa fornece os conceitos necessários para delimitar o problema e compreender os componentes tecnológicos que podem integrar a abordagem proposta.
 
-Em seguida, será analisado o estado da arte por meio de uma revisão de escopo da literatura. O objetivo dessa revisão é mapear aplicações, tipos de dados, mecanismos de apoio à decisão e limitações relacionadas ao uso de IA, LLMs e agentes inteligentes no contexto hídrico. O protocolo e o relato da condução da revisão são apresentados nos apêndices, enquanto o Capítulo~\ref{cap:estado-da-arte} será dedicado à análise comparativa e qualitativa do conjunto de estudos.
+Em seguida, será conduzida uma revisão de escopo da literatura com o objetivo de mapear o estado da arte sobre a aplicação de técnicas de inteligência artificial, incluindo LLMs e agentes inteligentes, no monitoramento da qualidade da água e no apoio à tomada de decisão nesse contexto. A revisão buscará identificar as principais aplicações, os tipos de dados utilizados, os mecanismos de apoio à decisão, as abordagens tecnológicas adotadas e as limitações apontadas pelos estudos. O protocolo e o relato da condução da revisão serão apresentados nos apêndices, enquanto o Capítulo~\ref{cap:estado-da-arte} será dedicado à síntese e à análise comparativa e qualitativa dos estudos selecionados.
 
-A partir da fundamentação e da análise da literatura, serão identificados requisitos para a abordagem proposta. Essa etapa deverá considerar as fontes de dados disponíveis, as tarefas analíticas que podem ser executadas por ferramentas externas, o papel do LLM, os mecanismos de recuperação de informação e as formas de apresentar resultados ao usuário. A definição final da arquitetura dependerá da análise dos requisitos e das condições de acesso aos dados.
+A partir da fundamentação teórica e dos resultados da revisão de escopo, será realizada uma análise comparativa das arquiteturas identificadas na literatura. Essa análise considerará aspectos como a organização dos agentes, os modelos de linguagem empregados, os mecanismos de integração com fontes de dados e ferramentas analíticas, os recursos de recuperação de informação e as estratégias de validação e apoio à decisão. O objetivo será identificar características, contribuições e limitações das soluções existentes, fornecendo subsídios para a definição da arquitetura proposta.
 
-Posteriormente, será especificada a abordagem e, conforme a viabilidade técnica e a disponibilidade de dados, será desenvolvido um protótipo ou artefato computacional para investigar sua aplicação. A avaliação deverá ser definida de acordo com as funcionalidades efetivamente implementadas e com os dados disponíveis, evitando atribuir ao sistema capacidades que não tenham sido verificadas experimentalmente.
+Com base nessa análise, serão identificados os requisitos da arquitetura, considerando também as características dos sensores físico-químicos adquiridos para o monitoramento de uma fonte de água, as fontes complementares de informação, as tarefas analíticas que poderão ser executadas por ferramentas externas, o papel dos LLMs e as formas de apresentar resultados ao usuário.
 
-Por fim, os resultados serão analisados em relação aos objetivos da pesquisa, às questões identificadas no estado da arte e às limitações do método. Os procedimentos específicos de implementação e avaliação serão detalhados no capítulo metodológico correspondente.
+Posteriormente, será especificada a arquitetura e desenvolvido um protótipo ou artefato computacional para investigar sua aplicação. A implementação deverá contemplar a integração com os dados coletados pelos sensores e com as ferramentas analíticas selecionadas. A avaliação considerará as funcionalidades implementadas, os dados obtidos durante o monitoramento e a capacidade da solução de apoiar a interpretação das informações e a tomada de decisão.
+
+Por fim, os resultados serão analisados considerando tanto a comparação das arquiteturas quanto a avaliação experimental do protótipo, em relação aos objetivos da pesquisa, às questões identificadas no estado da arte e às limitações do método. Os procedimentos específicos de implementação e avaliação serão detalhados no capítulo metodológico correspondente.
 
 \section{Cronograma proposto}
 \label{sec:cronograma}
 
 O cronograma a seguir apresenta uma previsão inicial das atividades. Os períodos deverão ser ajustados conforme o calendário do programa, as orientações do orientador e a disponibilidade dos dados necessários à avaliação.
+
+
+\input{capitulos/cronograma}
+
 
 \begin{table}[htbp]
     \centering
@@ -118,29 +124,31 @@ O cronograma a seguir apresenta uma previsão inicial das atividades. Os períod
 \section{Limitações e riscos}
 \label{sec:limitacoes-riscos}
 
-A pesquisa apresenta limitações relacionadas à disponibilidade e à qualidade dos dados, à maturidade das tecnologias investigadas e à possibilidade de avaliar a abordagem em condições representativas de uso.
+A pesquisa apresenta limitações relacionadas à disponibilidade e à qualidade dos dados, à maturidade das tecnologias investigadas e à possibilidade de avaliar a arquitetura proposta em condições representativas de uso.
 
-Uma primeira limitação diz respeito à disponibilidade de dados de monitoramento. A ausência de séries temporais suficientemente longas, dados rotulados ou informações contextuais pode restringir a avaliação de determinadas funcionalidades, especialmente aquelas relacionadas à detecção de anomalias e à interpretação de eventos ambientais. Caso essas restrições ocorram, o escopo experimental deverá ser ajustado e as consequências para a validade dos resultados serão explicitadas.
-%TODO: talvez excluir esse parágrafo.
+Uma primeira limitação diz respeito à disponibilidade de dados de monitoramento. A ausência de séries temporais suficientemente longas, dados rotulados ou informações contextuais pode restringir a avaliação de determinadas funcionalidades, especialmente aquelas relacionadas à detecção de anomalias e à interpretação de eventos ambientais. Além disso, a utilização de dados provenientes de diferentes fontes pode envolver diferenças nos protocolos de medição, nas frequências de coleta, nas unidades utilizadas e nos procedimentos de calibração, exigindo etapas de padronização e tratamento. Caso essas restrições ocorram, o escopo experimental deverá ser ajustado e suas consequências para a validade dos resultados serão explicitadas.
+
 Outra limitação está relacionada à revisão de escopo. A cobertura da literatura depende das fontes consultadas, das expressões de busca e dos critérios de seleção adotados. Além disso, a seleção bibliográfica preliminar não equivale à confirmação da elegibilidade dos estudos após leitura integral. A análise do estado da arte deverá considerar essas restrições e distinguir evidências consolidadas de propostas conceituais ou resultados ainda insuficientemente avaliados.
-%TODO: mencionar as diferencas de protocolos entre as bases de dados e dar exemplos sp aguas, sabesp
-O uso de LLMs também envolve riscos de geração de informações incorretas, respostas sem fundamentação suficiente e interpretações inadequadas de dados. Para reduzir esses riscos, a abordagem deverá priorizar a consulta a fontes identificáveis, a utilização de ferramentas analíticas apropriadas, a explicitação das incertezas e a verificação das informações utilizadas para sustentar as respostas. Sempre que necessário, os resultados deverão ser apresentados como apoio à análise, e não como decisão automática.
 
-Há ainda riscos de integração entre componentes, incluindo incompatibilidades entre formatos de dados, limitações de acesso a serviços externos, custos computacionais e variações no comportamento dos modelos. Esses aspectos deverão ser considerados na escolha da arquitetura e no planejamento da avaliação.
-%TODO: deixei generico mas tem que add tambem algo sobre arquitetura de agentes e tambem preciso colocar alguma coisa sobre a parte fisica de sensores, avarias e furtos
-Por fim, a generalização dos resultados poderá ser limitada pelo domínio, pelos conjuntos de dados e pelas tarefas utilizadas nos experimentos. A pesquisa deverá registrar as condições em que a abordagem for avaliada e evitar extrapolar conclusões para contextos que não tenham sido investigados.
+O uso de LLMs também envolve riscos de geração de informações incorretas, respostas sem fundamentação suficiente e interpretações inadequadas dos dados. Para reduzir esses riscos, a arquitetura deverá priorizar a consulta a fontes identificáveis, a utilização de ferramentas analíticas apropriadas, a explicitação das incertezas e a verificação das informações utilizadas para sustentar as respostas. Sempre que necessário, os resultados deverão ser apresentados como apoio à análise, e não como decisões automáticas.
+
+Há ainda riscos relacionados à integração e à coordenação dos componentes da arquitetura. Em sistemas baseados em agentes inteligentes, podem ocorrer falhas de comunicação entre agentes, execução inadequada de ferramentas, perda de contexto durante a transferência de informações e propagação de erros entre as etapas do processamento. Também devem ser consideradas incompatibilidades entre formatos de dados, limitações de acesso a serviços externos, custos computacionais e variações no comportamento dos modelos de linguagem. Esses aspectos deverão ser considerados na especificação da arquitetura e no planejamento da avaliação.
+
+A utilização de sensores físico-químicos em ambiente externo também envolve riscos operacionais que podem comprometer a continuidade da coleta de dados. Entre eles estão avarias nos equipamentos, falhas de alimentação elétrica ou comunicação, necessidade de manutenção e calibração, danos decorrentes das condições ambientais, vandalismo e furto dos dispositivos. A indisponibilidade de equipamentos de reposição ou a demora na manutenção poderá ocasionar interrupções nas séries temporais e reduzir o volume de dados disponível para os experimentos. Esses riscos deverão ser considerados no planejamento da instalação, da manutenção e das estratégias alternativas para obtenção de dados, conforme a viabilidade técnica e os recursos disponíveis.
+
+Por fim, a generalização dos resultados poderá ser limitada pelo domínio, pelos conjuntos de dados, pelas condições de monitoramento e pelas tarefas utilizadas nos experimentos. A pesquisa deverá registrar as condições em que a arquitetura for avaliada e evitar extrapolar conclusões para contextos que não tenham sido investigados.
 
 \section{Estrutura do documento}
 \label{sec:estrutura-documento}
 
-Além deste capítulo introdutório, o documento está organizado em capítulos que desenvolvem os fundamentos, a análise da literatura, o método e a avaliação da pesquisa.
+Além deste capítulo introdutório, o documento está organizado em capítulos que apresentam os fundamentos teóricos, a análise da literatura, os procedimentos metodológicos, o desenvolvimento e a avaliação da pesquisa.
 
-O Capítulo~2 apresenta a fundamentação teórica necessária para compreender os conceitos de inteligência artificial, agentes inteligentes, LLMs, geração aumentada por recuperação, arquiteturas baseadas em agentes, dados de sensores e detecção de anomalias.
+O Capítulo 2 apresenta a fundamentação teórica necessária para compreender os conceitos relacionados à inteligência artificial, aos agentes inteligentes, LLMs, à geração aumentada por recuperação (RAG), às arquiteturas baseadas em agentes, aos sistemas de apoio à decisão, aos dados de sensores e à detecção de anomalias.
 
-O Capítulo~3 apresenta a análise do estado da arte, com uma discussão geral, comparativa e qualitativa dos estudos relacionados ao uso de inteligência artificial, LLMs e agentes inteligentes no monitoramento e na gestão da qualidade da água. O capítulo busca identificar padrões, diferenças entre abordagens, limitações e lacunas relevantes para a pesquisa.
+O Capítulo 3 apresenta a análise do estado da arte, com uma discussão comparativa e qualitativa dos estudos relacionados ao uso de inteligência artificial, LLMs e agentes inteligentes no monitoramento e na gestão da qualidade da água. O capítulo busca identificar padrões, diferenças entre as abordagens, limitações e lacunas relevantes para a pesquisa.
 
-O Capítulo~4 descreverá a metodologia da pesquisa e os procedimentos previstos para especificar, desenvolver ou implementar a abordagem proposta e planejar sua avaliação.
+O Capítulo 4 descreve a metodologia da pesquisa, contemplando os procedimentos para a especificação da arquitetura proposta, a implantação da infraestrutura de monitoramento, a coleta e preparação dos dados, o desenvolvimento do protótipo e o planejamento dos experimentos para sua avaliação.
 
-O Capítulo~5 apresentará os resultados obtidos com a aplicação ou avaliação da abordagem, incluindo a análise de seu comportamento e a discussão das evidências produzidas.
+O Capítulo 5 apresenta os resultados obtidos durante o desenvolvimento e a avaliação experimental do protótipo, incluindo a análise de seu comportamento, o desempenho dos componentes e a discussão das evidências produzidas nos cenários investigados.
 
-Por fim, o Capítulo~6 reunirá as conclusões, retomando os objetivos da pesquisa, discutirá as contribuições e limitações do trabalho e apresentará possibilidades de continuidade.
+Por fim, o Capítulo 6 apresenta as conclusões da pesquisa, retomando os objetivos estabelecidos, discutindo as contribuições e limitações do trabalho e indicando possibilidades para estudos futuros.

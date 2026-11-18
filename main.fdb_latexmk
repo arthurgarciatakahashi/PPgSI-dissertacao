@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1794886580.28496 "main.aux" "main.bbl" "main" 1794886586.5385 0
+["bibtex main"] 1794968480.5723 "main.aux" "main.bbl" "main" 1794969274.89621 0
   "./abntex2-alf.bst" 1791771476 60064 0819ac8568f9a482510a46e3a8a6f605 ""
   "./abntex2-options.bib" 1791771476 5396 4eb260dac60f150ae608d45252853090 ""
   "./referencias.bib" 1794158632.96211 13979 780e30c0e49e54a0997c878ccadfda1c ""
-  "main.aux" 1794886584.97215 58323 b33605ad9ec0b09dd7463213194f9a3f "pdflatex"
+  "main.aux" 1794969272.28791 58666 6e8de0d5a7f0fe819eb0a44dfc5d81a7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1792015632.53725 "main.idx" "main.ind" "main" 1794886586.53823 0
-  "main.idx" 1794886582.77868 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1792015632.53725 "main.idx" "main.ind" "main" 1794969274.89592 0
+  "main.idx" 1794969269.47995 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1794886580.6221 "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" "main.pdf" "main" 1794886586.53892 0
+["pdflatex"] 1794969265.89325 "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" "main.pdf" "main" 1794969274.89683 0
   "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" 1792720700.07955 6652 2bc1e856f57a3d90c28e60ce83b92bc4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -271,14 +271,15 @@
   "capitulos/apendiceA.tex" 1792353128.38357 12938 b341c6591a515507c2115d8b76f16ec8 ""
   "capitulos/apendiceB.tex" 1792355782.98086 15145 5d4ec79ac997b21b2cee447373847d42 ""
   "capitulos/cap2_resumido.tex" 1791764673.49308 22250 1bd86afb4f9a72850c027b1010273004 ""
-  "capitulos/capitulo1.tex" 1794886571.99692 18276 f8e274d04f21fc5c111878463120a31c ""
+  "capitulos/capitulo1.tex" 1794969265.06885 20703 480bc81087a1f3d3e74dec9ef7f37ec2 ""
   "capitulos/capitulo3.tex" 1794164360.00689 19244 4f1c62ede2ff417842bbe381443db787 ""
-  "main.aux" 1794886584.97215 58323 b33605ad9ec0b09dd7463213194f9a3f "pdflatex"
-  "main.bbl" 1794886580.60476 9109 ce1b1d95f737a6305741b56945ddb1d0 "bibtex main"
-  "main.brf" 1794886585.00148 7119 9938a36ced8bac4e661e618bed9a717f "pdflatex"
+  "capitulos/cronograma.tex" 1794968467.34469 4820 b8889ad1720e13b84df085bf19692c83 ""
+  "main.aux" 1794969272.28791 58666 6e8de0d5a7f0fe819eb0a44dfc5d81a7 "pdflatex"
+  "main.bbl" 1794968481.05625 9109 ce1b1d95f737a6305741b56945ddb1d0 "bibtex main"
+  "main.brf" 1794969272.31376 7119 04e87f3a28c326b107978d7219843ff3 "pdflatex"
   "main.ind" 1792015632.78666 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
   "main.tex" 1792720700.07955 6652 2bc1e856f57a3d90c28e60ce83b92bc4 ""
-  "main.toc" 1794886585.00282 7389 13c117315712d84bfb29091c1e438042 "pdflatex"
+  "main.toc" 1794969272.31446 7389 88b923f7d26bbc0fee679a75f9bff867 "pdflatex"
   "usp_logo.jpg" 1791771476 66077 65e959599585dc3e564498a3f43f155f ""
   (generated)
   "main.aux"
