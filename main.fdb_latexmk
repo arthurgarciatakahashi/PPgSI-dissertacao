@@ -1,21 +1,21 @@
 # Fdb version 4
-["bibtex main"] 1794968480.5723 "main.aux" "main.bbl" "main" 1794969274.89621 0
+["bibtex main"] 1795054533.54573 "main.aux" "main.bbl" "main" 1795055357.25927 0
   "./abntex2-alf.bst" 1791771476 60064 0819ac8568f9a482510a46e3a8a6f605 ""
   "./abntex2-options.bib" 1791771476 5396 4eb260dac60f150ae608d45252853090 ""
   "./referencias.bib" 1794158632.96211 13979 780e30c0e49e54a0997c878ccadfda1c ""
-  "main.aux" 1794969272.28791 58666 6e8de0d5a7f0fe819eb0a44dfc5d81a7 "pdflatex"
+  "main.aux" 1795055355.01236 58348 a51377c7086eb0808a8a375a5a0591f2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1792015632.53725 "main.idx" "main.ind" "main" 1794969274.89592 0
-  "main.idx" 1794969269.47995 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1795054525.86349 "main.idx" "main.ind" "main" 1795055357.25894 0
+  "main.idx" 1795055352.47496 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1794969265.89325 "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" "main.pdf" "main" 1794969274.89683 0
-  "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" 1792720700.07955 6652 2bc1e856f57a3d90c28e60ce83b92bc4 ""
+["pdflatex"] 1795055349.55459 "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" "main.pdf" "main" 1795055357.25984 0
+  "/Users/arthugt/Documents/sc/PPgSI-dissertacao/main.tex" 1795052942.059 6675 3c5c5701a8377745d9e66cc0c16b157b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -46,6 +46,7 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
@@ -271,15 +272,15 @@
   "capitulos/apendiceA.tex" 1792353128.38357 12938 b341c6591a515507c2115d8b76f16ec8 ""
   "capitulos/apendiceB.tex" 1792355782.98086 15145 5d4ec79ac997b21b2cee447373847d42 ""
   "capitulos/cap2_resumido.tex" 1791764673.49308 22250 1bd86afb4f9a72850c027b1010273004 ""
-  "capitulos/capitulo1.tex" 1794969265.06885 20703 480bc81087a1f3d3e74dec9ef7f37ec2 ""
+  "capitulos/capitulo1.tex" 1795053536.83642 19348 52b812a205d9f8fbe37c83637f0ad425 ""
   "capitulos/capitulo3.tex" 1794164360.00689 19244 4f1c62ede2ff417842bbe381443db787 ""
-  "capitulos/cronograma.tex" 1794968467.34469 4820 b8889ad1720e13b84df085bf19692c83 ""
-  "main.aux" 1794969272.28791 58666 6e8de0d5a7f0fe819eb0a44dfc5d81a7 "pdflatex"
-  "main.bbl" 1794968481.05625 9109 ce1b1d95f737a6305741b56945ddb1d0 "bibtex main"
-  "main.brf" 1794969272.31376 7119 04e87f3a28c326b107978d7219843ff3 "pdflatex"
-  "main.ind" 1792015632.78666 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.tex" 1792720700.07955 6652 2bc1e856f57a3d90c28e60ce83b92bc4 ""
-  "main.toc" 1794969272.31446 7389 88b923f7d26bbc0fee679a75f9bff867 "pdflatex"
+  "capitulos/cronograma.tex" 1795055348.90781 5465 f17816f6ea4865120ff8c51b496bca50 ""
+  "main.aux" 1795055355.01236 58348 a51377c7086eb0808a8a375a5a0591f2 "pdflatex"
+  "main.bbl" 1795054534.06597 9109 ce1b1d95f737a6305741b56945ddb1d0 "bibtex main"
+  "main.brf" 1795055355.03996 7119 5566e85af00c3fc08d4f77bb6536ba21 "pdflatex"
+  "main.ind" 1795054526.13347 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.tex" 1795052942.059 6675 3c5c5701a8377745d9e66cc0c16b157b ""
+  "main.toc" 1795055355.0407 7388 dfb7228d361cd7e778212e9a05a3827d "pdflatex"
   "usp_logo.jpg" 1791771476 66077 65e959599585dc3e564498a3f43f155f ""
   (generated)
   "main.aux"
