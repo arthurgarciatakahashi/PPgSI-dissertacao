@@ -49,113 +49,50 @@ Os trabalhos diferem tanto pelo problema hídrico quanto pelo papel atribuído �
 \normalsize
 \fonte{Elaboração própria a partir da análise dos estudos citados.}
 
-\subsection{Relação entre autores e estudos}
-\label{subsec:matriz-autoria}
+\subsection{Aderência dos estudos ao projeto de pesquisa}
+\label{subsec:aderencia-estudos}
 
-Para explicitar a relação entre os pesquisadores e os trabalhos do corpus, a
-Tabela~\ref{tab:matriz-autoria} lista cada forma de nome registrada nos
-metadados e o artigo correspondente. A frequência indica o número de artigos
-em que o nome aparece entre os 15 estudos selecionados. Foram contabilizados
-75 nomes e 76 vínculos autor--artigo. Ibrahim Demir é o único nome recorrente
-no corpus, associado a Shrestha et al. \citeonline{shrestha2025} e Hosseini et
-al. \citeonline{hosseini2026}. A contagem é descritiva: não mede influência,
-produtividade fora do corpus ou intensidade de colaboração, e não houve
-desambiguação externa de homônimos.
+Além da comparação por grupos, a Tabela~\ref{tab:aderencia-projeto} relaciona
+cada estudo selecionado às dimensões centrais deste projeto: dados de
+monitoramento, análise computacional, uso de LLMs ou agentes e apoio à decisão
+ou governança. A marcação indica que o aspecto é abordado pelo estudo; não
+significa que tenha sido implementado ou validado com o mesmo grau de evidência
+em todos os trabalhos.
 
 \small
 \setlength{\tabcolsep}{4pt}
-\renewcommand{\arraystretch}{1.05}
-\begin{longtable}{@{}p{4.0cm}p{9.4cm}r@{}}
-\caption{Matriz de incidência entre autores e artigos selecionados} \label{tab:matriz-autoria}\\
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}p{2.3cm}*{4}{>{\centering\arraybackslash}p{0.65cm}}p{8.4cm}@{}}
+\caption{Matriz de aderência dos artigos às dimensões do projeto} \label{tab:aderencia-projeto}\\
 \hline
-\textbf{Autor (sobrenome, iniciais)} & \textbf{Artigo(s) associado(s)} & \textbf{n} \\
+\textbf{Estudo} & \textbf{Dados} & \textbf{Análise} & \shortstack{\textbf{LLM/}\\\textbf{agente}} & \shortstack{\textbf{Decisão/}\\\textbf{governança}} & \textbf{Relação com o projeto} \\
 \hline
 \endfirsthead
 \hline
-\textbf{Autor (sobrenome, iniciais)} & \textbf{Artigo(s) associado(s)} & \textbf{n} \\
+\textbf{Estudo} & \textbf{Dados} & \textbf{Análise} & \shortstack{\textbf{LLM/}\\\textbf{agente}} & \shortstack{\textbf{Decisão/}\\\textbf{governança}} & \textbf{Relação com o projeto} \\
 \hline
 \endhead
-Alam, G. & \citeonline{alam2026} & 1 \\
-Arslan, M. & \citeonline{arslan2026} & 1 \\
-Beck, M. W. & \citeonline{shrestha2025} & 1 \\
-Bhandari, N. & \citeonline{bhandari2026} & 1 \\
-Bi, X. & \citeonline{xu2025} & 1 \\
-Boxall, J. & \citeonline{mounce2025} & 1 \\
-Bryant, C. & \citeonline{shrestha2025} & 1 \\
-Cao, Y. & \citeonline{liang2026} & 1 \\
-Chen, J. & \citeonline{wang2027} & 1 \\
-Chung, G. C. & \citeonline{rahman2026} & 1 \\
-Cwiertny, D. & \citeonline{shrestha2025} & 1 \\
-Demir, I. & \citeonline{hosseini2026}; \citeonline{shrestha2025} & 2 \\
-Dong, Z. & \citeonline{liu2025} & 1 \\
-E, S. & \citeonline{vijayakumar2026} & 1 \\
-Gu, X. & \citeonline{liang2026} & 1 \\
-Han, F. & \citeonline{li2026} & 1 \\
-Hosseini, S. H. & \citeonline{hosseini2026} & 1 \\
-Ihsanullah, I. & \citeonline{alam2026} & 1 \\
-Jeffryes, C. & \citeonline{bhandari2026} & 1 \\
-Kane, S. P. & \citeonline{vijayakumar2026} & 1 \\
-Khalid, M. & \citeonline{rashid2026} & 1 \\
-Lavrnic, S. & \citeonline{liu2025} & 1 \\
-Li, H. & \citeonline{wang2027} & 1 \\
-Li, Y. & \citeonline{li2026} & 1 \\
-Liang, L. & \citeonline{liang2026} & 1 \\
-Liu, Y. & \citeonline{liu2025} & 1 \\
-Louis, F. & \citeonline{vijayakumar2026} & 1 \\
-Lu, W. & \citeonline{liang2026} & 1 \\
-Madani, K. & \citeonline{hosseini2026} & 1 \\
-Mancuso, G. & \citeonline{liu2025} & 1 \\
-Matin, M. A. & \citeonline{hosseini2026} & 1 \\
-Meyers, S. D. & \citeonline{shrestha2025} & 1 \\
-Mounce, R. & \citeonline{mounce2025} & 1 \\
-Mounce, S. & \citeonline{mounce2025} & 1 \\
-Mount, J. & \citeonline{shrestha2025} & 1 \\
-Muller-Karger, F. E. & \citeonline{shrestha2025} & 1 \\
-Murtaza, A. & \citeonline{rashid2026} & 1 \\
-Ng, Y. H. & \citeonline{rahman2026} & 1 \\
-Ostfeld, A. & \citeonline{hosseini2026} & 1 \\
-Peralta, A. C. & \citeonline{shrestha2025} & 1 \\
-Petrotto, L. & \citeonline{liu2025} & 1 \\
-Rahman, A. & \citeonline{rahman2026} & 1 \\
-Rana, M. M. & \citeonline{bhandari2026} & 1 \\
-Rashid, M. & \citeonline{rashid2026} & 1 \\
-Saeed, A. & \citeonline{rashid2026} & 1 \\
-Saleem, M. W. & \citeonline{rashid2026} & 1 \\
-Samuel, D. J. & \citeonline{shrestha2025} & 1 \\
-Savic, D. & \citeonline{hosseini2026} & 1 \\
-Selvaraj, S. & \citeonline{vijayakumar2026} & 1 \\
-Sermet, Y. & \citeonline{shrestha2025} & 1 \\
-Shireen, W. & \citeonline{bhandari2026} & 1 \\
-Shrestha, S. & \citeonline{shrestha2025} & 1 \\
-Singh, M. & \citeonline{bhandari2026} & 1 \\
-Singh, V. P. & \citeonline{hosseini2026} & 1 \\
-Taiwo, R. & \citeonline{taiwo2025} & 1 \\
-Tenkanen, H. & \citeonline{hosseini2026} & 1 \\
-Tian, Y. & \citeonline{liu2025} & 1 \\
-Toscano, A. & \citeonline{liu2025} & 1 \\
-Vaiappuri, K. & \citeonline{vijayakumar2026} & 1 \\
-Vald, G. & \citeonline{shrestha2025} & 1 \\
-Veeramalai, V. & \citeonline{vijayakumar2026} & 1 \\
-Vijayakumar, S. & \citeonline{vijayakumar2026} & 1 \\
-Wang, H. & \citeonline{wang2027} & 1 \\
-Wang, W. & \citeonline{wang2027} & 1 \\
-Wang, X. & \citeonline{xu2025} & 1 \\
-Wang, Y. & \citeonline{wang2027} & 1 \\
-Xu, B. & \citeonline{wang2027} & 1 \\
-Xu, S. & \citeonline{xu2025} & 1 \\
-Yang, B. & \citeonline{liang2026} & 1 \\
-Yang, H. & \citeonline{wang2027} & 1 \\
-Yussif, A. & \citeonline{taiwo2025} & 1 \\
-Zayed, T. & \citeonline{taiwo2025} & 1 \\
-Zhang, J. & \citeonline{liu2025} & 1 \\
-Zheng, Y. & \citeonline{li2026} & 1 \\
-Zolghadr-Asli, B. & \citeonline{hosseini2026} & 1 \\
+\citeonline{bhandari2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Integra modelos de qualidade da água, fluxo automatizado e dois agentes LLM; a entrada de sensor do workflow é simulada. \\
+\citeonline{mounce2025} &  &  & $\bullet$ & $\bullet$ & Relaciona GenAI/RAG e documentos regulatórios à resposta a eventos; aproxima-se da camada de contexto e interação, não da detecção em séries de sensores. \\
+\citeonline{rahman2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Revisão de AIoT e gestão da qualidade da água; oferece panorama de tecnologias e desafios, sem validar uma arquitetura única de agentes. \\
+\citeonline{hosseini2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Propõe conceitualmente agentes especializados para problemas de engenharia hídrica; contribui para discutir coordenação, mas não valida sistema operacional. \\
+\citeonline{li2026} & $\bullet$ & $\bullet$ &  & $\bullet$ & Revisão de IA em águas superficiais; informa o domínio e os métodos analíticos, com foco menos direto em agentes LLM. \\
+\citeonline{wang2027} &  &  & $\bullet$ & $\bullet$ & Discute riscos de acesso, execução e supervisão de agentes em infraestrutura hídrica; informa requisitos de segurança e governança. \\
+\citeonline{shrestha2025} & $\bullet$ &  & $\bullet$ & $\bullet$ & Plataforma conversacional que integra fontes públicas, geoespaciais e comunitárias; contribui para integração contextual e participação de usuários. \\
+\citeonline{liu2025} & $\bullet$ & $\bullet$ &  &  & Revisão de IA em tratamento de efluentes e reúso; oferece contexto de dados e métodos do domínio hídrico. \\
+\citeonline{xu2025} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Combina modelos especializados e LLM para diagnóstico em estações de tratamento; é referência próxima para separar análise numérica e explicação. \\
+\citeonline{rashid2026} & $\bullet$ & $\bullet$ &  & $\bullet$ & Revisão ampla de IA em engenharia de recursos hídricos; situa aplicações analíticas e decisórias, sem propor o agente específico do projeto. \\
+\citeonline{alam2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Integra séries de estações, detector de anomalias, RAG regulatório e explicação por LLM; é o caso mais próximo do fluxo pretendido. \\
+\citeonline{arslan2026} & $\bullet$ &  & $\bullet$ & $\bullet$ & Discute sistemas de informação hídrica com LLM e RAG; contribui para integração de conhecimento e interação, com evidência predominantemente conceitual. \\
+\citeonline{taiwo2025} & $\bullet$ &  & $\bullet$ & $\bullet$ & Analisa GenAI em redes de distribuição; oferece requisitos e possibilidades de apoio operacional, em domínio adjacente ao monitoramento da qualidade. \\
+\citeonline{vijayakumar2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Descreve sensores IoT, inferência de borda, interpretação regulatória e registro de conformidade; informa uma possível evolução da arquitetura. \\
+\citeonline{liang2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Discute grandes modelos em sistemas inteligentes de água; amplia o panorama de aplicações, mas não substitui evidência de validação específica. \\
 \hline
 \end{longtable}
 \setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1.0}
 \normalsize
-\fonte{Elaboração própria com base nos metadados bibliográficos. Os nomes foram abreviados para apresentação; não houve desambiguação de homônimos.}
+\fonte{Elaboração própria a partir dos estudos selecionados. $\bullet$ indica que a dimensão é abordada; célula vazia indica que não é foco do estudo. A marcação não representa avaliação de qualidade nem nível de validação.}
 
 \section{Aplicações e grau de maturidade das soluções}
 \label{sec:ea-aplicacoes}
