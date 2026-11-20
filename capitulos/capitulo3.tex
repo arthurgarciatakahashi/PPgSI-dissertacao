@@ -59,71 +59,151 @@ ou governança. A marcação indica que o aspecto é abordado pelo estudo; não
 significa que tenha sido implementado ou validado com o mesmo grau de evidência
 em todos os trabalhos.
 
-\small
-\setlength{\tabcolsep}{4pt}
-\renewcommand{\arraystretch}{1.1}
-\begin{longtable}{@{}p{2.3cm}*{4}{>{\centering\arraybackslash}p{0.65cm}}p{8.4cm}@{}}
-\caption{Matriz de aderência dos artigos às dimensões do projeto} \label{tab:aderencia-projeto}\\
+
+\begingroup
+
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{longtable}{@{}
+>{\raggedright\arraybackslash}p{2.1cm}
+>{\centering\arraybackslash}p{0.75cm}
+>{\centering\arraybackslash}p{0.75cm}
+>{\centering\arraybackslash}p{0.9cm}
+>{\centering\arraybackslash}p{1.25cm}
+>{\raggedright\arraybackslash}p{7.4cm}
+@{}}
+
+\caption{Matriz de aderência dos artigos às dimensões do projeto}
+\label{tab:aderencia-projeto}\\
+
 \hline
-\textbf{Estudo} & \textbf{Dados} & \textbf{Análise} & \shortstack{\textbf{LLM/}\\\textbf{agente}} & \shortstack{\textbf{Decisão/}\\\textbf{governança}} & \textbf{Relação com o projeto} \\
+\textbf{Estudo} &
+\textbf{D1} &
+\textbf{D2} &
+\textbf{D3} &
+\textbf{D4} &
+\textbf{Relação com o projeto} \\
 \hline
 \endfirsthead
 \hline
-\textbf{Estudo} & \textbf{Dados} & \textbf{Análise} & \shortstack{\textbf{LLM/}\\\textbf{agente}} & \shortstack{\textbf{Decisão/}\\\textbf{governança}} & \textbf{Relação com o projeto} \\
+
+\textbf{Estudo} &
+\textbf{D1} &
+\textbf{D2} &
+\textbf{D3} &
+\textbf{D4} &
+\textbf{Relação com o projeto} \\
 \hline
 \endhead
-\citeonline{bhandari2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Integra modelos de qualidade da água, fluxo automatizado e dois agentes LLM; a entrada de sensor do workflow é simulada. \\
-\citeonline{mounce2025} &  &  & $\bullet$ & $\bullet$ & Relaciona GenAI/RAG e documentos regulatórios à resposta a eventos; aproxima-se da camada de contexto e interação, não da detecção em séries de sensores. \\
-\citeonline{rahman2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Revisão de AIoT e gestão da qualidade da água; oferece panorama de tecnologias e desafios, sem validar uma arquitetura única de agentes. \\
-\citeonline{hosseini2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Propõe conceitualmente agentes especializados para problemas de engenharia hídrica; contribui para discutir coordenação, mas não valida sistema operacional. \\
-\citeonline{li2026} & $\bullet$ & $\bullet$ &  & $\bullet$ & Revisão de IA em águas superficiais; informa o domínio e os métodos analíticos, com foco menos direto em agentes LLM. \\
-\citeonline{wang2027} &  &  & $\bullet$ & $\bullet$ & Discute riscos de acesso, execução e supervisão de agentes em infraestrutura hídrica; informa requisitos de segurança e governança. \\
-\citeonline{shrestha2025} & $\bullet$ &  & $\bullet$ & $\bullet$ & Plataforma conversacional que integra fontes públicas, geoespaciais e comunitárias; contribui para integração contextual e participação de usuários. \\
-\citeonline{liu2025} & $\bullet$ & $\bullet$ &  &  & Revisão de IA em tratamento de efluentes e reúso; oferece contexto de dados e métodos do domínio hídrico. \\
-\citeonline{xu2025} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Combina modelos especializados e LLM para diagnóstico em estações de tratamento; é referência próxima para separar análise numérica e explicação. \\
-\citeonline{rashid2026} & $\bullet$ & $\bullet$ &  & $\bullet$ & Revisão ampla de IA em engenharia de recursos hídricos; situa aplicações analíticas e decisórias, sem propor o agente específico do projeto. \\
-\citeonline{alam2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Integra séries de estações, detector de anomalias, RAG regulatório e explicação por LLM; é o caso mais próximo do fluxo pretendido. \\
-\citeonline{arslan2026} & $\bullet$ &  & $\bullet$ & $\bullet$ & Discute sistemas de informação hídrica com LLM e RAG; contribui para integração de conhecimento e interação, com evidência predominantemente conceitual. \\
-\citeonline{taiwo2025} & $\bullet$ &  & $\bullet$ & $\bullet$ & Analisa GenAI em redes de distribuição; oferece requisitos e possibilidades de apoio operacional, em domínio adjacente ao monitoramento da qualidade. \\
-\citeonline{vijayakumar2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Descreve sensores IoT, inferência de borda, interpretação regulatória e registro de conformidade; informa uma possível evolução da arquitetura. \\
-\citeonline{liang2026} & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Discute grandes modelos em sistemas inteligentes de água; amplia o panorama de aplicações, mas não substitui evidência de validação específica. \\
+
+\citeonline{bhandari2026} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Integra modelos de qualidade da água, fluxo automatizado e dois agentes LLM; a entrada de sensor do workflow é simulada. \\
+
+\citeonline{mounce2025} &
+ & & $\bullet$ & $\bullet$ &
+Relaciona GenAI/RAG e documentos regulatórios à resposta a eventos; aproxima-se da camada de contexto e interação, não da detecção em séries de sensores. \\
+
+\citeonline{rahman2026} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Revisão de AIoT e gestão da qualidade da água; oferece panorama de tecnologias e desafios, sem validar uma arquitetura única de agentes. \\
+
+\citeonline{hosseini2026} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Propõe conceitualmente agentes especializados para problemas de engenharia hídrica; contribui para discutir coordenação, mas não valida sistema operacional. \\
+
+\citeonline{li2026} &
+$\bullet$ & $\bullet$ & & $\bullet$ &
+Revisão de IA em águas superficiais; informa o domínio e os métodos analíticos, com foco menos direto em agentes LLM. \\
+
+\citeonline{wang2027} &
+ & & $\bullet$ & $\bullet$ &
+Discute riscos de acesso, execução e supervisão de agentes em infraestrutura hídrica; informa requisitos de segurança e governança. \\
+
+\citeonline{shrestha2025} &
+$\bullet$ & & $\bullet$ & $\bullet$ &
+Plataforma conversacional que integra fontes públicas, geoespaciais e comunitárias; contribui para integração contextual e participação de usuários. \\
+
+\citeonline{liu2025} &
+$\bullet$ & $\bullet$ & & &
+Revisão de IA em tratamento de efluentes e reúso; oferece contexto de dados e métodos do domínio hídrico. \\
+
+\citeonline{xu2025} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Combina modelos especializados e LLM para diagnóstico em estações de tratamento; é referência próxima para separar análise numérica e explicação. \\
+
+\citeonline{rashid2026} &
+$\bullet$ & $\bullet$ & & $\bullet$ &
+Revisão ampla de IA em engenharia de recursos hídricos; situa aplicações analíticas e decisórias, sem propor o agente específico do projeto. \\
+
+\citeonline{alam2026} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Integra séries de estações, detector de anomalias, RAG regulatório e explicação por LLM; é o caso mais próximo do fluxo pretendido. \\
+
+\citeonline{arslan2026} &
+$\bullet$ & & $\bullet$ & $\bullet$ &
+Discute sistemas de informação hídrica com LLM e RAG; contribui para integração de conhecimento e interação, com evidência predominantemente conceitual. \\
+
+\citeonline{taiwo2025} &
+$\bullet$ & & $\bullet$ & $\bullet$ &
+Analisa GenAI em redes de distribuição; oferece requisitos e possibilidades de apoio operacional, em domínio adjacente ao monitoramento da qualidade. \\
+
+\citeonline{vijayakumar2026} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Descreve sensores IoT, inferência de borda, interpretação regulatória e registro de conformidade; informa uma possível evolução da arquitetura. \\
+
+\citeonline{liang2026} &
+$\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &
+Discute grandes modelos em sistemas inteligentes de água; amplia o panorama de aplicações, mas não substitui evidência de validação específica. \\
+
 \hline
+
 \end{longtable}
+
+\normalsize
 \setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1.0}
-\normalsize
-\fonte{Elaboração própria a partir dos estudos selecionados. $\bullet$ indica que a dimensão é abordada; célula vazia indica que não é foco do estudo. A marcação não representa avaliação de qualidade nem nível de validação.}
+
+\fonte{Elaboração própria a partir dos estudos selecionados.
+D1: aquisição, integração e utilização de dados;
+D2: métodos analíticos e de aprendizado de máquina;
+D3: uso de LLMs ou agentes inteligentes;
+D4: apoio à decisão e aspectos de governança.
+$\bullet$ indica que a dimensão é abordada; célula vazia indica que não é foco do estudo.}
+\endgroup
 
 \section{Aplicações e grau de maturidade das soluções}
 \label{sec:ea-aplicacoes}
 
-Em resposta à QP1, a literatura examinada apresenta uma diferença central entre usar modelos de aprendizado de máquina para produzir resultados analíticos e usar LLMs para interpretar, recuperar ou comunicar informações. Nos estudos mais diretamente aplicados ao monitoramento, os componentes numéricos continuam sendo realizados por modelos especializados. Xu et al. \cite{xu2025} combinam modelos de dados, incluindo classificação por Random Forest, com LLMs para apoiar o diagnóstico e a solução de problemas em estações de tratamento de efluentes. O LLM integra os rótulos e resultados quantitativos à resposta operacional; não substitui os modelos que estimam as condições do processo.
+Em resposta à QP1, a literatura examinada apresenta uma diferença central entre usar modelos de aprendizado de máquina para produzir resultados analíticos e usar LLMs para interpretar, recuperar ou comunicar informações. Nos estudos mais diretamente aplicados ao monitoramento, os componentes numéricos continuam sendo realizados por modelos especializados. \citeonline{xu2025} combinam modelos de dados, incluindo classificação por Random Forest, com LLMs para apoiar o diagnóstico e a solução de problemas em estações de tratamento de efluentes. O LLM integra os rótulos e resultados quantitativos à resposta operacional; não substitui os modelos que estimam as condições do processo.
 
-Alam e Ihsanullah \cite{alam2026} articulam detecção não supervisionada de anomalias com recuperação de informação regulatória e contextual para produzir diagnósticos de eventos. A contribuição está na passagem de um alerta estatístico para uma explicação associada a fontes consultáveis. Bhandari et al. \cite{bhandari2026} organizam modelos de classificação e um agente de diagnóstico em um fluxo n8n; o sistema demonstra uma cadeia entre predição, classificação de risco e geração de resumo. Vijayakumar et al. \cite{vijayakumar2026}, por sua vez, descrevem uma arquitetura de borda para efluentes industriais, combinando sensores IoT, modelos de aprendizado de máquina, referências regulatórias e produção de relatórios de conformidade.
+\citeonline{alam2026} articulam detecção não supervisionada de anomalias com recuperação de informação regulatória e contextual para produzir diagnósticos de eventos. A contribuição está na passagem de um alerta estatístico para uma explicação associada a fontes consultáveis. \citeonline{bhandari2026} organizam modelos de classificação e um agente de diagnóstico em um fluxo n8n; o sistema demonstra uma cadeia entre predição, classificação de risco e geração de resumo. \citeonline{vijayakumar2026}, por sua vez, descrevem uma arquitetura de borda para efluentes industriais, combinando sensores IoT, modelos de aprendizado de máquina, referências regulatórias e produção de relatórios de conformidade.
 
-Essas soluções compartilham uma separação funcional: algoritmos especializados processam as medições, enquanto o LLM ou o fluxo agêntico organiza contexto, explicações e saídas voltadas ao usuário. Porém, há diferenças de maturidade. Alam et al. avaliam dados de quatro estações de monitoramento e relatam a análise de eventos reais; Xu et al. avaliam dados e situações de operação de estações de tratamento; Bhandari et al. incluem simulação de sensores a partir de registros de conjuntos de dados; e Vijayakumar et al. relatam métricas de antecipação de violações e latência em uma arquitetura de borda. Esses desenhos não são diretamente intercambiáveis: classificações de qualidade, diagnóstico de anomalias e previsão de conformidade representam tarefas e critérios distintos.
+Essas soluções compartilham uma separação funcional: algoritmos especializados processam as medições, enquanto o LLM ou o fluxo agêntico organiza contexto, explicações e saídas voltadas ao usuário. Porém, há diferenças de maturidade. \citeonline{alam2026} avaliam dados de quatro estações de monitoramento e relatam a análise de eventos reais; \citeonline{xu2025} avaliam dados e situações de operação de estações de tratamento; \citeonline{bhandari2026} incluem simulação de sensores a partir de registros de conjuntos de dados; e \citeonline{vijayakumar2026} relatam métricas de antecipação de violações e latência em uma arquitetura de borda. Esses desenhos não são diretamente intercambiáveis: classificações de qualidade, diagnóstico de anomalias e previsão de conformidade representam tarefas e critérios distintos.
 
-Outros estudos deslocam o foco do processamento de sensores para a consulta e a gestão do conhecimento. Mounce et al. \cite{mounce2025} exploram GenAI, RAG e agentes para apoiar a resposta a eventos de qualidade da água potável, usando relatórios regulatórios como fonte de conhecimento em um estudo de caso. Shrestha et al. \cite{shrestha2025} apresentam a plataforma Blue-Green Action Platform, que integra fontes de dados e informações comunitárias para ampliar o acesso a dados de nutrientes, educação e articulação entre interessados. Esses trabalhos ampliam a noção de apoio à decisão, mas não demonstram por si só que um LLM detecta corretamente eventos diretamente a partir de séries temporais.
+Outros estudos deslocam o foco do processamento de sensores para a consulta e a gestão do conhecimento. \citeonline{mounce2025} exploram GenAI, RAG e agentes para apoiar a resposta a eventos de qualidade da água potável, usando relatórios regulatórios como fonte de conhecimento em um estudo de caso. \citeonline{shrestha2025} apresentam a plataforma Blue-Green Action Platform, que integra fontes de dados e informações comunitárias para ampliar o acesso a dados de nutrientes, educação e articulação entre interessados. Esses trabalhos ampliam a noção de apoio à decisão, mas não demonstram por si só que um LLM detecta corretamente eventos diretamente a partir de séries temporais.
 
-As revisões de Liu et al. \cite{liu2025}, Li et al. \cite{li2026}, Rahman et al. \cite{rahman2026} e Rashid et al. \cite{rashid2026} situam as aplicações de IA em domínios mais amplos, como reúso de efluentes, águas superficiais, AIoT e engenharia de recursos hídricos. Já Taiwo et al. \cite{taiwo2025}, Arslan \cite{arslan2026}, Liang et al. \cite{liang2026} e Hosseini et al. \cite{hosseini2026} discutem oportunidades de GenAI, RAG, grandes modelos e sistemas multiagentes em redes de distribuição, sistemas de informação e engenharia hídrica. Em conjunto, essas sínteses indicam amplitude de possíveis tarefas, mas não devem ser lidas como validação empírica de cada aplicação proposta.
+As revisões de \citeonline{liu2025}, \citeonline{li2026}, \citeonline{rahman2026} e \citeonline{rashid2026} situam as aplicações de IA em domínios mais amplos, como reúso de efluentes, águas superficiais, AIoT e engenharia de recursos hídricos. Já \citeonline{taiwo2025}, \citeonline{arslan2026}, \citeonline{liang2026} e \citeonline{hosseini2026} discutem oportunidades de GenAI, RAG, grandes modelos e sistemas multiagentes em redes de distribuição, sistemas de informação e engenharia hídrica. Em conjunto, essas sínteses indicam amplitude de possíveis tarefas, mas não devem ser lidas como validação empírica de cada aplicação proposta.
 
 \section{Dados e processamento: do sensor à interpretação}
 \label{sec:ea-dados}
 
-Para a QP2, observa-se que os estudos aplicados utilizam fontes heterogêneas. Nos trabalhos de diagnóstico e monitoramento, predominam variáveis físico-químicas e registros operacionais: Xu et al. \cite{xu2025} tratam indicadores de qualidade de efluente e de lodo ativado; Alam e Ihsanullah \cite{alam2026} trabalham com monitoramento de alta frequência em estações fluviais; Bhandari et al. \cite{bhandari2026} avaliam conjuntos de dados de qualidade da água e simulam a chegada de registros como dados de sensor; e Vijayakumar et al. \cite{vijayakumar2026} descrevem integração de dados de sensores com critérios regulatórios para efluentes industriais.
+Para a QP2, observa-se que os estudos aplicados utilizam fontes heterogêneas. Nos trabalhos de diagnóstico e monitoramento, predominam variáveis físico-químicas e registros operacionais: \citeonline{xu2025} tratam indicadores de qualidade de efluente e de lodo ativado; \citeonline{alam2026} trabalham com monitoramento de alta frequência em estações fluviais; \citeonline{bhandari2026} avaliam conjuntos de dados de qualidade da água e simulam a chegada de registros como dados de sensor; e \citeonline{vijayakumar2026} descrevem integração de dados de sensores com critérios regulatórios para efluentes industriais.
 
-Em contraste, Mounce et al. \cite{mounce2025} enfatizam relatórios e documentos regulatórios, enquanto Shrestha et al. \cite{shrestha2025} integram fontes geoespaciais, registros públicos e informação comunitária. O valor dessas fontes está em contextualizar medições e tornar o conhecimento acessível, não em substituir a coleta ou a análise de séries temporais. Os trabalhos conceituais e de revisão, por sua vez, abrangem também dados de redes de distribuição, sensoriamento remoto, documentos operacionais, dados de recursos hídricos e informação multimodal \cite{hosseini2026,taiwo2025,arslan2026,liang2026,liu2025,li2026,rahman2026,rashid2026}.
+Em contraste, \citeonline{mounce2025} enfatizam relatórios e documentos regulatórios, enquanto \citeonline{shrestha2025} integram fontes geoespaciais, registros públicos e informação comunitária. O valor dessas fontes está em contextualizar medições e tornar o conhecimento acessível, não em substituir a coleta ou a análise de séries temporais. Os trabalhos conceituais e de revisão, por sua vez, abrangem também dados de redes de distribuição, sensoriamento remoto, documentos operacionais, dados de recursos hídricos e informação multimodal \cite{hosseini2026,taiwo2025,arslan2026,liang2026,liu2025,li2026,rahman2026,rashid2026}.
 
 Essa diversidade sustenta uma arquitetura em camadas, mas evidencia que a integração entre dados numéricos e linguagem continua sendo um problema específico. Valores medidos, resultados de modelos analíticos, documentos recuperados e explicações geradas são objetos diferentes e precisam manter sua origem identificável. A recuperação de documentos pode fornecer contexto, como ocorre em RAG, mas não valida automaticamente uma inferência sobre a causa de uma anomalia. Do mesmo modo, um modelo de classificação pode reconhecer uma condição conforme seus rótulos, sem demonstrar que a recomendação em linguagem natural é apropriada para uma situação ambiental concreta.
 
 \section{Apoio à decisão, evidência e participação humana}
 \label{sec:ea-apoio-decisao}
 
-Em resposta à QP3, os mecanismos observados variam de alertas e classificações a diagnóstico, explicação, recomendação e consulta conversacional. Alam e Ihsanullah \cite{alam2026} aproximam detecção e diagnóstico ao recuperar referências regulatórias para contextualizar eventos, buscando rastreabilidade. Xu et al. \cite{xu2025} apresentam apoio a operadores de estações de tratamento por meio da combinação de pequenos modelos de dados e respostas de LLM para situações operacionais. Bhandari et al. \cite{bhandari2026} geram avaliação e resumo de risco a partir da predição dos modelos. Vijayakumar et al. \cite{vijayakumar2026} propõem recomendações e relatórios de conformidade, com restrições de execução e processamento local na borda.
+Em resposta à QP3, os mecanismos observados variam de alertas e classificações a diagnóstico, explicação, recomendação e consulta conversacional. \citeonline{alam2026} aproximam detecção e diagnóstico ao recuperar referências regulatórias para contextualizar eventos, buscando rastreabilidade. \citeonline{xu2025} apresentam apoio a operadores de estações de tratamento por meio da combinação de pequenos modelos de dados e respostas de LLM para situações operacionais. \citeonline{bhandari2026} geram avaliação e resumo de risco a partir da predição dos modelos. \citeonline{vijayakumar2026} propõem recomendações e relatórios de conformidade, com restrições de execução e processamento local na borda.
 
 Os mecanismos diferem no nível de decisão automatizada. Um alerta indica uma condição que merece atenção; diagnóstico procura caracterizar sua causa; recomendação sugere uma ação; e relatório organiza evidências para uma obrigação operacional ou regulatória. A presença dessas funções em um mesmo fluxo não significa que tenham o mesmo nível de validação. Em particular, métricas de acurácia dos modelos preditivos não medem a factualidade das explicações, a qualidade da recuperação nem a utilidade da recomendação para especialistas.
 
-Nos trabalhos orientados a usuários e organizações, Mounce et al. \cite{mounce2025} usam documentos para apoiar a consulta e a resposta a eventos, e Shrestha et al. \cite{shrestha2025} priorizam comunicação, educação e participação de comunidades e gestores. As revisões e propostas de arquitetura também defendem interação em linguagem natural e colaboração entre agentes, mas apontam dependências de qualidade dos dados, interoperabilidade, privacidade, custo e supervisão humana \cite{taiwo2025,arslan2026,liang2026,hosseini2026,rahman2026,liu2025,li2026,rashid2026}. A perspectiva de Wang et al. \cite{wang2027} acrescenta que maior autonomia pode introduzir riscos de acesso, execução e governança que não são capturados por métricas de previsão.
+Nos trabalhos orientados a usuários e organizações, \citeonline{mounce2025} usam documentos para apoiar a consulta e a resposta a eventos, e \citeonline{shrestha2025} priorizam comunicação, educação e participação de comunidades e gestores. As revisões e propostas de arquitetura também defendem interação em linguagem natural e colaboração entre agentes, mas apontam dependências de qualidade dos dados, interoperabilidade, privacidade, custo e supervisão humana \cite{taiwo2025,arslan2026,liang2026,hosseini2026,rahman2026,liu2025,li2026,rashid2026}. A perspectiva de \citeonline{wang2027} acrescenta que maior autonomia pode introduzir riscos de acesso, execução e governança que não são capturados por métricas de previsão.
 
 Portanto, o estado atual sugere apoio à decisão como combinação de processamento especializado, acesso a fontes contextuais e comunicação dos resultados. A decisão final permanece dependente do contexto e do usuário, sobretudo em cenários de consequência ambiental ou regulatória. Para ser verificável, a interface deve distinguir medição, saída analítica e interpretação, além de indicar as fontes que sustentam a resposta e explicitar quando as evidências são insuficientes.
 
@@ -132,7 +212,7 @@ Portanto, o estado atual sugere apoio à decisão como combinação de processam
 
 Em resposta à QP4, as limitações recorrentes podem ser organizadas em quatro dimensões. A primeira é a qualidade e disponibilidade dos dados, incluindo lacunas, ruído, calibração e heterogeneidade entre fontes. A segunda é a integração: formatos, escalas temporais e significados distintos dificultam combinar medições, documentos e dados operacionais. A terceira é a confiabilidade do sistema completo: erros no pré-processamento, na detecção, na recuperação ou na geração podem propagar-se até a resposta final. A quarta é a avaliação, que precisa considerar tanto o desempenho analítico quanto a qualidade das explicações e sua utilidade para os usuários.
 
-Os estudos empíricos ilustram por que resultados numéricos devem ser interpretados dentro de seus desenhos. Xu et al. \cite{xu2025} relatam precisão superior a 80\% para os indicadores dos modelos e valores de AUC de pelo menos 0,95 para Random Forest, mas esses resultados dizem respeito à classificação de condições do tratamento e não à validação independente de todas as respostas do LLM. Bhandari et al. \cite{bhandari2026} relatam desempenho elevado em conjuntos de dados, inclusive 99,97\% de acurácia no experimento principal; esse número não é comparável às avaliações de diagnóstico em estações ou de previsão de violações, e o fluxo inclui emulação de entrada de sensor. Alam e Ihsanullah \cite{alam2026} avaliam eventos em estações e componentes de explicação, mas reconhecem a necessidade de validação especializada das explicações e a dependência da atualidade da base recuperada. Vijayakumar et al. \cite{vijayakumar2026} relatam antecipação de violações e latência em ambiente de borda, resultados que também dependem dos dados, cenários e critérios particulares do estudo.
+Os estudos empíricos ilustram por que resultados numéricos devem ser interpretados dentro de seus desenhos. \citeonline{xu2025} relatam precisão superior a 80\% para os indicadores dos modelos e valores de AUC de pelo menos 0,95 para Random Forest, mas esses resultados dizem respeito à classificação de condições do tratamento e não à validação independente de todas as respostas do LLM. \citeonline{bhandari2026} relatam desempenho elevado em conjuntos de dados, inclusive 99,97\% de acurácia no experimento principal. Esse número não é comparável às avaliações de diagnóstico em estações ou de previsão de violações, e o fluxo inclui emulação de entrada de sensor. \citeonline{alam2026} avaliam eventos em estações e componentes de explicação, mas reconhecem a necessidade de validação especializada das explicações e a dependência da atualidade da base recuperada. \citeonline{vijayakumar2026} relatam antecipação de violações e latência em ambiente de borda, resultados que também dependem dos dados, cenários e critérios particulares do estudo.
 
 Uma lacuna que emerge da comparação é a validação integrada de ponta a ponta. Os trabalhos demonstram partes relevantes do fluxo — detecção, classificação, recuperação, explicação ou relatório —, porém os critérios usados para cada parte não são uniformes. Assim, ainda é necessário avaliar conjuntamente se o sistema identifica a condição corretamente, se a explicação está apoiada nas evidências disponíveis e se o usuário consegue utilizar a saída sem confundir hipótese com fato. Outra lacuna é a cobertura de cenários reais de monitoramento hídrico: plataformas de informação e propostas conceituais ampliam o escopo dos usuários e das fontes, enquanto os estudos experimentais ainda se concentram em tarefas e conjuntos específicos.
 
@@ -141,6 +221,6 @@ As implicações para esta pesquisa são três. Primeiro, a detecção e o trata
 \section{Síntese crítica}
 \label{sec:ea-sintese}
 
-O conjunto analisado responde à QP1 mostrando que LLMs e agentes aparecem principalmente como componentes de interface, recuperação, coordenação e explicação, combinados com modelos especializados para tarefas numéricas. Para a QP2, as fontes vão de séries de sensores e dados operacionais a relatórios regulatórios, registros geoespaciais e informações comunitárias; essa heterogeneidade amplia o contexto disponível, mas aumenta os requisitos de integração e proveniência. Para a QP3, as saídas incluem alertas, diagnósticos, recomendações, relatórios e consulta conversacional, com níveis de automação e validação distintos. Para a QP4, permanecem desafios de qualidade de dados, interoperabilidade, validação das explicações, supervisão e segurança de agentes.
+O conjunto analisado responde à QP1 mostrando que LLMs e agentes aparecem principalmente como componentes de interface, recuperação, coordenação e explicação, combinados com modelos especializados para tarefas numéricas. Para a QP2, as fontes vão de séries de sensores e dados operacionais a relatórios regulatórios, registros geoespaciais e informações comunitárias. Essa heterogeneidade amplia o contexto disponível, mas aumenta os requisitos de integração e proveniência. Para a QP3, as saídas incluem alertas, diagnósticos, recomendações, relatórios e consulta conversacional, com níveis de automação e validação distintos. Para a QP4, permanecem desafios de qualidade de dados, interoperabilidade, validação das explicações, supervisão e segurança de agentes.
 
-Em conjunto, a evidência favorece uma arquitetura que separe análise computacional e geração textual, mas não permite concluir que uma configuração específica seja superior às demais: os trabalhos diferem em domínio, dados, tarefa e critério de avaliação. Para a dissertação, a contribuição a investigar é justamente como integrar análise de dados de monitoramento e recursos de agente/LLM para apoiar a interpretação, mantendo respostas ancoradas em evidências, incertezas explícitas e participação humana.
+Em conjunto, a evidência favorece uma arquitetura que separe análise computacional e geração textual, mas não permite concluir que uma configuração específica seja superior às demais. Os trabalhos diferem em domínio, dados, tarefa e critério de avaliação. Para a dissertação, a contribuição a investigar é justamente como integrar análise de dados de monitoramento e recursos de agente/LLM para apoiar a interpretação, mantendo respostas ancoradas em evidências, incertezas explícitas e participação humana.
